@@ -74,7 +74,7 @@ struct FourWordWordle: View
                     VStack
                     {
                         let guessesLeft = 6 - index
-                        let guessVisual = "You have \(guessesLeft) guesses left"
+                        let guessesVisual = "You have \(guessesLeft) guesses left"
                         Text("Four Letter Wordle")
                             .font(Font.custom("Courier New Bold", size: 35))
                         HStack {
@@ -244,7 +244,7 @@ struct FourWordWordle: View
                                 .font(Font.custom("Courier New Bold", size: 15))
                                 .foregroundColor(.orange)
                         }
-                        TextField(guessVisual, text: $guess)
+                        TextField(guessesVisual, text: $guess)
                             .padding()
                             .frame(width: 300, height: 70)
                             .background(Color.white.opacity(0.34))
@@ -254,7 +254,6 @@ struct FourWordWordle: View
                         Button(buttonText)
                         {
                             checkWordLength()
-                            checkWord()
                         }
                         .padding(20)
                         .foregroundColor(.white)
@@ -271,14 +270,26 @@ struct FourWordWordle: View
     
     func checkWordLength() -> Void
     {
+        if (guess.count == 0 && (winCount == 1 || winCount == 2))
+        {
+            checkIfDone()
+        }
+        
         if (guess.count > 4)
+        {
+            error = true
+        }
+        else if (guess.count < 4)
         {
             error = true
         }
         else
         {
             error = false
+            checkWord()
         }
+        
+        
         
     }
     
@@ -302,7 +313,9 @@ struct FourWordWordle: View
             }else
             {
                 guess = ""
-            }        }
+            }
+            
+        }
         else if index == 1
         {
             oneLetterOne = String(seperatedInputs[0])
@@ -320,7 +333,9 @@ struct FourWordWordle: View
             }else
             {
                 guess = ""
-            }        }
+            }
+            
+        }
         else if index == 2
         {
             twoLetterOne = String(seperatedInputs[0])
@@ -338,7 +353,9 @@ struct FourWordWordle: View
             }else
             {
                 guess = ""
-            }        }
+            }
+            
+        }
         else if index == 3
         {
             threeLetterOne = String(seperatedInputs[0])
@@ -356,7 +373,9 @@ struct FourWordWordle: View
             }else
             {
                 guess = ""
-            }        }
+            }
+            
+        }
         else if index == 4
         {
             fourLetterOne = String(seperatedInputs[0])
@@ -375,7 +394,9 @@ struct FourWordWordle: View
             {
                 guess = ""
                 
-            }        }
+            }
+            
+        }
         else if index == 5
         {
             fiveLetterOne = String(seperatedInputs[0])
@@ -398,11 +419,11 @@ struct FourWordWordle: View
                 lockInput = true;
                 winCount = 2;
             }
-            
-            
-
         }
-        
+    }
+    
+    func checkIfDone() -> Void
+    {
         if winCount == 1
         {
             toEndScreenWin = true
