@@ -7,8 +7,15 @@
 
 import SwiftUI
 
-struct FiveWordWordle: View {
-    var body: some View {
+struct FiveWordWordle: View
+{
+    @State private var letterOne = ""
+    @State private var letterTwo = ""
+    @State private var letterThree = ""
+    @State private var letterFour = ""
+    @State private var letterFive = ""
+    var body: some View
+    {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }

@@ -7,8 +7,16 @@
 
 import SwiftUI
 
-struct SixWordWordle: View {
-    var body: some View {
+struct SixWordWordle: View
+{
+    @State private var letterOne = ""
+    @State private var letterTwo = ""
+    @State private var letterThree = ""
+    @State private var letterFour = ""
+    @State private var letterFive = ""
+    @State private var letterSix = ""
+    var body: some View
+    {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
