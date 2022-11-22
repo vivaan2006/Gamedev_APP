@@ -12,41 +12,66 @@ struct HomeScreenView: View
     @State private var toFourLetterWordle = false
     @State private var toFiveLetterWordle = false
     @State private var toSixLetterWordle = false
+    @State private var toCustomGame = false
     
     var body: some View
     {
-        VStack
+        ZStack
         {
-            Text("Wordle Doodle")
-                .padding()
-            HStack
+            Color.brown
+                .ignoresSafeArea(.all)
+            
+            VStack
             {
-                Button("4 Letters")
+                Text("Wordle Doodle")
+                    .padding()
+                    .font(Font.custom("Courier New Bold", size: 35))
+                
+                HStack
                 {
-                    toFourLetterWordle = true
+                    Button("4 Letters")
+                    {
+                        toFourLetterWordle = true
+                    }
+                    .padding()
+                    .foregroundColor(.white)
+                    .frame(width: 100, height: 50)
+                    .background(Color.gray)
+                    .cornerRadius(10)
+                    .italic()
+                   
+                    Button("5 Letters")
+                    {
+                        toFiveLetterWordle = true
+                    }
+                    .padding()
+                    .foregroundColor(.white)
+                    .frame(width: 100, height: 50)
+                    .background(Color.gray)
+                    .cornerRadius(10)
+                    .italic()
+                  
+                    Button("6 Letters")
+                    {
+                        toSixLetterWordle = true
+                    }
+                    .padding()
+                    .foregroundColor(.white)
+                    .frame(width: 100, height: 50)
+                    .background(Color.gray)
+                    .cornerRadius(10)
+                    .italic()
                 }
-                .foregroundColor(.white)
-                .frame(width: 100, height: 50)
-                .background(Color.blue)
-                .cornerRadius(10)
-               
-                Button("5 Letters")
-                {
-                    toFiveLetterWordle = true
-                }
-                .foregroundColor(.white)
-                .frame(width: 100, height: 50)
-                .background(Color.blue)
-                .cornerRadius(10)
-              
-                Button("6 Letters")
-                {
-                    toSixLetterWordle = true
-                }
-                .foregroundColor(.white)
-                .frame(width: 100, height: 50)
-                .background(Color.blue)
-                .cornerRadius(10)
+                    Button("Cutsom Game")
+                    {
+                        toCustomGame = true
+                    }
+                    .padding(20)
+                    .foregroundColor(.white)
+                    .frame(width: 300, height: 50)
+                    .background(Color.gray)
+                    .cornerRadius(10)
+                    .italic()
             }
         }
     }
