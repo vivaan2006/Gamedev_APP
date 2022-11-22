@@ -23,7 +23,7 @@ struct AniminationView: View
     {
         if isActive
         {
-            ContentView()
+            HomeScreenView()
         }
         else
         {
