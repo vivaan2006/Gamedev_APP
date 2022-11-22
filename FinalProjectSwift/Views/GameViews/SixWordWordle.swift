@@ -99,6 +99,10 @@ struct SixWordWordle: View
         {
             error = true
         }
+        else
+        {
+            error = false
+        }
         
     }
 }

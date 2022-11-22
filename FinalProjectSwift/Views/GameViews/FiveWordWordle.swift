@@ -93,6 +93,10 @@ struct FiveWordWordle: View
         {
             error = true
         }
+        else
+        {
+            error = false
+        }
         
     }
 }

@@ -13,6 +13,37 @@ struct FourWordWordle: View
     @State private var letterTwo = ""
     @State private var letterThree = ""
     @State private var letterFour = ""
+    
+    @State private var oneLetterOne = ""
+    @State private var oneLetterTwo = ""
+    @State private var oneLetterThree = ""
+    @State private var oneLetterFour = ""
+    
+    @State private var twoLetterOne = ""
+    @State private var twoLetterTwo = ""
+    @State private var twoLetterThree = ""
+    @State private var twoLetterFour = ""
+    
+    @State private var threeLetterOne = ""
+    @State private var threeLetterTwo = ""
+    @State private var threeLetterThree = ""
+    @State private var threeLetterFour = ""
+    
+    @State private var fourLetterOne = ""
+    @State private var fourLetterTwo = ""
+    @State private var fourLetterThree = ""
+    @State private var fourLetterFour = ""
+    
+    @State private var fiveLetterOne = ""
+    @State private var fiveLetterTwo = ""
+    @State private var fiveLetterThree = ""
+    @State private var fiveLetterFour = ""
+    
+    @State private var sixLetterOne = ""
+    @State private var sixLetterTwo = ""
+    @State private var sixLetterThree = ""
+    @State private var sixLetterFour = ""
+
     @State private var guess = ""
     @State private var error = false
 
@@ -216,6 +247,10 @@ struct FourWordWordle: View
         if (guess.count > 4)
         {
             error = true
+        }
+        else
+        {
+            error = false
         }
         
     }
