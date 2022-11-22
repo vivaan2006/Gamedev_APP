@@ -281,22 +281,48 @@ struct FourWordWordle: View
         }
         else if index == 1
         {
+            oneLetterOne = String(seperatedInputs[0])
+            oneLetterTwo = String(seperatedInputs[1])
+            oneLetterThree = String(seperatedInputs[2])
+            oneLetterFour = String(seperatedInputs[3])
             
+            index += 1
         }
         else if index == 2
         {
+            twoLetterOne = String(seperatedInputs[0])
+            twoLetterTwo = String(seperatedInputs[1])
+            twoLetterThree = String(seperatedInputs[2])
+            twoLetterFour = String(seperatedInputs[3])
             
+            index += 1
         }
         else if index == 3
         {
+            threeLetterOne = String(seperatedInputs[0])
+            threeLetterTwo = String(seperatedInputs[1])
+            threeLetterThree = String(seperatedInputs[2])
+            threeLetterFour = String(seperatedInputs[3])
             
+            index += 1
         }
         else if index == 4
         {
+            fourLetterOne = String(seperatedInputs[0])
+            fourLetterTwo = String(seperatedInputs[1])
+            fourLetterThree = String(seperatedInputs[2])
+            fourLetterFour = String(seperatedInputs[3])
             
+            index += 1
         }
         else if index == 5
         {
+            fiveLetterOne = String(seperatedInputs[0])
+            fiveLetterTwo = String(seperatedInputs[1])
+            fiveLetterThree = String(seperatedInputs[2])
+            fiveLetterFour = String(seperatedInputs[3])
+            
+            index += 1
             
         }
     }
