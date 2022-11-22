@@ -17,7 +17,57 @@ struct SixWordWordle: View
     @State private var letterSix = ""
     var body: some View
     {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack
+        {
+            Color.brown
+                .ignoresSafeArea(.all)
+            VStack
+            {
+                VStack
+                {
+                    Text("Six Letter Wordle")
+                        .font(Font.custom("Courier New Bold", size: 35))
+                    HStack {
+                        TextField("", text: $letterOne)
+                            .padding()
+                            .frame(width: 50, height: 50)
+                            .background(Color.white.opacity(0.34))
+                        .cornerRadius(10)
+                    .disabled(true)
+                        TextField("", text: $letterOne)
+                            .padding()
+                            .frame(width: 50, height: 50)
+                            .background(Color.white.opacity(0.34))
+                        .cornerRadius(10)
+                    .disabled(true)
+                        TextField("", text: $letterOne)
+                            .padding()
+                            .frame(width: 50, height: 50)
+                            .background(Color.white.opacity(0.34))
+                        .cornerRadius(10)
+                    .disabled(true)
+                        TextField("", text: $letterOne)
+                            .padding()
+                            .frame(width: 50, height: 50)
+                            .background(Color.white.opacity(0.34))
+                        .cornerRadius(10)
+                    .disabled(true)
+                        TextField("", text: $letterOne)
+                            .padding()
+                            .frame(width: 50, height: 50)
+                            .background(Color.white.opacity(0.34))
+                        .cornerRadius(10)
+                    .disabled(true)
+                        TextField("", text: $letterOne)
+                            .padding()
+                            .frame(width: 50, height: 50)
+                            .background(Color.white.opacity(0.34))
+                        .cornerRadius(10)
+                    .disabled(true)
+                    }
+                }
+            }
+        }
     }
 }
 

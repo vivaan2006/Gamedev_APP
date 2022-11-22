@@ -13,6 +13,7 @@ struct FourWordWordle: View
     @State private var letterTwo = ""
     @State private var letterThree = ""
     @State private var letterFour = ""
+    @State private var guess = ""
 
     var body: some View
     {
@@ -25,6 +26,7 @@ struct FourWordWordle: View
                 VStack
                 {
                     Text("Four Letter Wordle")
+                        .font(Font.custom("Courier New Bold", size: 35))
                     HStack {
                         TextField("", text: $letterOne)
                             .padding()
@@ -51,6 +53,11 @@ struct FourWordWordle: View
                         .cornerRadius(10)
                     .disabled(true)
                     }
+                    TextField("", text: $guess)
+                        .padding()
+                        .frame(width: 300, height: 70)
+                        .background(Color.white.opacity(0.34))
+                    .cornerRadius(10)
                 }
             }
         }
