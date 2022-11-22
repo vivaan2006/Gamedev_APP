@@ -1,0 +1,2317 @@
+[
+ {
+   "fourLetterWords": "burn",
+   "fiveLetterWords": "Abuse",
+   "sixLetterWords": "abroad"
+ },
+ {
+   "fourLetterWords": "bush",
+   "fiveLetterWords": "Adult",
+   "sixLetterWords": "accept"
+ },
+ {
+   "fourLetterWords": "busy",
+   "fiveLetterWords": "Agent",
+   "sixLetterWords": "access"
+ },
+ {
+   "fourLetterWords": "call",
+   "fiveLetterWords": "Anger",
+   "sixLetterWords": "across"
+ },
+ {
+   "fourLetterWords": "calm",
+   "fiveLetterWords": "Apple",
+   "sixLetterWords": "acting"
+ },
+ {
+   "fourLetterWords": "came",
+   "fiveLetterWords": "Award",
+   "sixLetterWords": "action"
+ },
+ {
+   "fourLetterWords": "camp",
+   "fiveLetterWords": "Basis",
+   "sixLetterWords": "active"
+ },
+ {
+   "fourLetterWords": "card",
+   "fiveLetterWords": "Beach",
+   "sixLetterWords": "actual"
+ },
+ {
+   "fourLetterWords": "care",
+   "fiveLetterWords": "Birth",
+   "sixLetterWords": "advice"
+ },
+ {
+   "fourLetterWords": "case",
+   "fiveLetterWords": "Block",
+   "sixLetterWords": "advise"
+ },
+ {
+   "fourLetterWords": "cash",
+   "fiveLetterWords": "Blood",
+   "sixLetterWords": "affect"
+ },
+ {
+   "fourLetterWords": "cast",
+   "fiveLetterWords": "Board",
+   "sixLetterWords": "afford"
+ },
+ {
+   "fourLetterWords": "cell",
+   "fiveLetterWords": "Brain",
+   "sixLetterWords": "afraid"
+ },
+ {
+   "fourLetterWords": "chat",
+   "fiveLetterWords": "Bread",
+   "sixLetterWords": "agency"
+ },
+ {
+   "fourLetterWords": "chip",
+   "fiveLetterWords": "Break",
+   "sixLetterWords": "agenda"
+ },
+ {
+   "fourLetterWords": "city",
+   "fiveLetterWords": "Brown",
+   "sixLetterWords": "almost"
+ },
+ {
+   "fourLetterWords": "club",
+   "fiveLetterWords": "Buyer",
+   "sixLetterWords": "always"
+ },
+ {
+   "fourLetterWords": "coal",
+   "fiveLetterWords": "Cause",
+   "sixLetterWords": "amount"
+ },
+ {
+   "fourLetterWords": "coat",
+   "fiveLetterWords": "Chain",
+   "sixLetterWords": "animal"
+ },
+ {
+   "fourLetterWords": "code",
+   "fiveLetterWords": "Chair",
+   "sixLetterWords": "annual"
+ },
+ {
+   "fourLetterWords": "cold",
+   "fiveLetterWords": "Chest",
+   "sixLetterWords": "answer"
+ },
+ {
+   "fourLetterWords": "come",
+   "fiveLetterWords": "Chief",
+   "sixLetterWords": "anyone"
+ },
+ {
+   "fourLetterWords": "cook",
+   "fiveLetterWords": "Child",
+   "sixLetterWords": "anyway"
+ },
+ {
+   "fourLetterWords": "cool",
+   "fiveLetterWords": "China",
+   "sixLetterWords": "appeal"
+ },
+ {
+   "fourLetterWords": "cope",
+   "fiveLetterWords": "Claim",
+   "sixLetterWords": "appear"
+ },
+ {
+   "fourLetterWords": "copy",
+   "fiveLetterWords": "Class",
+   "sixLetterWords": "around"
+ },
+ {
+   "fourLetterWords": "CORE",
+   "fiveLetterWords": "Clock",
+   "sixLetterWords": "arrive"
+ },
+ {
+   "fourLetterWords": "cost",
+   "fiveLetterWords": "Coach",
+   "sixLetterWords": "artist"
+ },
+ {
+   "fourLetterWords": "crew",
+   "fiveLetterWords": "Coast",
+   "sixLetterWords": "aspect"
+ },
+ {
+   "fourLetterWords": "crop",
+   "fiveLetterWords": "Court",
+   "sixLetterWords": "assess"
+ },
+ {
+   "fourLetterWords": "dark",
+   "fiveLetterWords": "Cover",
+   "sixLetterWords": "assist"
+ },
+ {
+   "fourLetterWords": "data",
+   "fiveLetterWords": "Cream",
+   "sixLetterWords": "assume"
+ },
+ {
+   "fourLetterWords": "date",
+   "fiveLetterWords": "Crime",
+   "sixLetterWords": "attack"
+ },
+ {
+   "fourLetterWords": "dawn",
+   "fiveLetterWords": "Cross",
+   "sixLetterWords": "attend"
+ },
+ {
+   "fourLetterWords": "days",
+   "fiveLetterWords": "Crowd",
+   "sixLetterWords": "august"
+ },
+ {
+   "fourLetterWords": "dead",
+   "fiveLetterWords": "Crown",
+   "sixLetterWords": "author"
+ },
+ {
+   "fourLetterWords": "deal",
+   "fiveLetterWords": "Cycle",
+   "sixLetterWords": "avenue"
+ },
+ {
+   "fourLetterWords": "dean",
+   "fiveLetterWords": "Dance",
+   "sixLetterWords": "backed"
+ },
+ {
+   "fourLetterWords": "dear",
+   "fiveLetterWords": "Death",
+   "sixLetterWords": "barely"
+ },
+ {
+   "fourLetterWords": "debt",
+   "fiveLetterWords": "Depth",
+   "sixLetterWords": "battle"
+ },
+ {
+   "fourLetterWords": "deep",
+   "fiveLetterWords": "Doubt",
+   "sixLetterWords": "beauty"
+ },
+ {
+   "fourLetterWords": "deny",
+   "fiveLetterWords": "Draft",
+   "sixLetterWords": "became"
+ },
+ {
+   "fourLetterWords": "desk",
+   "fiveLetterWords": "Drama",
+   "sixLetterWords": "become"
+ },
+ {
+   "fourLetterWords": "dial",
+   "fiveLetterWords": "Dream",
+   "sixLetterWords": "before"
+ },
+ {
+   "fourLetterWords": "dick",
+   "fiveLetterWords": "Dress",
+   "sixLetterWords": "behalf"
+ },
+ {
+   "fourLetterWords": "diet",
+   "fiveLetterWords": "Drink",
+   "sixLetterWords": "behind"
+ },
+ {
+   "fourLetterWords": "disc",
+   "fiveLetterWords": "Drive",
+   "sixLetterWords": "belief"
+ },
+ {
+   "fourLetterWords": "disk",
+   "fiveLetterWords": "Earth",
+   "sixLetterWords": "belong"
+ },
+ {
+   "fourLetterWords": "does",
+   "fiveLetterWords": "Enemy",
+   "sixLetterWords": "berlin"
+ },
+ {
+   "fourLetterWords": "done",
+   "fiveLetterWords": "Entry",
+   "sixLetterWords": "better"
+ },
+ {
+   "fourLetterWords": "door",
+   "fiveLetterWords": "Error",
+   "sixLetterWords": "beyond"
+ },
+ {
+   "fourLetterWords": "dose",
+   "fiveLetterWords": "Event",
+   "sixLetterWords": "bishop"
+ },
+ {
+   "fourLetterWords": "down",
+   "fiveLetterWords": "Faith",
+   "sixLetterWords": "border"
+ },
+ {
+   "fourLetterWords": "draw",
+   "fiveLetterWords": "Fault",
+   "sixLetterWords": "bottle"
+ },
+ {
+   "fourLetterWords": "drew",
+   "fiveLetterWords": "Field",
+   "sixLetterWords": "bottom"
+ },
+ {
+   "fourLetterWords": "drop",
+   "fiveLetterWords": "Fight",
+   "sixLetterWords": "bought"
+ },
+ {
+   "fourLetterWords": "drug",
+   "fiveLetterWords": "Final",
+   "sixLetterWords": "branch"
+ },
+ {
+   "fourLetterWords": "dual",
+   "fiveLetterWords": "Floor",
+   "sixLetterWords": "breath"
+ },
+ {
+   "fourLetterWords": "duke",
+   "fiveLetterWords": "Focus",
+   "sixLetterWords": "bridge"
+ },
+ {
+   "fourLetterWords": "dust",
+   "fiveLetterWords": "Force",
+   "sixLetterWords": "bright"
+ },
+ {
+   "fourLetterWords": "duty",
+   "fiveLetterWords": "Frame",
+   "sixLetterWords": "broken"
+ },
+ {
+   "fourLetterWords": "each",
+   "fiveLetterWords": "Frank",
+   "sixLetterWords": "budget"
+ },
+ {
+   "fourLetterWords": "earn",
+   "fiveLetterWords": "Front",
+   "sixLetterWords": "burden"
+ },
+ {
+   "fourLetterWords": "ease",
+   "fiveLetterWords": "Fruit",
+   "sixLetterWords": "bureau"
+ },
+ {
+   "fourLetterWords": "east",
+   "fiveLetterWords": "Glass",
+   "sixLetterWords": "button"
+ },
+ {
+   "fourLetterWords": "easy",
+   "fiveLetterWords": "Grant",
+   "sixLetterWords": "camera"
+ },
+ {
+   "fourLetterWords": "edge",
+   "fiveLetterWords": "Grass",
+   "sixLetterWords": "cancer"
+ },
+ {
+   "fourLetterWords": "else",
+   "fiveLetterWords": "Green",
+   "sixLetterWords": "cannot"
+ },
+ {
+   "fourLetterWords": "even",
+   "fiveLetterWords": "Group",
+   "sixLetterWords": "carbon"
+ },
+ {
+   "fourLetterWords": "ever",
+   "fiveLetterWords": "Guide",
+   "sixLetterWords": "career"
+ },
+ {
+   "fourLetterWords": "evil",
+   "fiveLetterWords": "Heart",
+   "sixLetterWords": "castle"
+ },
+ {
+   "fourLetterWords": "exit",
+   "fiveLetterWords": "Henry",
+   "sixLetterWords": "casual"
+ },
+ {
+   "fourLetterWords": "face",
+   "fiveLetterWords": "Horse",
+   "sixLetterWords": "caught"
+ },
+ {
+   "fourLetterWords": "fact",
+   "fiveLetterWords": "Hotel",
+   "sixLetterWords": "center"
+ },
+ {
+   "fourLetterWords": "fail",
+   "fiveLetterWords": "House",
+   "sixLetterWords": "centre"
+ },
+ {
+   "fourLetterWords": "fair",
+   "fiveLetterWords": "Image",
+   "sixLetterWords": "chance"
+ },
+ {
+   "fourLetterWords": "fall",
+   "fiveLetterWords": "Index",
+   "sixLetterWords": "change"
+ },
+ {
+   "fourLetterWords": "farm",
+   "fiveLetterWords": "Input",
+   "sixLetterWords": "charge"
+ },
+ {
+   "fourLetterWords": "fast",
+   "fiveLetterWords": "Issue",
+   "sixLetterWords": "choice"
+ },
+ {
+   "fourLetterWords": "fate",
+   "fiveLetterWords": "Japan",
+   "sixLetterWords": "choose"
+ },
+ {
+   "fourLetterWords": "fear",
+   "fiveLetterWords": "Jones",
+   "sixLetterWords": "chosen"
+ },
+ {
+   "fourLetterWords": "feed",
+   "fiveLetterWords": "Judge",
+   "sixLetterWords": "church"
+ },
+ {
+   "fourLetterWords": "feel",
+   "fiveLetterWords": "Knife",
+   "sixLetterWords": "circle"
+ },
+ {
+   "fourLetterWords": "feet",
+   "fiveLetterWords": "Laura",
+   "sixLetterWords": "client"
+ },
+ {
+   "fourLetterWords": "fell",
+   "fiveLetterWords": "Layer",
+   "sixLetterWords": "closed"
+ },
+ {
+   "fourLetterWords": "felt",
+   "fiveLetterWords": "Level",
+   "sixLetterWords": "closer"
+ },
+ {
+   "fourLetterWords": "file",
+   "fiveLetterWords": "Lewis",
+   "sixLetterWords": "coffee"
+ },
+ {
+   "fourLetterWords": "fill",
+   "fiveLetterWords": "Light",
+   "sixLetterWords": "column"
+ },
+ {
+   "fourLetterWords": "film",
+   "fiveLetterWords": "Limit",
+   "sixLetterWords": "combat"
+ },
+ {
+   "fourLetterWords": "find",
+   "fiveLetterWords": "Lunch",
+   "sixLetterWords": "coming"
+ },
+ {
+   "fourLetterWords": "fine",
+   "fiveLetterWords": "Major",
+   "sixLetterWords": "common"
+ },
+ {
+   "fourLetterWords": "fire",
+   "fiveLetterWords": "March",
+   "sixLetterWords": "comply"
+ },
+ {
+   "fourLetterWords": "firm",
+   "fiveLetterWords": "Match",
+   "sixLetterWords": "copper"
+ },
+ {
+   "fourLetterWords": "fish",
+   "fiveLetterWords": "Metal",
+   "sixLetterWords": "corner"
+ },
+ {
+   "fourLetterWords": "five",
+   "fiveLetterWords": "Model",
+   "sixLetterWords": "costly"
+ },
+ {
+   "fourLetterWords": "flat",
+   "fiveLetterWords": "Money",
+   "sixLetterWords": "county"
+ },
+ {
+   "fourLetterWords": "flow",
+   "fiveLetterWords": "Month",
+   "sixLetterWords": "couple"
+ },
+ {
+   "fourLetterWords": "food",
+   "fiveLetterWords": "Motor",
+   "sixLetterWords": "course"
+ },
+ {
+   "fourLetterWords": "foot",
+   "fiveLetterWords": "Mouth",
+   "sixLetterWords": "covers"
+ },
+ {
+   "fourLetterWords": "ford",
+   "fiveLetterWords": "Music",
+   "sixLetterWords": "create"
+ },
+ {
+   "fourLetterWords": "form",
+   "fiveLetterWords": "Night",
+   "sixLetterWords": "credit"
+ },
+ {
+   "fourLetterWords": "fort",
+   "fiveLetterWords": "Noise",
+   "sixLetterWords": "crisis"
+ },
+ {
+   "fourLetterWords": "four",
+   "fiveLetterWords": "North",
+   "sixLetterWords": "custom"
+ },
+ {
+   "fourLetterWords": "free",
+   "fiveLetterWords": "Novel",
+   "sixLetterWords": "damage"
+ },
+ {
+   "fourLetterWords": "from",
+   "fiveLetterWords": "Nurse",
+   "sixLetterWords": "danger"
+ },
+ {
+   "fourLetterWords": "fuel",
+   "fiveLetterWords": "Offer",
+   "sixLetterWords": "dealer"
+ },
+ {
+   "fourLetterWords": "full",
+   "fiveLetterWords": "Order",
+   "sixLetterWords": "debate"
+ },
+ {
+   "fourLetterWords": "fund",
+   "fiveLetterWords": "Other",
+   "sixLetterWords": "decade"
+ },
+ {
+   "fourLetterWords": "gain",
+   "fiveLetterWords": "Owner",
+   "sixLetterWords": "decide"
+ },
+ {
+   "fourLetterWords": "game",
+   "fiveLetterWords": "Panel",
+   "sixLetterWords": "defeat"
+ },
+ {
+   "fourLetterWords": "gate",
+   "fiveLetterWords": "Paper",
+   "sixLetterWords": "defend"
+ },
+ {
+   "fourLetterWords": "gave",
+   "fiveLetterWords": "Party",
+   "sixLetterWords": "define"
+ },
+ {
+   "fourLetterWords": "gear",
+   "fiveLetterWords": "Peace",
+   "sixLetterWords": "degree"
+ },
+ {
+   "fourLetterWords": "gene",
+   "fiveLetterWords": "Peter",
+   "sixLetterWords": "demand"
+ },
+ {
+   "fourLetterWords": "gift",
+   "fiveLetterWords": "Phase",
+   "sixLetterWords": "depend"
+ },
+ {
+   "fourLetterWords": "girl",
+   "fiveLetterWords": "Phone",
+   "sixLetterWords": "deputy"
+ },
+ {
+   "fourLetterWords": "give",
+   "fiveLetterWords": "Piece",
+   "sixLetterWords": "desert"
+ },
+ {
+   "fourLetterWords": "glad",
+   "fiveLetterWords": "Pilot",
+   "sixLetterWords": "design"
+ },
+ {
+   "fourLetterWords": "goal",
+   "fiveLetterWords": "Pitch",
+   "sixLetterWords": "desire"
+ },
+ {
+   "fourLetterWords": "goes",
+   "fiveLetterWords": "Place",
+   "sixLetterWords": "detail"
+ },
+ {
+   "fourLetterWords": "gold",
+   "fiveLetterWords": "Plane",
+   "sixLetterWords": "detect"
+ },
+ {
+   "fourLetterWords": "Golf",
+   "fiveLetterWords": "Plant",
+   "sixLetterWords": "device"
+ },
+ {
+   "fourLetterWords": "gone",
+   "fiveLetterWords": "Plate",
+   "sixLetterWords": "differ"
+ },
+ {
+   "fourLetterWords": "good",
+   "fiveLetterWords": "Point",
+   "sixLetterWords": "dinner"
+ },
+ {
+   "fourLetterWords": "gray",
+   "fiveLetterWords": "Pound",
+   "sixLetterWords": "direct"
+ },
+ {
+   "fourLetterWords": "grew",
+   "fiveLetterWords": "Power",
+   "sixLetterWords": "doctor"
+ },
+ {
+   "fourLetterWords": "grey",
+   "fiveLetterWords": "Press",
+   "sixLetterWords": "dollar"
+ },
+ {
+   "fourLetterWords": "grow",
+   "fiveLetterWords": "Price",
+   "sixLetterWords": "domain"
+ },
+ {
+   "fourLetterWords": "gulf",
+   "fiveLetterWords": "Pride",
+   "sixLetterWords": "double"
+ },
+ {
+   "fourLetterWords": "hair",
+   "fiveLetterWords": "Prize",
+   "sixLetterWords": "driven"
+ },
+ {
+   "fourLetterWords": "half",
+   "fiveLetterWords": "Proof",
+   "sixLetterWords": "driver"
+ },
+ {
+   "fourLetterWords": "hall",
+   "fiveLetterWords": "Queen",
+   "sixLetterWords": "during"
+ },
+ {
+   "fourLetterWords": "hand",
+   "fiveLetterWords": "Radio",
+   "sixLetterWords": "easily"
+ },
+ {
+   "fourLetterWords": "hang",
+   "fiveLetterWords": "Range",
+   "sixLetterWords": "eating"
+ },
+ {
+   "fourLetterWords": "hard",
+   "fiveLetterWords": "Ratio",
+   "sixLetterWords": "editor"
+ },
+ {
+   "fourLetterWords": "harm",
+   "fiveLetterWords": "Reply",
+   "sixLetterWords": "effect"
+ },
+ {
+   "fourLetterWords": "hate",
+   "fiveLetterWords": "Right",
+   "sixLetterWords": "effort"
+ },
+ {
+   "fourLetterWords": "have",
+   "fiveLetterWords": "River",
+   "sixLetterWords": "eighth"
+ },
+ {
+   "fourLetterWords": "head",
+   "fiveLetterWords": "Round",
+   "sixLetterWords": "either"
+ },
+ {
+   "fourLetterWords": "hear",
+   "fiveLetterWords": "Route",
+   "sixLetterWords": "eleven"
+ },
+ {
+   "fourLetterWords": "heat",
+   "fiveLetterWords": "Rugby",
+   "sixLetterWords": "emerge"
+ },
+ {
+   "fourLetterWords": "held",
+   "fiveLetterWords": "Scale",
+   "sixLetterWords": "empire"
+ },
+ {
+   "fourLetterWords": "hell",
+   "fiveLetterWords": "Scene",
+   "sixLetterWords": "employ"
+ },
+ {
+   "fourLetterWords": "help",
+   "fiveLetterWords": "Scope",
+   "sixLetterWords": "enable"
+ },
+ {
+   "fourLetterWords": "here",
+   "fiveLetterWords": "Score",
+   "sixLetterWords": "ending"
+ },
+ {
+   "fourLetterWords": "hero",
+   "fiveLetterWords": "Sense",
+   "sixLetterWords": "energy"
+ },
+ {
+   "fourLetterWords": "high",
+   "fiveLetterWords": "Shape",
+   "sixLetterWords": "engage"
+ },
+ {
+   "fourLetterWords": "hill",
+   "fiveLetterWords": "Share",
+   "sixLetterWords": "engine"
+ },
+ {
+   "fourLetterWords": "hire",
+   "fiveLetterWords": "Sheep",
+   "sixLetterWords": "enough"
+ },
+ {
+   "fourLetterWords": "hold",
+   "fiveLetterWords": "Sheet",
+   "sixLetterWords": "ensure"
+ },
+ {
+   "fourLetterWords": "hole",
+   "fiveLetterWords": "Shift",
+   "sixLetterWords": "entire"
+ },
+ {
+   "fourLetterWords": "holy",
+   "fiveLetterWords": "Shirt",
+   "sixLetterWords": "entity"
+ },
+ {
+   "fourLetterWords": "home",
+   "fiveLetterWords": "Shock",
+   "sixLetterWords": "equity"
+ },
+ {
+   "fourLetterWords": "hope",
+   "fiveLetterWords": "Sight",
+   "sixLetterWords": "escape"
+ },
+ {
+   "fourLetterWords": "host",
+   "fiveLetterWords": "Simon",
+   "sixLetterWords": "estate"
+ },
+ {
+   "fourLetterWords": "hour",
+   "fiveLetterWords": "Skill",
+   "sixLetterWords": "ethnic"
+ },
+ {
+   "fourLetterWords": "huge",
+   "fiveLetterWords": "Sleep",
+   "sixLetterWords": "exceed"
+ },
+ {
+   "fourLetterWords": "hung",
+   "fiveLetterWords": "Smile",
+   "sixLetterWords": "except"
+ },
+ {
+   "fourLetterWords": "hunt",
+   "fiveLetterWords": "Smith",
+   "sixLetterWords": "excess"
+ },
+ {
+   "fourLetterWords": "hurt",
+   "fiveLetterWords": "Smoke",
+   "sixLetterWords": "expand"
+ },
+ {
+   "fourLetterWords": "idea",
+   "fiveLetterWords": "Sound",
+   "sixLetterWords": "expect"
+ },
+ {
+   "fourLetterWords": "inch",
+   "fiveLetterWords": "South",
+   "sixLetterWords": "expert"
+ },
+ {
+   "fourLetterWords": "into",
+   "fiveLetterWords": "Space",
+   "sixLetterWords": "export"
+ },
+ {
+   "fourLetterWords": "iron",
+   "fiveLetterWords": "Speed",
+   "sixLetterWords": "extend"
+ },
+ {
+   "fourLetterWords": "item",
+   "fiveLetterWords": "Spite",
+   "sixLetterWords": "extent"
+ },
+ {
+   "fourLetterWords": "jack",
+   "fiveLetterWords": "Sport",
+   "sixLetterWords": "fabric"
+ },
+ {
+   "fourLetterWords": "jane",
+   "fiveLetterWords": "Squad",
+   "sixLetterWords": "facing"
+ },
+ {
+   "fourLetterWords": "jean",
+   "fiveLetterWords": "Staff",
+   "sixLetterWords": "factor"
+ },
+ {
+   "fourLetterWords": "john",
+   "fiveLetterWords": "Stage",
+   "sixLetterWords": "failed"
+ },
+ {
+   "fourLetterWords": "join",
+   "fiveLetterWords": "Start",
+   "sixLetterWords": "fairly"
+ },
+ {
+   "fourLetterWords": "jump",
+   "fiveLetterWords": "State",
+   "sixLetterWords": "fallen"
+ },
+ {
+   "fourLetterWords": "jury",
+   "fiveLetterWords": "Steam",
+   "sixLetterWords": "family"
+ },
+ {
+   "fourLetterWords": "just",
+   "fiveLetterWords": "Steel",
+   "sixLetterWords": "famous"
+ },
+ {
+   "fourLetterWords": "keen",
+   "fiveLetterWords": "Stock",
+   "sixLetterWords": "father"
+ },
+ {
+   "fourLetterWords": "keep",
+   "fiveLetterWords": "Stone",
+   "sixLetterWords": "fellow"
+ },
+ {
+   "fourLetterWords": "kent",
+   "fiveLetterWords": "Store",
+   "sixLetterWords": "female"
+ },
+ {
+   "fourLetterWords": "kept",
+   "fiveLetterWords": "Study",
+   "sixLetterWords": "figure"
+ },
+ {
+   "fourLetterWords": "kick",
+   "fiveLetterWords": "Stuff",
+   "sixLetterWords": "filing"
+ },
+ {
+   "fourLetterWords": "kill",
+   "fiveLetterWords": "Style",
+   "sixLetterWords": "finger"
+ },
+ {
+   "fourLetterWords": "kind",
+   "fiveLetterWords": "Sugar",
+   "sixLetterWords": "finish"
+ },
+ {
+   "fourLetterWords": "king",
+   "fiveLetterWords": "Table",
+   "sixLetterWords": "fiscal"
+ },
+ {
+   "fourLetterWords": "knee",
+   "fiveLetterWords": "Taste",
+   "sixLetterWords": "flight"
+ },
+ {
+   "fourLetterWords": "knew",
+   "fiveLetterWords": "Terry",
+   "sixLetterWords": "flying"
+ },
+ {
+   "fourLetterWords": "know",
+   "fiveLetterWords": "Theme",
+   "sixLetterWords": "follow"
+ },
+ {
+   "fourLetterWords": "lack",
+   "fiveLetterWords": "Thing",
+   "sixLetterWords": "forced"
+ },
+ {
+   "fourLetterWords": "lady",
+   "fiveLetterWords": "Title",
+   "sixLetterWords": "forest"
+ },
+ {
+   "fourLetterWords": "laid",
+   "fiveLetterWords": "Total",
+   "sixLetterWords": "forget"
+ },
+ {
+   "fourLetterWords": "lake",
+   "fiveLetterWords": "Touch",
+   "sixLetterWords": "formal"
+ },
+ {
+   "fourLetterWords": "land",
+   "fiveLetterWords": "Tower",
+   "sixLetterWords": "format"
+ },
+ {
+   "fourLetterWords": "lane",
+   "fiveLetterWords": "Track",
+   "sixLetterWords": "former"
+ },
+ {
+   "fourLetterWords": "last",
+   "fiveLetterWords": "Trade",
+   "sixLetterWords": "foster"
+ },
+ {
+   "fourLetterWords": "late",
+   "fiveLetterWords": "Train",
+   "sixLetterWords": "fought"
+ },
+ {
+   "fourLetterWords": "lead",
+   "fiveLetterWords": "Trend",
+   "sixLetterWords": "fourth"
+ },
+ {
+   "fourLetterWords": "left",
+   "fiveLetterWords": "Trial",
+   "sixLetterWords": "French"
+ },
+ {
+   "fourLetterWords": "less",
+   "fiveLetterWords": "Trust",
+   "sixLetterWords": "friend"
+ },
+ {
+   "fourLetterWords": "life",
+   "fiveLetterWords": "Truth",
+   "sixLetterWords": "future"
+ },
+ {
+   "fourLetterWords": "lift",
+   "fiveLetterWords": "Uncle",
+   "sixLetterWords": "garden"
+ },
+ {
+   "fourLetterWords": "like",
+   "fiveLetterWords": "Union",
+   "sixLetterWords": "gather"
+ },
+ {
+   "fourLetterWords": "line",
+   "fiveLetterWords": "Unity",
+   "sixLetterWords": "gender"
+ },
+ {
+   "fourLetterWords": "link",
+   "fiveLetterWords": "Value",
+   "sixLetterWords": "german"
+ },
+ {
+   "fourLetterWords": "list",
+   "fiveLetterWords": "Video",
+   "sixLetterWords": "global"
+ },
+ {
+   "fourLetterWords": "live",
+   "fiveLetterWords": "Visit",
+   "sixLetterWords": "golden"
+ },
+ {
+   "fourLetterWords": "load",
+   "fiveLetterWords": "Voice",
+   "sixLetterWords": "ground"
+ },
+ {
+   "fourLetterWords": "loan",
+   "fiveLetterWords": "Waste",
+   "sixLetterWords": "growth"
+ },
+ {
+   "fourLetterWords": "lock",
+   "fiveLetterWords": "Watch",
+   "sixLetterWords": "guilty"
+ },
+ {
+   "fourLetterWords": "logo",
+   "fiveLetterWords": "Water",
+   "sixLetterWords": "handed"
+ },
+ {
+   "fourLetterWords": "long",
+   "fiveLetterWords": "While",
+   "sixLetterWords": "handle"
+ },
+ {
+   "fourLetterWords": "look",
+   "fiveLetterWords": "White",
+   "sixLetterWords": "happen"
+ },
+ {
+   "fourLetterWords": "lord",
+   "fiveLetterWords": "Whole",
+   "sixLetterWords": "hardly"
+ },
+ {
+   "fourLetterWords": "lose",
+   "fiveLetterWords": "Woman",
+   "sixLetterWords": "headed"
+ },
+ {
+   "fourLetterWords": "loss",
+   "fiveLetterWords": "World",
+   "sixLetterWords": "health"
+ },
+ {
+   "fourLetterWords": "lost",
+   "fiveLetterWords": "Youth",
+   "sixLetterWords": "height"
+ },
+ {
+   "fourLetterWords": "love",
+   "fiveLetterWords": "Admit",
+   "sixLetterWords": "hidden"
+ },
+ {
+   "fourLetterWords": "luck",
+   "fiveLetterWords": "Adopt",
+   "sixLetterWords": "holder"
+ },
+ {
+   "fourLetterWords": "made",
+   "fiveLetterWords": "Agree",
+   "sixLetterWords": "honest"
+ },
+ {
+   "fourLetterWords": "mail",
+   "fiveLetterWords": "Allow",
+   "sixLetterWords": "impact"
+ },
+ {
+   "fourLetterWords": "main",
+   "fiveLetterWords": "Alter",
+   "sixLetterWords": "import"
+ },
+ {
+   "fourLetterWords": "make",
+   "fiveLetterWords": "Apply",
+   "sixLetterWords": "income"
+ },
+ {
+   "fourLetterWords": "male",
+   "fiveLetterWords": "Argue",
+   "sixLetterWords": "indeed"
+ },
+ {
+   "fourLetterWords": "many",
+   "fiveLetterWords": "Arise",
+   "sixLetterWords": "injury"
+ },
+ {
+   "fourLetterWords": "Mark",
+   "fiveLetterWords": "Avoid",
+   "sixLetterWords": "inside"
+ },
+ {
+   "fourLetterWords": "mass",
+   "fiveLetterWords": "Begin",
+   "sixLetterWords": "intend"
+ },
+ {
+   "fourLetterWords": "matt",
+   "fiveLetterWords": "Blame",
+   "sixLetterWords": "intent"
+ },
+ {
+   "fourLetterWords": "meal",
+   "fiveLetterWords": "Break",
+   "sixLetterWords": "invest"
+ },
+ {
+   "fourLetterWords": "mean",
+   "fiveLetterWords": "Bring",
+   "sixLetterWords": "island"
+ },
+ {
+   "fourLetterWords": "meat",
+   "fiveLetterWords": "Build",
+   "sixLetterWords": "itself"
+ },
+ {
+   "fourLetterWords": "meet",
+   "fiveLetterWords": "Burst",
+   "sixLetterWords": "jersey"
+ },
+ {
+   "fourLetterWords": "menu",
+   "fiveLetterWords": "Carry",
+   "sixLetterWords": "joseph"
+ },
+ {
+   "fourLetterWords": "mere",
+   "fiveLetterWords": "Catch",
+   "sixLetterWords": "junior"
+ },
+ {
+   "fourLetterWords": "mike",
+   "fiveLetterWords": "Cause",
+   "sixLetterWords": "killed"
+ },
+ {
+   "fourLetterWords": "mile",
+   "fiveLetterWords": "Check",
+   "sixLetterWords": "labour"
+ },
+ {
+   "fourLetterWords": "milk",
+   "fiveLetterWords": "Claim",
+   "sixLetterWords": "latest"
+ },
+ {
+   "fourLetterWords": "mill",
+   "fiveLetterWords": "Clean",
+   "sixLetterWords": "latter"
+ },
+ {
+   "fourLetterWords": "mind",
+   "fiveLetterWords": "Clear",
+   "sixLetterWords": "launch"
+ },
+ {
+   "fourLetterWords": "mine",
+   "fiveLetterWords": "Climb",
+   "sixLetterWords": "lawyer"
+ },
+ {
+   "fourLetterWords": "miss",
+   "fiveLetterWords": "Close",
+   "sixLetterWords": "leader"
+ },
+ {
+   "fourLetterWords": "mode",
+   "fiveLetterWords": "Count",
+   "sixLetterWords": "league"
+ },
+ {
+   "fourLetterWords": "mood",
+   "fiveLetterWords": "Cover",
+   "sixLetterWords": "leaves"
+ },
+ {
+   "fourLetterWords": "moon",
+   "fiveLetterWords": "Cross",
+   "sixLetterWords": "legacy"
+ },
+ {
+   "fourLetterWords": "more",
+   "fiveLetterWords": "Dance",
+   "sixLetterWords": "length"
+ },
+ {
+   "fourLetterWords": "most",
+   "fiveLetterWords": "Doubt",
+   "sixLetterWords": "lesson"
+ },
+ {
+   "fourLetterWords": "move",
+   "fiveLetterWords": "Drink",
+   "sixLetterWords": "letter"
+ },
+ {
+   "fourLetterWords": "much",
+   "fiveLetterWords": "Drive",
+   "sixLetterWords": "lights"
+ },
+ {
+   "fourLetterWords": "must",
+   "fiveLetterWords": "Enjoy",
+   "sixLetterWords": "likely"
+ },
+ {
+   "fourLetterWords": "name",
+   "fiveLetterWords": "Enter",
+   "sixLetterWords": "linked"
+ },
+ {
+   "fourLetterWords": "navy",
+   "fiveLetterWords": "Exist",
+   "sixLetterWords": "liquid"
+ },
+ {
+   "fourLetterWords": "near",
+   "fiveLetterWords": "Fight",
+   "sixLetterWords": "listen"
+ },
+ {
+   "fourLetterWords": "neck",
+   "fiveLetterWords": "Focus",
+   "sixLetterWords": "little"
+ },
+ {
+   "fourLetterWords": "need",
+   "fiveLetterWords": "Force",
+   "sixLetterWords": "living"
+ },
+ {
+   "fourLetterWords": "news",
+   "fiveLetterWords": "Guess",
+   "sixLetterWords": "losing"
+ },
+ {
+   "fourLetterWords": "next",
+   "fiveLetterWords": "Imply",
+   "sixLetterWords": "lucent"
+ },
+ {
+   "fourLetterWords": "nice",
+   "fiveLetterWords": "Issue",
+   "sixLetterWords": "luxury"
+ },
+ {
+   "fourLetterWords": "nick",
+   "fiveLetterWords": "Judge",
+   "sixLetterWords": "mainly"
+ },
+ {
+   "fourLetterWords": "nine",
+   "fiveLetterWords": "Laugh",
+   "sixLetterWords": "making"
+ },
+ {
+   "fourLetterWords": "none",
+   "fiveLetterWords": "Learn",
+   "sixLetterWords": "manage"
+ },
+ {
+   "fourLetterWords": "nose",
+   "fiveLetterWords": "Leave",
+   "sixLetterWords": "manner"
+ },
+ {
+   "fourLetterWords": "note",
+   "fiveLetterWords": "Let’s",
+   "sixLetterWords": "manual"
+ },
+ {
+   "fourLetterWords": "okay",
+   "fiveLetterWords": "Limit",
+   "sixLetterWords": "margin"
+ },
+ {
+   "fourLetterWords": "once",
+   "fiveLetterWords": "Marry",
+   "sixLetterWords": "marine"
+ },
+ {
+   "fourLetterWords": "only",
+   "fiveLetterWords": "Match",
+   "sixLetterWords": "marked"
+ },
+ {
+   "fourLetterWords": "onto",
+   "fiveLetterWords": "Occur",
+   "sixLetterWords": "market"
+ },
+ {
+   "fourLetterWords": "open",
+   "fiveLetterWords": "Offer",
+   "sixLetterWords": "martin"
+ },
+ {
+   "fourLetterWords": "oral",
+   "fiveLetterWords": "Order",
+   "sixLetterWords": "master"
+ },
+ {
+   "fourLetterWords": "over",
+   "fiveLetterWords": "Phone",
+   "sixLetterWords": "matter"
+ },
+ {
+   "fourLetterWords": "pace",
+   "fiveLetterWords": "Place",
+   "sixLetterWords": "mature"
+ },
+ {
+   "fourLetterWords": "pack",
+   "fiveLetterWords": "Point",
+   "sixLetterWords": "medium"
+ },
+ {
+   "fourLetterWords": "page",
+   "fiveLetterWords": "Press",
+   "sixLetterWords": "member"
+ },
+ {
+   "fourLetterWords": "paid",
+   "fiveLetterWords": "Prove",
+   "sixLetterWords": "memory"
+ },
+ {
+   "fourLetterWords": "pain",
+   "fiveLetterWords": "Raise",
+   "sixLetterWords": "mental"
+ },
+ {
+   "fourLetterWords": "pair",
+   "fiveLetterWords": "Reach",
+   "sixLetterWords": "merely"
+ },
+ {
+   "fourLetterWords": "palm",
+   "fiveLetterWords": "Refer",
+   "sixLetterWords": "merger"
+ },
+ {
+   "fourLetterWords": "park",
+   "fiveLetterWords": "Relax",
+   "sixLetterWords": "method"
+ },
+ {
+   "fourLetterWords": "part",
+   "fiveLetterWords": "Serve",
+   "sixLetterWords": "middle"
+ },
+ {
+   "fourLetterWords": "pass",
+   "fiveLetterWords": "Shall",
+   "sixLetterWords": "miller"
+ },
+ {
+   "fourLetterWords": "past",
+   "fiveLetterWords": "Share",
+   "sixLetterWords": "mining"
+ },
+ {
+   "fourLetterWords": "path",
+   "fiveLetterWords": "Shift",
+   "sixLetterWords": "minute"
+ },
+ {
+   "fourLetterWords": "peak",
+   "fiveLetterWords": "Shoot",
+   "sixLetterWords": "mirror"
+ },
+ {
+   "fourLetterWords": "pick",
+   "fiveLetterWords": "Sleep",
+   "sixLetterWords": "mobile"
+ },
+ {
+   "fourLetterWords": "pink",
+   "fiveLetterWords": "Solve",
+   "sixLetterWords": "modern"
+ },
+ {
+   "fourLetterWords": "pipe",
+   "fiveLetterWords": "Sound",
+   "sixLetterWords": "modest"
+ },
+ {
+   "fourLetterWords": "plan",
+   "fiveLetterWords": "Speak",
+   "sixLetterWords": "module"
+ },
+ {
+   "fourLetterWords": "play",
+   "fiveLetterWords": "Spend",
+   "sixLetterWords": "moment"
+ },
+ {
+   "fourLetterWords": "plot",
+   "fiveLetterWords": "Split",
+   "sixLetterWords": "morris"
+ },
+ {
+   "fourLetterWords": "plug",
+   "fiveLetterWords": "Stand",
+   "sixLetterWords": "mostly"
+ },
+ {
+   "fourLetterWords": "plus",
+   "fiveLetterWords": "Start",
+   "sixLetterWords": "mother"
+ },
+ {
+   "fourLetterWords": "poll",
+   "fiveLetterWords": "State",
+   "sixLetterWords": "motion"
+ },
+ {
+   "fourLetterWords": "pool",
+   "fiveLetterWords": "Stick",
+   "sixLetterWords": "moving"
+ },
+ {
+   "fourLetterWords": "poor",
+   "fiveLetterWords": "Study",
+   "sixLetterWords": "murder"
+ },
+ {
+   "fourLetterWords": "port",
+   "fiveLetterWords": "Teach",
+   "sixLetterWords": "museum"
+ },
+ {
+   "fourLetterWords": "post",
+   "fiveLetterWords": "Thank",
+   "sixLetterWords": "mutual"
+ },
+ {
+   "fourLetterWords": "pull",
+   "fiveLetterWords": "Think",
+   "sixLetterWords": "myself"
+ },
+ {
+   "fourLetterWords": "pure",
+   "fiveLetterWords": "Throw",
+   "sixLetterWords": "narrow"
+ },
+ {
+   "fourLetterWords": "push",
+   "fiveLetterWords": "Touch",
+   "sixLetterWords": "nation"
+ },
+ {
+   "fourLetterWords": "race",
+   "fiveLetterWords": "Train",
+   "sixLetterWords": "native"
+ },
+ {
+   "fourLetterWords": "rail",
+   "fiveLetterWords": "Treat",
+   "sixLetterWords": "nature"
+ },
+ {
+   "fourLetterWords": "rain",
+   "fiveLetterWords": "Trust",
+   "sixLetterWords": "nearby"
+ },
+ {
+   "fourLetterWords": "rank",
+   "fiveLetterWords": "Visit",
+   "sixLetterWords": "nearly"
+ },
+ {
+   "fourLetterWords": "rare",
+   "fiveLetterWords": "Voice",
+   "sixLetterWords": "nights"
+ },
+ {
+   "fourLetterWords": "rate",
+   "fiveLetterWords": "Waste",
+   "sixLetterWords": "nobody"
+ },
+ {
+   "fourLetterWords": "read",
+   "fiveLetterWords": "Watch",
+   "sixLetterWords": "normal"
+ },
+ {
+   "fourLetterWords": "real",
+   "fiveLetterWords": "Worry",
+   "sixLetterWords": "notice"
+ },
+ {
+   "fourLetterWords": "rear",
+   "fiveLetterWords": "Would",
+   "sixLetterWords": "notion"
+ },
+ {
+   "fourLetterWords": "rely",
+   "fiveLetterWords": "Write",
+   "sixLetterWords": "number"
+ },
+ {
+   "fourLetterWords": "rent",
+   "fiveLetterWords": "Above",
+   "sixLetterWords": "object"
+ },
+ {
+   "fourLetterWords": "rest",
+   "fiveLetterWords": "Acute",
+   "sixLetterWords": "obtain"
+ },
+ {
+   "fourLetterWords": "rice",
+   "fiveLetterWords": "Alive",
+   "sixLetterWords": "office"
+ },
+ {
+   "fourLetterWords": "rich",
+   "fiveLetterWords": "Alone",
+   "sixLetterWords": "offset"
+ },
+ {
+   "fourLetterWords": "ride",
+   "fiveLetterWords": "Angry",
+   "sixLetterWords": "online"
+ },
+ {
+   "fourLetterWords": "ring",
+   "fiveLetterWords": "Aware",
+   "sixLetterWords": "option"
+ },
+ {
+   "fourLetterWords": "rise",
+   "fiveLetterWords": "Awful",
+   "sixLetterWords": "orange"
+ },
+ {
+   "fourLetterWords": "risk",
+   "fiveLetterWords": "Basic",
+   "sixLetterWords": "origin"
+ },
+ {
+   "fourLetterWords": "road",
+   "fiveLetterWords": "Black",
+   "sixLetterWords": "output"
+ },
+ {
+   "fourLetterWords": "rock",
+   "fiveLetterWords": "Blind",
+   "sixLetterWords": "oxford"
+ },
+ {
+   "fourLetterWords": "role",
+   "fiveLetterWords": "Brave",
+   "sixLetterWords": "packed"
+ },
+ {
+   "fourLetterWords": "roll",
+   "fiveLetterWords": "Brief",
+   "sixLetterWords": "palace"
+ },
+ {
+   "fourLetterWords": "roof",
+   "fiveLetterWords": "Broad",
+   "sixLetterWords": "parent"
+ },
+ {
+   "fourLetterWords": "room",
+   "fiveLetterWords": "Brown",
+   "sixLetterWords": "partly"
+ },
+ {
+   "fourLetterWords": "root",
+   "fiveLetterWords": "Cheap",
+   "sixLetterWords": "patent"
+ },
+ {
+   "fourLetterWords": "rose",
+   "fiveLetterWords": "Chief",
+   "sixLetterWords": "people"
+ },
+ {
+   "fourLetterWords": "rule",
+   "fiveLetterWords": "Civil",
+   "sixLetterWords": "period"
+ },
+ {
+   "fourLetterWords": "rush",
+   "fiveLetterWords": "Clean",
+   "sixLetterWords": "permit"
+ },
+ {
+   "fourLetterWords": "ruth",
+   "fiveLetterWords": "Clear",
+   "sixLetterWords": "person"
+ },
+ {
+   "fourLetterWords": "safe",
+   "fiveLetterWords": "Close",
+   "sixLetterWords": "phrase"
+ },
+ {
+   "fourLetterWords": "said",
+   "fiveLetterWords": "Crazy",
+   "sixLetterWords": "picked"
+ },
+ {
+   "fourLetterWords": "sake",
+   "fiveLetterWords": "Daily",
+   "sixLetterWords": "planet"
+ },
+ {
+   "fourLetterWords": "sale",
+   "fiveLetterWords": "Dirty",
+   "sixLetterWords": "player"
+ },
+ {
+   "fourLetterWords": "salt",
+   "fiveLetterWords": "Early",
+   "sixLetterWords": "please"
+ },
+ {
+   "fourLetterWords": "same",
+   "fiveLetterWords": "Empty",
+   "sixLetterWords": "plenty"
+ },
+ {
+   "fourLetterWords": "sand",
+   "fiveLetterWords": "Equal",
+   "sixLetterWords": "pocket"
+ },
+ {
+   "fourLetterWords": "save",
+   "fiveLetterWords": "Exact",
+   "sixLetterWords": "police"
+ },
+ {
+   "fourLetterWords": "seat",
+   "fiveLetterWords": "Extra",
+   "sixLetterWords": "policy"
+ },
+ {
+   "fourLetterWords": "seed",
+   "fiveLetterWords": "Faint",
+   "sixLetterWords": "prefer"
+ },
+ {
+   "fourLetterWords": "seek",
+   "fiveLetterWords": "FALSE",
+   "sixLetterWords": "pretty"
+ },
+ {
+   "fourLetterWords": "seem",
+   "fiveLetterWords": "Fifth",
+   "sixLetterWords": "prince"
+ },
+ {
+   "fourLetterWords": "seen",
+   "fiveLetterWords": "Final",
+   "sixLetterWords": "prison"
+ },
+ {
+   "fourLetterWords": "self",
+   "fiveLetterWords": "First",
+   "sixLetterWords": "profit"
+ },
+ {
+   "fourLetterWords": "sell",
+   "fiveLetterWords": "Fresh",
+   "sixLetterWords": "proper"
+ },
+ {
+   "fourLetterWords": "send",
+   "fiveLetterWords": "Front",
+   "sixLetterWords": "proven"
+ },
+ {
+   "fourLetterWords": "sent",
+   "fiveLetterWords": "Funny",
+   "sixLetterWords": "public"
+ },
+ {
+   "fourLetterWords": "sept",
+   "fiveLetterWords": "Giant",
+   "sixLetterWords": "pursue"
+ },
+ {
+   "fourLetterWords": "ship",
+   "fiveLetterWords": "Grand",
+   "sixLetterWords": "raised"
+ },
+ {
+   "fourLetterWords": "shop",
+   "fiveLetterWords": "Great",
+   "sixLetterWords": "random"
+ },
+ {
+   "fourLetterWords": "shot",
+   "fiveLetterWords": "Green",
+   "sixLetterWords": "rarely"
+ },
+ {
+   "fourLetterWords": "show",
+   "fiveLetterWords": "Gross",
+   "sixLetterWords": "rather"
+ },
+ {
+   "fourLetterWords": "shut",
+   "fiveLetterWords": "Happy",
+   "sixLetterWords": "rating"
+ },
+ {
+   "fourLetterWords": "sick",
+   "fiveLetterWords": "Harsh",
+   "sixLetterWords": "reader"
+ },
+ {
+   "fourLetterWords": "side",
+   "fiveLetterWords": "Heavy",
+   "sixLetterWords": "really"
+ },
+ {
+   "fourLetterWords": "sign",
+   "fiveLetterWords": "Human",
+   "sixLetterWords": "reason"
+ },
+ {
+   "fourLetterWords": "site",
+   "fiveLetterWords": "Ideal",
+   "sixLetterWords": "recall"
+ },
+ {
+   "fourLetterWords": "size",
+   "fiveLetterWords": "Inner",
+   "sixLetterWords": "recent"
+ },
+ {
+   "fourLetterWords": "skin",
+   "fiveLetterWords": "Joint",
+   "sixLetterWords": "record"
+ },
+ {
+   "fourLetterWords": "slip",
+   "fiveLetterWords": "Large",
+   "sixLetterWords": "reduce"
+ },
+ {
+   "fourLetterWords": "slow",
+   "fiveLetterWords": "Legal",
+   "sixLetterWords": "reform"
+ },
+ {
+   "fourLetterWords": "snow",
+   "fiveLetterWords": "Level",
+   "sixLetterWords": "regard"
+ },
+ {
+   "fourLetterWords": "soft",
+   "fiveLetterWords": "Light",
+   "sixLetterWords": "regime"
+ },
+ {
+   "fourLetterWords": "soil",
+   "fiveLetterWords": "Local",
+   "sixLetterWords": "region"
+ },
+ {
+   "fourLetterWords": "sold",
+   "fiveLetterWords": "Loose",
+   "sixLetterWords": "relate"
+ },
+ {
+   "fourLetterWords": "sole",
+   "fiveLetterWords": "Lucky",
+   "sixLetterWords": "relief"
+ },
+ {
+   "fourLetterWords": "some",
+   "fiveLetterWords": "Magic",
+   "sixLetterWords": "remain"
+ },
+ {
+   "fourLetterWords": "song",
+   "fiveLetterWords": "Major",
+   "sixLetterWords": "remote"
+ },
+ {
+   "fourLetterWords": "soon",
+   "fiveLetterWords": "Minor",
+   "sixLetterWords": "remove"
+ },
+ {
+   "fourLetterWords": "sort",
+   "fiveLetterWords": "Moral",
+   "sixLetterWords": "repair"
+ },
+ {
+   "fourLetterWords": "soul",
+   "fiveLetterWords": "Naked",
+   "sixLetterWords": "repeat"
+ },
+ {
+   "fourLetterWords": "spot",
+   "fiveLetterWords": "Nasty",
+   "sixLetterWords": "replay"
+ },
+ {
+   "fourLetterWords": "star",
+   "fiveLetterWords": "Naval",
+   "sixLetterWords": "report"
+ },
+ {
+   "fourLetterWords": "stay",
+   "fiveLetterWords": "Other",
+   "sixLetterWords": "rescue"
+ },
+ {
+   "fourLetterWords": "step",
+   "fiveLetterWords": "Outer",
+   "sixLetterWords": "resort"
+ },
+ {
+   "fourLetterWords": "stop",
+   "fiveLetterWords": "Plain",
+   "sixLetterWords": "result"
+ },
+ {
+   "fourLetterWords": "such",
+   "fiveLetterWords": "Prime",
+   "sixLetterWords": "retail"
+ },
+ {
+   "fourLetterWords": "suit",
+   "fiveLetterWords": "Prior",
+   "sixLetterWords": "retain"
+ },
+ {
+   "fourLetterWords": "sure",
+   "fiveLetterWords": "Proud",
+   "sixLetterWords": "return"
+ },
+ {
+   "fourLetterWords": "take",
+   "fiveLetterWords": "Quick",
+   "sixLetterWords": "reveal"
+ },
+ {
+   "fourLetterWords": "tale",
+   "fiveLetterWords": "Quiet",
+   "sixLetterWords": "review"
+ },
+ {
+   "fourLetterWords": "talk",
+   "fiveLetterWords": "Rapid",
+   "sixLetterWords": "reward"
+ },
+ {
+   "fourLetterWords": "tall",
+   "fiveLetterWords": "Ready",
+   "sixLetterWords": "riding"
+ },
+ {
+   "fourLetterWords": "tank",
+   "fiveLetterWords": "Right",
+   "sixLetterWords": "rising"
+ },
+ {
+   "fourLetterWords": "tape",
+   "fiveLetterWords": "Roman",
+   "sixLetterWords": "robust"
+ },
+ {
+   "fourLetterWords": "task",
+   "fiveLetterWords": "Rough",
+   "sixLetterWords": "ruling"
+ },
+ {
+   "fourLetterWords": "team",
+   "fiveLetterWords": "Round",
+   "sixLetterWords": "safety"
+ },
+ {
+   "fourLetterWords": "tech",
+   "fiveLetterWords": "Royal",
+   "sixLetterWords": "salary"
+ },
+ {
+   "fourLetterWords": "tell",
+   "fiveLetterWords": "Rural",
+   "sixLetterWords": "sample"
+ },
+ {
+   "fourLetterWords": "tend",
+   "fiveLetterWords": "Sharp",
+   "sixLetterWords": "saving"
+ },
+ {
+   "fourLetterWords": "term",
+   "fiveLetterWords": "Sheer",
+   "sixLetterWords": "saying"
+ },
+ {
+   "fourLetterWords": "test",
+   "fiveLetterWords": "Short",
+   "sixLetterWords": "scheme"
+ },
+ {
+   "fourLetterWords": "text",
+   "fiveLetterWords": "Silly",
+   "sixLetterWords": "school"
+ },
+ {
+   "fourLetterWords": "than",
+   "fiveLetterWords": "Sixth",
+   "sixLetterWords": "screen"
+ },
+ {
+   "fourLetterWords": "that",
+   "fiveLetterWords": "Small",
+   "sixLetterWords": "search"
+ },
+ {
+   "fourLetterWords": "them",
+   "fiveLetterWords": "Smart",
+   "sixLetterWords": "season"
+ },
+ {
+   "fourLetterWords": "then",
+   "fiveLetterWords": "Solid",
+   "sixLetterWords": "second"
+ },
+ {
+   "fourLetterWords": "they",
+   "fiveLetterWords": "Sorry",
+   "sixLetterWords": "secret"
+ },
+ {
+   "fourLetterWords": "thin",
+   "fiveLetterWords": "Spare",
+   "sixLetterWords": "sector"
+ },
+ {
+   "fourLetterWords": "this",
+   "fiveLetterWords": "Steep",
+   "sixLetterWords": "secure"
+ },
+ {
+   "fourLetterWords": "thus",
+   "fiveLetterWords": "Still",
+   "sixLetterWords": "seeing"
+ },
+ {
+   "fourLetterWords": "till",
+   "fiveLetterWords": "Super",
+   "sixLetterWords": "select"
+ },
+ {
+   "fourLetterWords": "time",
+   "fiveLetterWords": "Sweet",
+   "sixLetterWords": "seller"
+ },
+ {
+   "fourLetterWords": "tiny",
+   "fiveLetterWords": "Thick",
+   "sixLetterWords": "senior"
+ },
+ {
+   "fourLetterWords": "told",
+   "fiveLetterWords": "Third",
+   "sixLetterWords": "series"
+ },
+ {
+   "fourLetterWords": "toll",
+   "fiveLetterWords": "Tight",
+   "sixLetterWords": "server"
+ },
+ {
+   "fourLetterWords": "tone",
+   "fiveLetterWords": "Total",
+   "sixLetterWords": "settle"
+ },
+ {
+   "fourLetterWords": "tony",
+   "fiveLetterWords": "Tough",
+   "sixLetterWords": "severe"
+ },
+ {
+   "fourLetterWords": "took",
+   "fiveLetterWords": "Upper",
+   "sixLetterWords": "sexual"
+ },
+ {
+   "fourLetterWords": "tool",
+   "fiveLetterWords": "Upset",
+   "sixLetterWords": "should"
+ },
+ {
+   "fourLetterWords": "tour",
+   "fiveLetterWords": "Urban",
+   "sixLetterWords": "signal"
+ },
+ {
+   "fourLetterWords": "town",
+   "fiveLetterWords": "Usual",
+   "sixLetterWords": "signed"
+ },
+ {
+   "fourLetterWords": "tree",
+   "fiveLetterWords": "Vague",
+   "sixLetterWords": "silent"
+ },
+ {
+   "fourLetterWords": "trip",
+   "fiveLetterWords": "Valid",
+   "sixLetterWords": "silver"
+ },
+ {
+   "fourLetterWords": "TRUE",
+   "fiveLetterWords": "Vital",
+   "sixLetterWords": "simple"
+ },
+ {
+   "fourLetterWords": "tune",
+   "fiveLetterWords": "White",
+   "sixLetterWords": "simply"
+ },
+ {
+   "fourLetterWords": "turn",
+   "fiveLetterWords": "Whole",
+   "sixLetterWords": "single"
+ },
+ {
+   "fourLetterWords": "twin",
+   "fiveLetterWords": "Wrong",
+   "sixLetterWords": "sister"
+ },
+ {
+   "fourLetterWords": "type",
+   "fiveLetterWords": "Young",
+   "sixLetterWords": "slight"
+ },
+ {
+   "fourLetterWords": "unit",
+   "fiveLetterWords": "Aback",
+   "sixLetterWords": "smooth"
+ },
+ {
+   "fourLetterWords": "upon",
+   "fiveLetterWords": "Abaft",
+   "sixLetterWords": "social"
+ },
+ {
+   "fourLetterWords": "used",
+   "fiveLetterWords": "Aboon",
+   "sixLetterWords": "solely"
+ },
+ {
+   "fourLetterWords": "user",
+   "fiveLetterWords": "About",
+   "sixLetterWords": "sought"
+ },
+ {
+   "fourLetterWords": "vary",
+   "fiveLetterWords": "Above",
+   "sixLetterWords": "source"
+ },
+ {
+   "fourLetterWords": "vast",
+   "fiveLetterWords": "Accel",
+   "sixLetterWords": "soviet"
+ },
+ {
+   "fourLetterWords": "very",
+   "fiveLetterWords": "Adown",
+   "sixLetterWords": "speech"
+ },
+ {
+   "fourLetterWords": "vice",
+   "fiveLetterWords": "Afoot",
+   "sixLetterWords": "spirit"
+ },
+ {
+   "fourLetterWords": "view",
+   "fiveLetterWords": "Afore",
+   "sixLetterWords": "spoken"
+ },
+ {
+   "fourLetterWords": "vote",
+   "fiveLetterWords": "Afoul",
+   "sixLetterWords": "spread"
+ },
+ {
+   "fourLetterWords": "wage",
+   "fiveLetterWords": "After",
+   "sixLetterWords": "spring"
+ },
+ {
+   "fourLetterWords": "wait",
+   "fiveLetterWords": "Again",
+   "sixLetterWords": "square"
+ },
+ {
+   "fourLetterWords": "wake",
+   "fiveLetterWords": "Agape",
+   "sixLetterWords": "stable"
+ },
+ {
+   "fourLetterWords": "walk",
+   "fiveLetterWords": "Agogo",
+   "sixLetterWords": "status"
+ },
+ {
+   "fourLetterWords": "wall",
+   "fiveLetterWords": "Agone",
+   "sixLetterWords": "steady"
+ },
+ {
+   "fourLetterWords": "want",
+   "fiveLetterWords": "Ahead",
+   "sixLetterWords": "stolen"
+ },
+ {
+   "fourLetterWords": "ward",
+   "fiveLetterWords": "Ahull",
+   "sixLetterWords": "strain"
+ },
+ {
+   "fourLetterWords": "warm",
+   "fiveLetterWords": "Alife",
+   "sixLetterWords": "stream"
+ },
+ {
+   "fourLetterWords": "wash",
+   "fiveLetterWords": "Alike",
+   "sixLetterWords": "street"
+ },
+ {
+   "fourLetterWords": "wave",
+   "fiveLetterWords": "Aline",
+   "sixLetterWords": "stress"
+ },
+ {
+   "fourLetterWords": "ways",
+   "fiveLetterWords": "Aloft",
+   "sixLetterWords": "strict"
+ },
+ {
+   "fourLetterWords": "weak",
+   "fiveLetterWords": "Alone",
+   "sixLetterWords": "strike"
+ },
+ {
+   "fourLetterWords": "wear",
+   "fiveLetterWords": "Along",
+   "sixLetterWords": "string"
+ },
+ {
+   "fourLetterWords": "week",
+   "fiveLetterWords": "Aloof",
+   "sixLetterWords": "strong"
+ },
+ {
+   "fourLetterWords": "well",
+   "fiveLetterWords": "Aloud",
+   "sixLetterWords": "struck"
+ },
+ {
+   "fourLetterWords": "went",
+   "fiveLetterWords": "Amiss",
+   "sixLetterWords": "studio"
+ },
+ {
+   "fourLetterWords": "were",
+   "fiveLetterWords": "Amply",
+   "sixLetterWords": "submit"
+ },
+ {
+   "fourLetterWords": "west",
+   "fiveLetterWords": "Amuck",
+   "sixLetterWords": "sudden"
+ },
+ {
+   "fourLetterWords": "what",
+   "fiveLetterWords": "Apace",
+   "sixLetterWords": "suffer"
+ },
+ {
+   "fourLetterWords": "when",
+   "fiveLetterWords": "Apart",
+   "sixLetterWords": "summer"
+ },
+ {
+   "fourLetterWords": "whom",
+   "fiveLetterWords": "Aptly",
+   "sixLetterWords": "summit"
+ },
+ {
+   "fourLetterWords": "wide",
+   "fiveLetterWords": "Arear",
+   "sixLetterWords": "supply"
+ },
+ {
+   "fourLetterWords": "wife",
+   "fiveLetterWords": "Aside",
+   "sixLetterWords": "surely"
+ },
+ {
+   "fourLetterWords": "wild",
+   "fiveLetterWords": "Askew",
+   "sixLetterWords": "survey"
+ },
+ {
+   "fourLetterWords": "will",
+   "fiveLetterWords": "Awful",
+   "sixLetterWords": "switch"
+ },
+ {
+   "fourLetterWords": "wind",
+   "fiveLetterWords": "Badly",
+   "sixLetterWords": "symbol"
+ },
+ {
+   "fourLetterWords": "wine",
+   "fiveLetterWords": "Bally",
+   "sixLetterWords": "system"
+ },
+ {
+   "fourLetterWords": "wing",
+   "fiveLetterWords": "Below",
+   "sixLetterWords": "taking"
+ },
+ {
+   "fourLetterWords": "wire",
+   "fiveLetterWords": "Canny",
+   "sixLetterWords": "talent"
+ },
+ {
+   "fourLetterWords": "wise",
+   "fiveLetterWords": "Cheap",
+   "sixLetterWords": "target"
+ },
+ {
+   "fourLetterWords": "wish",
+   "fiveLetterWords": "Clean",
+   "sixLetterWords": "taught"
+ },
+ {
+   "fourLetterWords": "with",
+   "fiveLetterWords": "Clear",
+   "sixLetterWords": "tenant"
+ },
+ {
+   "fourLetterWords": "wood",
+   "fiveLetterWords": "Coyly",
+   "sixLetterWords": "tender"
+ },
+ {
+   "fourLetterWords": "word",
+   "fiveLetterWords": "Daily",
+   "sixLetterWords": "tennis"
+ },
+ {
+   "fourLetterWords": "wore",
+   "fiveLetterWords": "Dimly",
+   "sixLetterWords": "thanks"
+ },
+ {
+   "fourLetterWords": "work",
+   "fiveLetterWords": "Dirty",
+   "sixLetterWords": "theory"
+ },
+ {
+   "fourLetterWords": "yard",
+   "fiveLetterWords": "Ditto",
+   "sixLetterWords": "thirty"
+ },
+ {
+   "fourLetterWords": "yeah",
+   "fiveLetterWords": "Drily",
+   "sixLetterWords": "though"
+ },
+ {
+   "fourLetterWords": "year",
+   "fiveLetterWords": "Dryly",
+   "sixLetterWords": "threat"
+ },
+ {
+   "fourLetterWords": "your",
+   "fiveLetterWords": "Dully",
+   "sixLetterWords": "thrown"
+ },
+ {
+   "fourLetterWords": "zero",
+   "fiveLetterWords": "Early",
+   "sixLetterWords": "ticket"
+ },
+ {
+   "fourLetterWords": "zone",
+   "fiveLetterWords": "Extra",
+   "sixLetterWords": "timely"
+ }
+]
