@@ -9,6 +9,8 @@ import SwiftUI
 
 struct FourWordWordle: View
 {
+    @State private var index = 0
+    
     @State private var letterOne = ""
     @State private var letterTwo = ""
     @State private var letterThree = ""
@@ -41,10 +43,13 @@ struct FourWordWordle: View
     
 
     @State private var guess = ""
+//    @State private var guessesLeft = 0
+//    @State private var guessVisual = ""
     @State private var error = false
+    @State private var lockInput = false
     @State private var toEndScreenWin = false
     @State private var toEndScreenFail = false
-    @State private var index = 0
+    
 
     var body: some View
     {
@@ -66,6 +71,8 @@ struct FourWordWordle: View
                 {
                     VStack
                     {
+                        let guessesLeft = 6 - index
+                        let guessVisual = "You have \(guessesLeft) guesses left"
                         Text("Four Letter Wordle")
                             .font(Font.custom("Courier New Bold", size: 35))
                         HStack {
@@ -230,11 +237,12 @@ struct FourWordWordle: View
                                 .font(Font.custom("Courier New Bold", size: 15))
                                 .foregroundColor(.orange)
                         }
-                        TextField("Your Guess", text: $guess)
+                        TextField(guessVisual, text: $guess)
                             .padding()
                             .frame(width: 300, height: 70)
                             .background(Color.white.opacity(0.34))
                             .cornerRadius(10)
+                            .disabled(lockInput)
                         
                         Button("Enter")
                         {
@@ -278,6 +286,7 @@ struct FourWordWordle: View
             letterFour = String(seperatedInputs[3])
             
             index += 1
+            guess = ""
         }
         else if index == 1
         {
@@ -287,6 +296,7 @@ struct FourWordWordle: View
             oneLetterFour = String(seperatedInputs[3])
             
             index += 1
+            guess = ""
         }
         else if index == 2
         {
@@ -296,6 +306,7 @@ struct FourWordWordle: View
             twoLetterFour = String(seperatedInputs[3])
             
             index += 1
+            guess = ""
         }
         else if index == 3
         {
@@ -305,6 +316,7 @@ struct FourWordWordle: View
             threeLetterFour = String(seperatedInputs[3])
             
             index += 1
+            guess = ""
         }
         else if index == 4
         {
@@ -314,6 +326,7 @@ struct FourWordWordle: View
             fourLetterFour = String(seperatedInputs[3])
             
             index += 1
+            guess = ""
         }
         else if index == 5
         {
@@ -323,6 +336,8 @@ struct FourWordWordle: View
             fiveLetterFour = String(seperatedInputs[3])
             
             index += 1
+            lockInput = true;
+            guess = ""
             
         }
     }
