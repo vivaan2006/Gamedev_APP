@@ -83,13 +83,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29F22D75292D436400242DA4 /* EndGameScrene */ = {
+		29F22D75292D436400242DA4 /* EndGameScene */ = {
 			isa = PBXGroup;
 			children = (
 				29F22D76292D438100242DA4 /* EndScreenWin.swift */,
 				29F22D78292D439E00242DA4 /* EndScreenFail.swift */,
 			);
-			path = EndGameScrene;
+			path = EndGameScene;
 			sourceTree = "<group>";
 		};
 		945F2ECB292D21CD00C4B7E1 /* Views */ = {
@@ -98,7 +98,7 @@
 				945F2EC9292D216A00C4B7E1 /* AniminationView.swift */,
 				946FD6C4292D1A2700BE1229 /* HomeScreenView.swift */,
 				945F2ECD292D223400C4B7E1 /* GameViews */,
-				29F22D75292D436400242DA4 /* EndGameScrene */,
+				29F22D75292D436400242DA4 /* EndGameScene */,
 			);
 			path = Views;
 			sourceTree = "<group>";

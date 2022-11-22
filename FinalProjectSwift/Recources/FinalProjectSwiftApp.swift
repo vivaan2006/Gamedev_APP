@@ -8,9 +8,12 @@
 import SwiftUI
 
 @main
-struct FinalProjectSwiftApp: App {
-    var body: some Scene {
-        WindowGroup {
+struct FinalProjectSwiftApp: App
+{
+    var body: some Scene
+    {
+        WindowGroup
+        {
             AniminationView()
         }
     }
