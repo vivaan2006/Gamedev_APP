@@ -11,6 +11,9 @@ struct FourWordWordle: View
 {
     @State private var index = 0
     
+    @State private var randomWord = "Test"
+    @State private var winCount = 0;
+    
     @State private var letterOne = ""
     @State private var letterTwo = ""
     @State private var letterThree = ""
@@ -54,11 +57,11 @@ struct FourWordWordle: View
     {
         if toEndScreenWin
         {
-            
+            EndScreenWin()
         }
         else if toEndScreenFail
         {
-            
+            EndScreenFail()
         }
         else
         {
@@ -290,8 +293,16 @@ struct FourWordWordle: View
             letterFour = String(seperatedInputs[3])
             
             index += 1
-            guess = ""
-        }
+            if guess == randomWord
+            {
+                guess = ""
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+            }        }
         else if index == 1
         {
             oneLetterOne = String(seperatedInputs[0])
@@ -300,8 +311,16 @@ struct FourWordWordle: View
             oneLetterFour = String(seperatedInputs[3])
             
             index += 1
-            guess = ""
-        }
+            if guess == randomWord
+            {
+                guess = ""
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+            }        }
         else if index == 2
         {
             twoLetterOne = String(seperatedInputs[0])
@@ -310,8 +329,16 @@ struct FourWordWordle: View
             twoLetterFour = String(seperatedInputs[3])
             
             index += 1
-            guess = ""
-        }
+            if guess == randomWord
+            {
+                guess = ""
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+            }        }
         else if index == 3
         {
             threeLetterOne = String(seperatedInputs[0])
@@ -320,8 +347,16 @@ struct FourWordWordle: View
             threeLetterFour = String(seperatedInputs[3])
             
             index += 1
-            guess = ""
-        }
+            if guess == randomWord
+            {
+                guess = ""
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+            }        }
         else if index == 4
         {
             fourLetterOne = String(seperatedInputs[0])
@@ -330,8 +365,17 @@ struct FourWordWordle: View
             fourLetterFour = String(seperatedInputs[3])
             
             index += 1
-            guess = ""
-        }
+            if guess == randomWord
+            {
+                guess = ""
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+                
+            }        }
         else if index == 5
         {
             fiveLetterOne = String(seperatedInputs[0])
@@ -340,11 +384,32 @@ struct FourWordWordle: View
             fiveLetterFour = String(seperatedInputs[3])
             
             index += 1
-            lockInput = true;
-            guess = ""
+            
+            if guess == randomWord
+            {
+                guess = ""
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 2;
+            }
+            
+            
 
-
-            buttonText = "End Game"
+        }
+        
+        if winCount == 1
+        {
+            toEndScreenWin = true
+        }
+        else if winCount == 2
+        {
+            toEndScreenFail = true
         }
     }
 }
