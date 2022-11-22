@@ -101,7 +101,8 @@ struct FourWordWordle: View
                                 .cornerRadius(10)
                                 .disabled(true)
                         }
-                        HStack {
+                        HStack
+                        {
                             TextField("", text: $oneLetterOne)
                                 .padding()
                                 .frame(width: 70, height: 70)
@@ -127,7 +128,8 @@ struct FourWordWordle: View
                                 .cornerRadius(10)
                                 .disabled(true)
                         }
-                        HStack {
+                        HStack
+                        {
                             TextField("", text: $twoLetterOne)
                                 .padding()
                                 .frame(width: 70, height: 70)
@@ -153,7 +155,8 @@ struct FourWordWordle: View
                                 .cornerRadius(10)
                                 .disabled(true)
                         }
-                        HStack {
+                        HStack
+                        {
                             TextField("", text: $threeLetterOne)
                                 .padding()
                                 .frame(width: 70, height: 70)
@@ -231,6 +234,8 @@ struct FourWordWordle: View
                                 .cornerRadius(10)
                                 .disabled(true)
                         }
+                        
+                        
                         if error == true
                         {
                             Text("Your Guess must be 4 characters long!")
@@ -338,15 +343,14 @@ struct FourWordWordle: View
             index += 1
             lockInput = true;
             guess = ""
-            
         }
     }
-    
-    
 }
 
-struct FourWordWordle_Previews: PreviewProvider {
-    static var previews: some View {
+struct FourWordWordle_Previews: PreviewProvider
+{
+    static var previews: some View
+    {
         FourWordWordle()
     }
 }
