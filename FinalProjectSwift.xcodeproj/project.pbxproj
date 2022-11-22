@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		945F2ECA292D216A00C4B7E1 /* AniminationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F2EC9292D216A00C4B7E1 /* AniminationView.swift */; };
 		946FD6C5292D1A2700BE1229 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946FD6C4292D1A2700BE1229 /* HomeScreenView.swift */; };
 		9480D72928F066C000A6C0F1 /* FinalProjectSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9480D72828F066C000A6C0F1 /* FinalProjectSwiftApp.swift */; };
 		9480D72B28F066C000A6C0F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9480D72A28F066C000A6C0F1 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		945F2EC9292D216A00C4B7E1 /* AniminationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniminationView.swift; sourceTree = "<group>"; };
 		946FD6C4292D1A2700BE1229 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		9480D72528F066C000A6C0F1 /* FinalProjectSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9480D72828F066C000A6C0F1 /* FinalProjectSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectSwiftApp.swift; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		945F2EC8292D213A00C4B7E1 /* AniminationView */ = {
+			isa = PBXGroup;
+			children = (
+				945F2EC9292D216A00C4B7E1 /* AniminationView.swift */,
+			);
+			path = AniminationView;
+			sourceTree = "<group>";
+		};
 		9480D71C28F066C000A6C0F1 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +106,7 @@
 		9480D72728F066C000A6C0F1 /* FinalProjectSwift */ = {
 			isa = PBXGroup;
 			children = (
+				945F2EC8292D213A00C4B7E1 /* AniminationView */,
 				9480D75228F066CB00A6C0F1 /* Recources */,
 				9480D72A28F066C000A6C0F1 /* ContentView.swift */,
 				9480D72E28F066C100A6C0F1 /* Preview Content */,
@@ -270,6 +281,7 @@
 			files = (
 				946FD6C5292D1A2700BE1229 /* HomeScreenView.swift in Sources */,
 				9480D72B28F066C000A6C0F1 /* ContentView.swift in Sources */,
+				945F2ECA292D216A00C4B7E1 /* AniminationView.swift in Sources */,
 				9480D72928F066C000A6C0F1 /* FinalProjectSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
