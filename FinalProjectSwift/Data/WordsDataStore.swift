@@ -16,9 +16,9 @@ class WordsDataStore : ObservableObject
         didSet
         {
             let encoder = JSONEncoder()
-            if let encodedSchool = try? encoder.encode(wordData)
+            if let encodedWord = try? encoder.encode(wordData)
             {
-                UserDefaults.standard.set(encodedSchool, forKey: "wordData")
+                UserDefaults.standard.set(encodedWord, forKey: "wordData")
             }
         }
     }
@@ -39,6 +39,6 @@ class WordsDataStore : ObservableObject
                 }
             }
         }
-//        self.wordData = wordData
+        self.wordData = wordData
     }
 }
