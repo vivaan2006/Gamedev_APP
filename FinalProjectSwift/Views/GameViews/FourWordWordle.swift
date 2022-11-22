@@ -43,8 +43,7 @@ struct FourWordWordle: View
     
 
     @State private var guess = ""
-//    @State private var guessesLeft = 0
-//    @State private var guessVisual = ""
+    @State private var buttonText = "Enter"
     @State private var error = false
     @State private var lockInput = false
     @State private var toEndScreenWin = false
@@ -244,7 +243,7 @@ struct FourWordWordle: View
                             .cornerRadius(10)
                             .disabled(lockInput)
                         
-                        Button("Enter")
+                        Button(buttonText)
                         {
                             checkWordLength()
                             checkWord()
@@ -338,6 +337,7 @@ struct FourWordWordle: View
             index += 1
             lockInput = true;
             guess = ""
+            buttonText = "End Game"
             
         }
     }
