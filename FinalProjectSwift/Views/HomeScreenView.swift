@@ -16,62 +16,80 @@ struct HomeScreenView: View
     
     var body: some View
     {
-        ZStack
+        if toFourLetterWordle
         {
-            Color.brown
-                .ignoresSafeArea(.all)
-            
-            VStack
+            FourWordWordle()
+        }
+        
+        else if toFiveLetterWordle
+        {
+            FiveWordWordle()
+        }
+        
+        else if toSixLetterWordle
+        {
+            SixWordWordle()
+        }
+      
+        else
+        {
+            ZStack
             {
-                Text("Wordle Doodle")
-                    .padding()
-                    .font(Font.custom("Courier New Bold", size: 35))
+                Color.brown
+                    .ignoresSafeArea(.all)
                 
-                HStack
+                VStack
                 {
-                    Button("4 Letters")
+                    Text("Wordle Doodle")
+                        .padding()
+                        .font(Font.custom("Courier New Bold", size: 35))
+                    
+                    HStack
                     {
-                        toFourLetterWordle = true
+                        Button("4 Letters")
+                        {
+                            toFourLetterWordle = true
+                        }
+                        .padding()
+                        .foregroundColor(.white)
+                        .frame(width: 100, height: 50)
+                        .background(Color.gray)
+                        .cornerRadius(10)
+                        .italic()
+                       
+                        Button("5 Letters")
+                        {
+                            toFiveLetterWordle = true
+                        }
+                        .padding()
+                        .foregroundColor(.white)
+                        .frame(width: 100, height: 50)
+                        .background(Color.gray)
+                        .cornerRadius(10)
+                        .italic()
+                      
+                        Button("6 Letters")
+                        {
+                            toSixLetterWordle = true
+                        }
+                        .padding()
+                        .foregroundColor(.white)
+                        .frame(width: 100, height: 50)
+                        .background(Color.gray)
+                        .cornerRadius(10)
+                        .italic()
                     }
-                    .padding()
-                    .foregroundColor(.white)
-                    .frame(width: 100, height: 50)
-                    .background(Color.gray)
-                    .cornerRadius(10)
-                    .italic()
-                   
-                    Button("5 Letters")
-                    {
-                        toFiveLetterWordle = true
-                    }
-                    .padding()
-                    .foregroundColor(.white)
-                    .frame(width: 100, height: 50)
-                    .background(Color.gray)
-                    .cornerRadius(10)
-                    .italic()
-                  
-                    Button("6 Letters")
-                    {
-                        toSixLetterWordle = true
-                    }
-                    .padding()
-                    .foregroundColor(.white)
-                    .frame(width: 100, height: 50)
-                    .background(Color.gray)
-                    .cornerRadius(10)
-                    .italic()
+                        Button("Cutsom Game")
+                        {
+                            toCustomGame = true
+                        }
+                        .padding(20)
+                        .foregroundColor(.white)
+                        .frame(width: 300, height: 50)
+                        .background(Color.gray)
+                        .cornerRadius(10)
+                        .italic()
                 }
-                    Button("Cutsom Game")
-                    {
-                        toCustomGame = true
-                    }
-                    .padding(20)
-                    .foregroundColor(.white)
-                    .frame(width: 300, height: 50)
-                    .background(Color.gray)
-                    .cornerRadius(10)
-                    .italic()
             }
         }
     }

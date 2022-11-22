@@ -18,7 +18,7 @@ struct AniminationView: View
 {
     @State private var isActive = false
     @State private var size = 0.8
-    @State private var opacity = 0.5
+    @State private var opacity = 0.1
     var body: some View
     {
         if isActive
@@ -29,18 +29,19 @@ struct AniminationView: View
         {
             ZStack
             {
-                Color.blue
+                Color.brown
                     .ignoresSafeArea(.all)
-                    .opacity(0.3)
+        
+                
                 VStack
                 {
                     VStack
                     {
                         Image(systemName: "w.square.fill")
-                            .foregroundColor(.red)
+                            .foregroundColor(.orange.opacity(0.5))
                             .font(.system(size: 60))
                         Text("Wordle Doodle")
-                            .font(Font.custom("Baskerville-Bold", size: 26))
+                            .font(Font.custom("Courier New Bold", size: 26))
                             .foregroundColor(.black.opacity(0.80))
                         Text("")
                             .padding()
@@ -60,7 +61,7 @@ struct AniminationView: View
                 }
                 .onAppear
                 {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 2)
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2.3)
                     {
                         withAnimation
                         {
