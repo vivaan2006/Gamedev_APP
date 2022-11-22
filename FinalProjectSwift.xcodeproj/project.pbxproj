@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		945F2ECA292D216A00C4B7E1 /* AniminationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F2EC9292D216A00C4B7E1 /* AniminationView.swift */; };
+		945F2ECF292D224E00C4B7E1 /* FourWordWordle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F2ECE292D224E00C4B7E1 /* FourWordWordle.swift */; };
+		945F2ED1292D225800C4B7E1 /* FiveWordWordle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F2ED0292D225800C4B7E1 /* FiveWordWordle.swift */; };
+		945F2ED3292D227000C4B7E1 /* SixWordWordle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F2ED2292D227000C4B7E1 /* SixWordWordle.swift */; };
 		946FD6C5292D1A2700BE1229 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946FD6C4292D1A2700BE1229 /* HomeScreenView.swift */; };
 		9480D72928F066C000A6C0F1 /* FinalProjectSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9480D72828F066C000A6C0F1 /* FinalProjectSwiftApp.swift */; };
 		9480D72D28F066C100A6C0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9480D72C28F066C100A6C0F1 /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 
 /* Begin PBXFileReference section */
 		945F2EC9292D216A00C4B7E1 /* AniminationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniminationView.swift; sourceTree = "<group>"; };
+		945F2ECE292D224E00C4B7E1 /* FourWordWordle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourWordWordle.swift; sourceTree = "<group>"; };
+		945F2ED0292D225800C4B7E1 /* FiveWordWordle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveWordWordle.swift; sourceTree = "<group>"; };
+		945F2ED2292D227000C4B7E1 /* SixWordWordle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixWordWordle.swift; sourceTree = "<group>"; };
 		946FD6C4292D1A2700BE1229 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		9480D72528F066C000A6C0F1 /* FinalProjectSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9480D72828F066C000A6C0F1 /* FinalProjectSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectSwiftApp.swift; sourceTree = "<group>"; };
@@ -78,8 +84,19 @@
 			children = (
 				945F2EC9292D216A00C4B7E1 /* AniminationView.swift */,
 				946FD6C4292D1A2700BE1229 /* HomeScreenView.swift */,
+				945F2ECD292D223400C4B7E1 /* GameViews */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		945F2ECD292D223400C4B7E1 /* GameViews */ = {
+			isa = PBXGroup;
+			children = (
+				945F2ECE292D224E00C4B7E1 /* FourWordWordle.swift */,
+				945F2ED0292D225800C4B7E1 /* FiveWordWordle.swift */,
+				945F2ED2292D227000C4B7E1 /* SixWordWordle.swift */,
+			);
+			path = GameViews;
 			sourceTree = "<group>";
 		};
 		9480D71C28F066C000A6C0F1 = {
@@ -276,9 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				945F2ECF292D224E00C4B7E1 /* FourWordWordle.swift in Sources */,
+				945F2ED1292D225800C4B7E1 /* FiveWordWordle.swift in Sources */,
 				946FD6C5292D1A2700BE1229 /* HomeScreenView.swift in Sources */,
 				945F2ECA292D216A00C4B7E1 /* AniminationView.swift in Sources */,
 				9480D72928F066C000A6C0F1 /* FinalProjectSwiftApp.swift in Sources */,
+				945F2ED3292D227000C4B7E1 /* SixWordWordle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
