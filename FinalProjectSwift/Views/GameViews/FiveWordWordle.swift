@@ -116,7 +116,8 @@ struct FiveWordWordle: View
                     {
                         Text("Five Letter Wordle")
                             .font(Font.custom("Courier New Bold", size: 35))
-                        HStack {
+                        HStack
+                        {
                             TextField("", text: $letterOne)
                                 .padding()
                                 .frame(width: 60, height: 60)
@@ -156,6 +157,7 @@ struct FiveWordWordle: View
                                 .font(Font.custom("Courier New Bold", size: 35))
 
                         }
+                     
                         HStack
                         {
                             TextField("", text: $oneLetterOne)
@@ -198,6 +200,7 @@ struct FiveWordWordle: View
                                 .font(Font.custom("Courier New Bold", size: 35))
 
                         }
+                        
                         HStack
                         {
                             TextField("", text: $twoLetterOne)
@@ -423,10 +426,8 @@ struct FiveWordWordle: View
             error = false
             checkWord()
         }
-        
-        
-        
     }
+
     
     func checkWord() -> Void
     {
@@ -437,6 +438,7 @@ struct FiveWordWordle: View
         let randomLetterThree = String(seperatedRandomWord[2].uppercased())
         let randomLetterFour = String(seperatedRandomWord[3].uppercased())
         let randomLetterFive = String(seperatedRandomWord[4].uppercased())
+      
         if index == 0
         {
             letterOne = String(seperatedInputs[0].uppercased())
@@ -501,7 +503,7 @@ struct FiveWordWordle: View
             {
                 letterFiveColor = Color.green
             }
-            else if (letterFive  == randomLetterTwo || letterFive == randomLetterThree || letterFive == randomLetterOne || letterFive == randomLetterFour)
+            else if (letterFive  == randomLetterTwo || letterFive == randomLetterThree || letterFive == randomLetterOne || letterFive == randomLetterFour || letterFive == randomLetterFive)
             {
                 letterFiveColor = Color.yellow.opacity(0.9)
             }
@@ -955,7 +957,8 @@ struct FiveWordWordle: View
                 buttonText = "End Game"
                 lockInput = true;
                 winCount = 1
-            }else
+            }
+            else
             {
                 guess = ""
                 guessesVisual = "The word was \(randomWord.uppercased())"
