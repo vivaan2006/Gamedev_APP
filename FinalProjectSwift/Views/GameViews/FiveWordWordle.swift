@@ -10,6 +10,7 @@ import SwiftUI
 struct FiveWordWordle: View
 {
     @State private var index = 0
+    @State private var randomWord = "World"
     
     @State private var letterOne = ""
     @State private var letterTwo = ""
@@ -49,8 +50,8 @@ struct FiveWordWordle: View
     
     
     @State private var guess = ""
-    //  @State private var guessesLeft = 0
-    //  @State private var guessVisual = ""
+    @State private var buttonText = "Enter"
+    @State private var winCount = 0
     @State private var error = false
     @State private var lockInput = false
     @State private var toEndScreenWin = false
@@ -61,11 +62,11 @@ struct FiveWordWordle: View
     {
         if toEndScreenWin
         {
-            
+            EndScreenWin()
         }
         else if toEndScreenFail
         {
-            
+            EndScreenFail()
         }
         else
         {
@@ -299,10 +300,9 @@ struct FiveWordWordle: View
                             .cornerRadius(10)
                             .disabled(lockInput)
                         
-                        Button("Enter")
+                        Button(buttonText)
                         {
                             checkWordLength()
-                            checkWord()
                         }
                         .padding(20)
                         .foregroundColor(.white)
@@ -319,13 +319,23 @@ struct FiveWordWordle: View
     
     func checkWordLength() -> Void
     {
+        if (guess.count == 0 && (winCount == 1 || winCount == 2))
+        {
+            checkIfDone()
+        }
+        
         if (guess.count > 5)
+        {
+            error = true
+        }
+        else if (guess.count < 5)
         {
             error = true
         }
         else
         {
             error = false
+            checkWord()
         }
         
     }
@@ -343,8 +353,17 @@ struct FiveWordWordle: View
             letterFive = String(seperatedInputs[4])
             
             index += 1
-            guess = ""
-        }
+            if guess == randomWord
+            {
+                guess = ""
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+                
+            }        }
         else if index == 1
         {
             oneLetterOne = String(seperatedInputs[0])
@@ -354,8 +373,17 @@ struct FiveWordWordle: View
             oneLetterFive = String(seperatedInputs[4])
             
             index += 1
-            guess = ""
-        }
+            if guess == randomWord
+            {
+                guess = ""
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+                
+            }        }
         else if index == 2
         {
             twoLetterOne = String(seperatedInputs[0])
@@ -365,8 +393,17 @@ struct FiveWordWordle: View
             twoLetterFive = String(seperatedInputs[4])
             
             index += 1
-            guess = ""
-        }
+            if guess == randomWord
+            {
+                guess = ""
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+                
+            }        }
         else if index == 3
         {
             threeLetterOne = String(seperatedInputs[0])
@@ -376,8 +413,17 @@ struct FiveWordWordle: View
             threeLetterFive = String(seperatedInputs[4])
             
             index += 1
-            guess = ""
-        }
+            if guess == randomWord
+            {
+                guess = ""
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+                
+            }        }
         else if index == 4
         {
             fourLetterOne = String(seperatedInputs[0])
@@ -387,7 +433,17 @@ struct FiveWordWordle: View
             fourLetterFive = String(seperatedInputs[4])
             
             index += 1
-            guess = ""
+            if guess == randomWord
+            {
+                guess = ""
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+                
+            }
         }
         else if index == 5
         {
@@ -398,7 +454,31 @@ struct FiveWordWordle: View
             fiveLetterFive = String(seperatedInputs[4])
             
             index += 1
-            guess = ""
+            if guess == randomWord
+            {
+                guess = ""
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 2;
+            }
+        }
+    }
+    
+    func checkIfDone() -> Void
+    {
+        if winCount == 1
+        {
+            toEndScreenWin = true
+        }
+        else if winCount == 2
+        {
+            toEndScreenFail = true
         }
     }
 }
