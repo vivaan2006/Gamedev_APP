@@ -142,7 +142,7 @@ struct FourWordWordle: View
                             TextField("", text: $oneLetterOne)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(oneLetterOneColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -150,7 +150,7 @@ struct FourWordWordle: View
                             TextField("", text: $oneLetterTwo)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(oneLetterTwoColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -158,7 +158,7 @@ struct FourWordWordle: View
                             TextField("", text: $oneLetterThree)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(oneLetterThreeColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -166,7 +166,7 @@ struct FourWordWordle: View
                             TextField("", text: $oneLetterFour)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(oneLetterFourColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -177,7 +177,7 @@ struct FourWordWordle: View
                             TextField("", text: $twoLetterOne)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(twoLetterOneColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -185,7 +185,7 @@ struct FourWordWordle: View
                             TextField("", text: $twoLetterTwo)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(twoLetterTwoColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -193,7 +193,7 @@ struct FourWordWordle: View
                             TextField("", text: $twoLetterThree)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(twoLetterThreeColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -201,7 +201,7 @@ struct FourWordWordle: View
                             TextField("", text: $twoLetterFour)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(twoLetterFourColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -212,7 +212,7 @@ struct FourWordWordle: View
                             TextField("", text: $threeLetterOne)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(threeLetterOneColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -220,7 +220,7 @@ struct FourWordWordle: View
                             TextField("", text: $threeLetterTwo)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(threeLetterTwoColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -228,7 +228,7 @@ struct FourWordWordle: View
                             TextField("", text: $threeLetterThree)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(threeLetterThreeColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -236,7 +236,7 @@ struct FourWordWordle: View
                             TextField("", text: $threeLetterFour)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(threeLetterFourColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -246,7 +246,7 @@ struct FourWordWordle: View
                             TextField("", text: $fourLetterOne)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(fourLetterOneColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -254,7 +254,7 @@ struct FourWordWordle: View
                             TextField("", text: $fourLetterTwo)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(fourLetterTwoColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -262,7 +262,7 @@ struct FourWordWordle: View
                             TextField("", text: $fourLetterThree)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(fourLetterThreeColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -270,7 +270,7 @@ struct FourWordWordle: View
                             TextField("", text: $fourLetterFour)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(fourLetterFourColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -280,7 +280,7 @@ struct FourWordWordle: View
                             TextField("", text: $fiveLetterOne)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(fiveLetterOneColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -288,7 +288,7 @@ struct FourWordWordle: View
                             TextField("", text: $fiveLetterTwo)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(fiveLetterTwoColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -296,7 +296,7 @@ struct FourWordWordle: View
                             TextField("", text: $fiveLetterThree)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(fiveLetterThreeColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -304,7 +304,7 @@ struct FourWordWordle: View
                             TextField("", text: $fiveLetterFour)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(fiveLetterFourColor)
                                 .cornerRadius(10)
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
@@ -464,54 +464,54 @@ struct FourWordWordle: View
             
             if (oneLetterOne == randomLetterOne)
             {
-                letterOneColor = Color.green
+                oneLetterOneColor = Color.green
             }
             else if (oneLetterOne  == randomLetterTwo || oneLetterOne == randomLetterThree || oneLetterOne == randomLetterFour)
             {
-                letterOneColor = Color.yellow.opacity(0.9)
+                oneLetterOneColor = Color.yellow.opacity(0.9)
             }
             else
             {
-                letterOneColor = Color.white.opacity(0.64)
+                oneLetterOneColor = Color.white.opacity(0.64)
             }
             
-            if (letterTwo == randomLetterTwo)
+            if (oneLetterTwo == randomLetterTwo)
             {
-                letterTwoColor = Color.green
+                oneLetterTwoColor = Color.green
             }
-            else if (letterTwo  == randomLetterOne || letterTwo == randomLetterThree || letterTwo == randomLetterFour)
+            else if (oneLetterTwo  == randomLetterOne || oneLetterTwo == randomLetterThree || oneLetterTwo == randomLetterFour)
             {
-                letterTwoColor = Color.yellow.opacity(0.9)
+                oneLetterTwoColor = Color.yellow.opacity(0.9)
             }
             else
             {
-                letterTwoColor = Color.white.opacity(0.64)
+                oneLetterTwoColor = Color.white.opacity(0.64)
             }
             
-            if (letterThree == randomLetterThree)
+            if (oneLetterThree == randomLetterThree)
             {
-                letterThreeColor = Color.green
+                oneLetterThreeColor = Color.green
             }
-            else if (letterThree  == randomLetterTwo || letterThree == randomLetterOne || letterThree == randomLetterFour)
+            else if (oneLetterThree  == randomLetterTwo || oneLetterThree == randomLetterOne || oneLetterThree == randomLetterFour)
             {
-                letterThreeColor = Color.yellow.opacity(0.9)
+                oneLetterThreeColor = Color.yellow.opacity(0.9)
             }
             else
             {
-                letterThreeColor = Color.white.opacity(0.64)
+                oneLetterThreeColor = Color.white.opacity(0.64)
             }
             
-            if (letterFour == randomLetterFour)
+            if (oneLetterFour == randomLetterFour)
             {
-                letterFourColor = Color.green
+                oneLetterFourColor = Color.green
             }
-            else if (letterFour  == randomLetterTwo || letterFour == randomLetterThree || letterFour == randomLetterOne)
+            else if (oneLetterFour  == randomLetterTwo || oneLetterFour == randomLetterThree || oneLetterFour == randomLetterOne)
             {
-                letterFourColor = Color.yellow.opacity(0.9)
+                oneLetterFourColor = Color.yellow.opacity(0.9)
             }
             else
             {
-                letterFourColor = Color.white.opacity(0.64)
+                oneLetterFourColor = Color.white.opacity(0.64)
             }
             
             index += 1
@@ -535,6 +535,58 @@ struct FourWordWordle: View
             twoLetterThree = String(seperatedInputs[2].uppercased())
             twoLetterFour = String(seperatedInputs[3].uppercased())
             
+            if (twoLetterOne == randomLetterOne)
+            {
+                twoLetterOneColor = Color.green
+            }
+            else if (twoLetterOne  == randomLetterTwo || twoLetterOne == randomLetterThree || twoLetterOne == randomLetterFour)
+            {
+                twoLetterOneColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                twoLetterOneColor = Color.white.opacity(0.64)
+            }
+            
+            if (twoLetterTwo == randomLetterTwo)
+            {
+                twoLetterTwoColor = Color.green
+            }
+            else if (twoLetterTwo  == randomLetterOne || twoLetterTwo == randomLetterThree || twoLetterTwo == randomLetterFour)
+            {
+                twoLetterTwoColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                twoLetterTwoColor = Color.white.opacity(0.64)
+            }
+            
+            if (twoLetterThree == randomLetterThree)
+            {
+                twoLetterThreeColor = Color.green
+            }
+            else if (twoLetterThree  == randomLetterTwo || twoLetterThree == randomLetterOne || twoLetterThree == randomLetterFour)
+            {
+                twoLetterThreeColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                twoLetterThreeColor = Color.white.opacity(0.64)
+            }
+            
+            if (twoLetterFour == randomLetterFour)
+            {
+                twoLetterFourColor = Color.green
+            }
+            else if (twoLetterFour  == randomLetterTwo || twoLetterFour == randomLetterThree || twoLetterFour == randomLetterOne)
+            {
+                twoLetterFourColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                twoLetterFourColor = Color.white.opacity(0.64)
+            }
+            
             index += 1
             if guess.lowercased() == randomWord.lowercased()
             {
@@ -555,6 +607,58 @@ struct FourWordWordle: View
             threeLetterTwo = String(seperatedInputs[1].uppercased())
             threeLetterThree = String(seperatedInputs[2].uppercased())
             threeLetterFour = String(seperatedInputs[3].uppercased())
+            
+            if (threeLetterOne == randomLetterOne)
+            {
+                threeLetterOneColor = Color.green
+            }
+            else if (threeLetterOne  == randomLetterTwo || threeLetterOne == randomLetterThree || threeLetterOne == randomLetterFour)
+            {
+                threeLetterOneColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                threeLetterOneColor = Color.white.opacity(0.64)
+            }
+            
+            if (threeLetterTwo == randomLetterTwo)
+            {
+                threeLetterTwoColor = Color.green
+            }
+            else if (threeLetterTwo  == randomLetterOne || threeLetterTwo == randomLetterThree || threeLetterTwo == randomLetterFour)
+            {
+                threeLetterTwoColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                threeLetterTwoColor = Color.white.opacity(0.64)
+            }
+            
+            if (threeLetterThree == randomLetterThree)
+            {
+                threeLetterThreeColor = Color.green
+            }
+            else if (threeLetterThree  == randomLetterTwo || threeLetterThree == randomLetterOne || threeLetterThree == randomLetterFour)
+            {
+                threeLetterThreeColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                threeLetterThreeColor = Color.white.opacity(0.64)
+            }
+            
+            if (threeLetterFour == randomLetterFour)
+            {
+                threeLetterFourColor = Color.green
+            }
+            else if (threeLetterFour  == randomLetterTwo || threeLetterFour == randomLetterThree || threeLetterFour == randomLetterOne)
+            {
+                threeLetterFourColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                threeLetterFourColor = Color.white.opacity(0.64)
+            }
             
             index += 1
             if guess.lowercased() == randomWord.lowercased()
@@ -577,6 +681,58 @@ struct FourWordWordle: View
             fourLetterThree = String(seperatedInputs[2].uppercased())
             fourLetterFour = String(seperatedInputs[3].uppercased())
             
+            if (fourLetterOne == randomLetterOne)
+            {
+                fourLetterOneColor = Color.green
+            }
+            else if (fourLetterOne  == randomLetterTwo || fourLetterOne == randomLetterThree || fourLetterOne == randomLetterFour)
+            {
+                fourLetterOneColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fourLetterOneColor = Color.white.opacity(0.64)
+            }
+            
+            if (fourLetterTwo == randomLetterTwo)
+            {
+                fourLetterTwoColor = Color.green
+            }
+            else if (fourLetterTwo  == randomLetterOne || fourLetterTwo == randomLetterThree || fourLetterTwo == randomLetterFour)
+            {
+                fourLetterTwoColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fourLetterTwoColor = Color.white.opacity(0.64)
+            }
+            
+            if (fourLetterThree == randomLetterThree)
+            {
+                fourLetterThreeColor = Color.green
+            }
+            else if (fourLetterThree  == randomLetterTwo || fourLetterThree == randomLetterOne || fourLetterThree == randomLetterFour)
+            {
+                fourLetterThreeColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fourLetterThreeColor = Color.white.opacity(0.64)
+            }
+            
+            if (fourLetterFour == randomLetterFour)
+            {
+                fourLetterFourColor = Color.green
+            }
+            else if (fourLetterFour  == randomLetterTwo || fourLetterFour == randomLetterThree || fourLetterFour == randomLetterOne)
+            {
+                fourLetterFourColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fourLetterFourColor = Color.white.opacity(0.64)
+            }
+            
             index += 1
             if guess.lowercased() == randomWord.lowercased()
             {
@@ -598,6 +754,58 @@ struct FourWordWordle: View
             fiveLetterTwo = String(seperatedInputs[1].uppercased())
             fiveLetterThree = String(seperatedInputs[2].uppercased())
             fiveLetterFour = String(seperatedInputs[3].uppercased())
+            
+            if (fiveLetterOne == randomLetterOne)
+            {
+                fiveLetterOneColor = Color.green
+            }
+            else if (fiveLetterOne  == randomLetterTwo || fiveLetterOne == randomLetterThree || fiveLetterOne == randomLetterFour)
+            {
+                fiveLetterOneColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fiveLetterOneColor = Color.white.opacity(0.64)
+            }
+            
+            if (fiveLetterTwo == randomLetterTwo)
+            {
+                fiveLetterTwoColor = Color.green
+            }
+            else if (fiveLetterTwo  == randomLetterOne || fiveLetterTwo == randomLetterThree || fiveLetterTwo == randomLetterFour)
+            {
+                fiveLetterTwoColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fiveLetterTwoColor = Color.white.opacity(0.64)
+            }
+            
+            if (fiveLetterThree == randomLetterThree)
+            {
+                fiveLetterThreeColor = Color.green
+            }
+            else if (fiveLetterThree  == randomLetterTwo || fiveLetterThree == randomLetterOne || fiveLetterThree == randomLetterFour)
+            {
+                fiveLetterThreeColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fiveLetterThreeColor = Color.white.opacity(0.64)
+            }
+            
+            if (fiveLetterFour == randomLetterFour)
+            {
+                fiveLetterFourColor = Color.green
+            }
+            else if (fiveLetterFour  == randomLetterTwo || fiveLetterFour == randomLetterThree || fiveLetterFour == randomLetterOne)
+            {
+                fiveLetterFourColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fiveLetterFourColor = Color.white.opacity(0.64)
+            }
             
             index += 1
             
