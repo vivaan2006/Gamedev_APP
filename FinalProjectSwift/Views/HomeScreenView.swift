@@ -18,7 +18,7 @@ struct HomeScreenView: View
     {
         if toFourLetterWordle
         {
-            FourWordWordle()
+            FourWordWordle(wordRandom: demoWords)
         }
         
         else if toFiveLetterWordle

@@ -9,6 +9,8 @@ import SwiftUI
 
 struct FourWordWordle: View
 {
+    var wordRandom : Words
+    @ObservedObject var randomWords = WordsDataStore(wordData: loadJSON(from: "wordData") as! [Words])
     @State private var index = 0
     
     @State private var randomWord = "Test"
@@ -52,6 +54,9 @@ struct FourWordWordle: View
     @State private var toEndScreenWin = false
     @State private var toEndScreenFail = false
     
+    @State private var guessesLeft = 6
+    @State private var guessesVisual = "You have 6 guesses left"
+    
 
     var body: some View
     {
@@ -73,8 +78,6 @@ struct FourWordWordle: View
                 {
                     VStack
                     {
-                        let guessesLeft = 6 - index
-                        let guessesVisual = "You have \(guessesLeft) guesses left"
                         Text("Four Letter Wordle")
                             .font(Font.custom("Courier New Bold", size: 35))
                         HStack {
@@ -270,6 +273,9 @@ struct FourWordWordle: View
     
     func checkWordLength() -> Void
     {
+        guessesLeft = 6 - index
+        guessesVisual = "You have \(guessesLeft) guesses left"
+        randomWord = String(randomWords.wordData[0].fourLetterWords)
         if (guess.count == 0 && (winCount == 1 || winCount == 2))
         {
             checkIfDone()
@@ -298,15 +304,16 @@ struct FourWordWordle: View
         let seperatedInputs = Array(guess)
         if index == 0
         {
-            letterOne = String(seperatedInputs[0])
-            letterTwo = String(seperatedInputs[1])
-            letterThree = String(seperatedInputs[2])
-            letterFour = String(seperatedInputs[3])
+            letterOne = String(seperatedInputs[0].uppercased())
+            letterTwo = String(seperatedInputs[1].uppercased())
+            letterThree = String(seperatedInputs[2].uppercased())
+            letterFour = String(seperatedInputs[3].uppercased())
             
             index += 1
-            if guess == randomWord
+            if guess.lowercased() == randomWord.lowercased()
             {
                 guess = ""
+                guessesVisual = "The word was \(randomWord.uppercased())"
                 buttonText = "End Game"
                 lockInput = true;
                 winCount = 1
@@ -318,15 +325,16 @@ struct FourWordWordle: View
         }
         else if index == 1
         {
-            oneLetterOne = String(seperatedInputs[0])
-            oneLetterTwo = String(seperatedInputs[1])
-            oneLetterThree = String(seperatedInputs[2])
-            oneLetterFour = String(seperatedInputs[3])
+            oneLetterOne = String(seperatedInputs[0].uppercased())
+            oneLetterTwo = String(seperatedInputs[1].uppercased())
+            oneLetterThree = String(seperatedInputs[2].uppercased())
+            oneLetterFour = String(seperatedInputs[3].uppercased())
             
             index += 1
-            if guess == randomWord
+            if guess.lowercased() == randomWord.lowercased()
             {
                 guess = ""
+                guessesVisual = "The word was \(randomWord.uppercased())"
                 buttonText = "End Game"
                 lockInput = true;
                 winCount = 1
@@ -338,15 +346,16 @@ struct FourWordWordle: View
         }
         else if index == 2
         {
-            twoLetterOne = String(seperatedInputs[0])
-            twoLetterTwo = String(seperatedInputs[1])
-            twoLetterThree = String(seperatedInputs[2])
-            twoLetterFour = String(seperatedInputs[3])
+            twoLetterOne = String(seperatedInputs[0].uppercased())
+            twoLetterTwo = String(seperatedInputs[1].uppercased())
+            twoLetterThree = String(seperatedInputs[2].uppercased())
+            twoLetterFour = String(seperatedInputs[3].uppercased())
             
             index += 1
-            if guess == randomWord
+            if guess.lowercased() == randomWord.lowercased()
             {
                 guess = ""
+                guessesVisual = "The word was \(randomWord.uppercased())"
                 buttonText = "End Game"
                 lockInput = true;
                 winCount = 1
@@ -358,15 +367,16 @@ struct FourWordWordle: View
         }
         else if index == 3
         {
-            threeLetterOne = String(seperatedInputs[0])
-            threeLetterTwo = String(seperatedInputs[1])
-            threeLetterThree = String(seperatedInputs[2])
-            threeLetterFour = String(seperatedInputs[3])
+            threeLetterOne = String(seperatedInputs[0].uppercased())
+            threeLetterTwo = String(seperatedInputs[1].uppercased())
+            threeLetterThree = String(seperatedInputs[2].uppercased())
+            threeLetterFour = String(seperatedInputs[3].uppercased())
             
             index += 1
-            if guess == randomWord
+            if guess.lowercased() == randomWord.lowercased()
             {
                 guess = ""
+                guessesVisual = "The word was \(randomWord.uppercased())"
                 buttonText = "End Game"
                 lockInput = true;
                 winCount = 1
@@ -378,15 +388,16 @@ struct FourWordWordle: View
         }
         else if index == 4
         {
-            fourLetterOne = String(seperatedInputs[0])
-            fourLetterTwo = String(seperatedInputs[1])
-            fourLetterThree = String(seperatedInputs[2])
-            fourLetterFour = String(seperatedInputs[3])
+            fourLetterOne = String(seperatedInputs[0].uppercased())
+            fourLetterTwo = String(seperatedInputs[1].uppercased())
+            fourLetterThree = String(seperatedInputs[2].uppercased())
+            fourLetterFour = String(seperatedInputs[3].uppercased())
             
             index += 1
-            if guess == randomWord
+            if guess.lowercased() == randomWord.lowercased()
             {
                 guess = ""
+                guessesVisual = "The word was \(randomWord.uppercased())"
                 buttonText = "End Game"
                 lockInput = true;
                 winCount = 1
@@ -399,22 +410,24 @@ struct FourWordWordle: View
         }
         else if index == 5
         {
-            fiveLetterOne = String(seperatedInputs[0])
-            fiveLetterTwo = String(seperatedInputs[1])
-            fiveLetterThree = String(seperatedInputs[2])
-            fiveLetterFour = String(seperatedInputs[3])
+            fiveLetterOne = String(seperatedInputs[0].uppercased())
+            fiveLetterTwo = String(seperatedInputs[1].uppercased())
+            fiveLetterThree = String(seperatedInputs[2].uppercased())
+            fiveLetterFour = String(seperatedInputs[3].uppercased())
             
             index += 1
             
-            if guess == randomWord
+            if guess.lowercased() == randomWord.lowercased()
             {
                 guess = ""
+                guessesVisual = "The word was \(randomWord.uppercased())"
                 buttonText = "End Game"
                 lockInput = true;
                 winCount = 1
             }else
             {
                 guess = ""
+                guessesVisual = "The word was \(randomWord.uppercased())"
                 buttonText = "End Game"
                 lockInput = true;
                 winCount = 2;
@@ -433,12 +446,17 @@ struct FourWordWordle: View
             toEndScreenFail = true
         }
     }
+    
+    func randoWord() -> Void
+    {
+//        randomWord = String(wordRandom.fourLetterWords.index(ofAccessibilityElement: 0))
+    }
 }
 
 struct FourWordWordle_Previews: PreviewProvider
 {
     static var previews: some View
     {
-        FourWordWordle()
+        FourWordWordle(wordRandom: demoWords)
     }
 }

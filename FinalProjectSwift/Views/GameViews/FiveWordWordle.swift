@@ -293,7 +293,7 @@ struct FiveWordWordle: View
                                 .font(Font.custom("Courier New Bold", size: 15))
                                 .foregroundColor(.orange)
                         }
-                        TextField("Your Guess", text: $guess)
+                        TextField(guessVisual, text: $guess)
                             .padding()
                             .frame(width: 300, height: 70)
                             .background(Color.white.opacity(0.34))
