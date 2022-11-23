@@ -9,9 +9,9 @@ import SwiftUI
 
 struct FourWordWordle: View
 {
-    var wordRandom : Words
     @ObservedObject var randomWords = WordsDataStore(wordData: loadJSON(from: "wordData") as! [Words])
     @State private var index = 0
+    @State private var generatedrandomWord = false
     
     @State private var randomWord = "Test"
     @State private var winCount = 0;
@@ -20,31 +20,55 @@ struct FourWordWordle: View
     @State private var letterTwo = ""
     @State private var letterThree = ""
     @State private var letterFour = ""
+    @State private var letterOneColor = Color.white.opacity(0.34)
+    @State private var letterTwoColor = Color.white.opacity(0.34)
+    @State private var letterThreeColor = Color.white.opacity(0.34)
+    @State private var letterFourColor = Color.white.opacity(0.34)
     
     @State private var oneLetterOne = ""
     @State private var oneLetterTwo = ""
     @State private var oneLetterThree = ""
     @State private var oneLetterFour = ""
+    @State private var oneLetterOneColor = Color.white.opacity(0.34)
+    @State private var oneLetterTwoColor = Color.white.opacity(0.34)
+    @State private var oneLetterThreeColor = Color.white.opacity(0.34)
+    @State private var oneLetterFourColor = Color.white.opacity(0.34)
     
     @State private var twoLetterOne = ""
     @State private var twoLetterTwo = ""
     @State private var twoLetterThree = ""
     @State private var twoLetterFour = ""
+    @State private var twoLetterOneColor = Color.white.opacity(0.34)
+    @State private var twoLetterTwoColor = Color.white.opacity(0.34)
+    @State private var twoLetterThreeColor = Color.white.opacity(0.34)
+    @State private var twoLetterFourColor = Color.white.opacity(0.34)
     
     @State private var threeLetterOne = ""
     @State private var threeLetterTwo = ""
     @State private var threeLetterThree = ""
     @State private var threeLetterFour = ""
+    @State private var threeLetterOneColor = Color.white.opacity(0.34)
+    @State private var threeLetterTwoColor = Color.white.opacity(0.34)
+    @State private var threeLetterThreeColor = Color.white.opacity(0.34)
+    @State private var threeLetterFourColor = Color.white.opacity(0.34)
     
     @State private var fourLetterOne = ""
     @State private var fourLetterTwo = ""
     @State private var fourLetterThree = ""
     @State private var fourLetterFour = ""
+    @State private var fourLetterOneColor = Color.white.opacity(0.34)
+    @State private var fourLetterTwoColor = Color.white.opacity(0.34)
+    @State private var fourLetterThreeColor = Color.white.opacity(0.34)
+    @State private var fourLetterFourColor = Color.white.opacity(0.34)
     
     @State private var fiveLetterOne = ""
     @State private var fiveLetterTwo = ""
     @State private var fiveLetterThree = ""
     @State private var fiveLetterFour = ""
+    @State private var fiveLetterOneColor = Color.white.opacity(0.34)
+    @State private var fiveLetterTwoColor = Color.white.opacity(0.34)
+    @State private var fiveLetterThreeColor = Color.white.opacity(0.34)
+    @State private var fiveLetterFourColor = Color.white.opacity(0.34)
     
 
     @State private var guess = ""
@@ -84,27 +108,34 @@ struct FourWordWordle: View
                             TextField("", text: $letterOne)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(letterOneColor)
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
                             TextField("", text: $letterTwo)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(letterTwoColor)
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $letterThree)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(letterThreeColor)
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $letterFour)
                                 .padding()
                                 .frame(width: 70, height: 70)
-                                .background(Color.white.opacity(0.34))
+                                .background(letterFourColor)
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                         }
                         HStack
                         {
@@ -114,24 +145,32 @@ struct FourWordWordle: View
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $oneLetterTwo)
                                 .padding()
                                 .frame(width: 70, height: 70)
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $oneLetterThree)
                                 .padding()
                                 .frame(width: 70, height: 70)
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $oneLetterFour)
                                 .padding()
                                 .frame(width: 70, height: 70)
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                         }
                         HStack
                         {
@@ -141,24 +180,32 @@ struct FourWordWordle: View
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $twoLetterTwo)
                                 .padding()
                                 .frame(width: 70, height: 70)
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $twoLetterThree)
                                 .padding()
                                 .frame(width: 70, height: 70)
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $twoLetterFour)
                                 .padding()
                                 .frame(width: 70, height: 70)
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                         }
                         HStack
                         {
@@ -168,24 +215,32 @@ struct FourWordWordle: View
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $threeLetterTwo)
                                 .padding()
                                 .frame(width: 70, height: 70)
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $threeLetterThree)
                                 .padding()
                                 .frame(width: 70, height: 70)
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $threeLetterFour)
                                 .padding()
                                 .frame(width: 70, height: 70)
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                         }
                         HStack {
                             TextField("", text: $fourLetterOne)
@@ -194,24 +249,32 @@ struct FourWordWordle: View
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $fourLetterTwo)
                                 .padding()
                                 .frame(width: 70, height: 70)
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $fourLetterThree)
                                 .padding()
                                 .frame(width: 70, height: 70)
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $fourLetterFour)
                                 .padding()
                                 .frame(width: 70, height: 70)
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                         }
                         HStack {
                             TextField("", text: $fiveLetterOne)
@@ -220,24 +283,32 @@ struct FourWordWordle: View
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $fiveLetterTwo)
                                 .padding()
                                 .frame(width: 70, height: 70)
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $fiveLetterThree)
                                 .padding()
                                 .frame(width: 70, height: 70)
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                             TextField("", text: $fiveLetterFour)
                                 .padding()
                                 .frame(width: 70, height: 70)
                                 .background(Color.white.opacity(0.34))
                                 .cornerRadius(10)
                                 .disabled(true)
+                                .font(Font.custom("Courier New Bold", size: 35))
+
                         }
                         
                         
@@ -275,7 +346,11 @@ struct FourWordWordle: View
     {
         guessesLeft = 6 - index
         guessesVisual = "You have \(guessesLeft) guesses left"
-        randomWord = String(randomWords.wordData[0].fourLetterWords)
+        if generatedrandomWord == false
+        {
+            generateRandomWord()
+        }
+        
         if (guess.count == 0 && (winCount == 1 || winCount == 2))
         {
             checkIfDone()
@@ -302,12 +377,69 @@ struct FourWordWordle: View
     func checkWord() -> Void
     {
         let seperatedInputs = Array(guess)
+        let seperatedRandomWord = Array(randomWord)
+        let randomLetterOne = String(seperatedRandomWord[0].uppercased())
+        let randomLetterTwo = String(seperatedRandomWord[1].uppercased())
+        let randomLetterThree = String(seperatedRandomWord[2].uppercased())
+        let randomLetterFour = String(seperatedRandomWord[3].uppercased())
         if index == 0
         {
             letterOne = String(seperatedInputs[0].uppercased())
             letterTwo = String(seperatedInputs[1].uppercased())
             letterThree = String(seperatedInputs[2].uppercased())
             letterFour = String(seperatedInputs[3].uppercased())
+            
+            if (letterOne == randomLetterOne)
+            {
+                letterOneColor = Color.green
+            }
+            else if (letterOne  == randomLetterTwo || letterOne == randomLetterThree || letterOne == randomLetterFour)
+            {
+                letterOneColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                letterOneColor = Color.white.opacity(0.64)
+            }
+            
+            if (letterTwo == randomLetterTwo)
+            {
+                letterTwoColor = Color.green
+            }
+            else if (letterTwo  == randomLetterOne || letterTwo == randomLetterThree || letterTwo == randomLetterFour)
+            {
+                letterTwoColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                letterTwoColor = Color.white.opacity(0.64)
+            }
+            
+            if (letterThree == randomLetterThree)
+            {
+                letterThreeColor = Color.green
+            }
+            else if (letterThree  == randomLetterTwo || letterThree == randomLetterOne || letterThree == randomLetterFour)
+            {
+                letterThreeColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                letterThreeColor = Color.white.opacity(0.64)
+            }
+            
+            if (letterFour == randomLetterFour)
+            {
+                letterFourColor = Color.green
+            }
+            else if (letterFour  == randomLetterTwo || letterFour == randomLetterThree || letterFour == randomLetterOne)
+            {
+                letterFourColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                letterFourColor = Color.white.opacity(0.64)
+            }
             
             index += 1
             if guess.lowercased() == randomWord.lowercased()
@@ -329,6 +461,58 @@ struct FourWordWordle: View
             oneLetterTwo = String(seperatedInputs[1].uppercased())
             oneLetterThree = String(seperatedInputs[2].uppercased())
             oneLetterFour = String(seperatedInputs[3].uppercased())
+            
+            if (oneLetterOne == randomLetterOne)
+            {
+                letterOneColor = Color.green
+            }
+            else if (oneLetterOne  == randomLetterTwo || oneLetterOne == randomLetterThree || oneLetterOne == randomLetterFour)
+            {
+                letterOneColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                letterOneColor = Color.white.opacity(0.64)
+            }
+            
+            if (letterTwo == randomLetterTwo)
+            {
+                letterTwoColor = Color.green
+            }
+            else if (letterTwo  == randomLetterOne || letterTwo == randomLetterThree || letterTwo == randomLetterFour)
+            {
+                letterTwoColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                letterTwoColor = Color.white.opacity(0.64)
+            }
+            
+            if (letterThree == randomLetterThree)
+            {
+                letterThreeColor = Color.green
+            }
+            else if (letterThree  == randomLetterTwo || letterThree == randomLetterOne || letterThree == randomLetterFour)
+            {
+                letterThreeColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                letterThreeColor = Color.white.opacity(0.64)
+            }
+            
+            if (letterFour == randomLetterFour)
+            {
+                letterFourColor = Color.green
+            }
+            else if (letterFour  == randomLetterTwo || letterFour == randomLetterThree || letterFour == randomLetterOne)
+            {
+                letterFourColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                letterFourColor = Color.white.opacity(0.64)
+            }
             
             index += 1
             if guess.lowercased() == randomWord.lowercased()
@@ -447,9 +631,13 @@ struct FourWordWordle: View
         }
     }
     
-    func randoWord() -> Void
+    func generateRandomWord() -> Void
     {
-//        randomWord = String(wordRandom.fourLetterWords.index(ofAccessibilityElement: 0))
+        let maxIndex = 462
+        let randomIndex = Int.random(in: 0...maxIndex)
+//        randomWord = String(randomWords.wordData[randomIndex].fourLetterWords)
+        randomWord = String(randomWords.wordData[0].fourLetterWords)
+        generatedrandomWord = true
     }
 }
 
@@ -457,6 +645,6 @@ struct FourWordWordle_Previews: PreviewProvider
 {
     static var previews: some View
     {
-        FourWordWordle(wordRandom: demoWords)
+        FourWordWordle()
     }
 }
