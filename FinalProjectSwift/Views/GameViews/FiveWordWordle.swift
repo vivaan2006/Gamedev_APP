@@ -985,7 +985,7 @@ struct FiveWordWordle: View
     {
         let maxIndex = 462
         let randomIndex = Int.random(in: 0...maxIndex)
-//        randomWord = String(randomWords.wordData[randomIndex].fourLetterWords)
+//        randomWord = String(randomWords.wordData[randomIndex].fiveLetterWords)
         randomWord = String(randomWords.wordData[0].fiveLetterWords)
         generatedrandomWord = true
     }

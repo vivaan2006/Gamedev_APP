@@ -858,8 +858,8 @@ struct FourWordWordle: View
     {
         let maxIndex = 462
         let randomIndex = Int.random(in: 0...maxIndex)
-//        randomWord = String(randomWords.wordData[randomIndex].fourLetterWords)
-        randomWord = String(randomWords.wordData[0].fourLetterWords)
+        randomWord = String(randomWords.wordData[randomIndex].fourLetterWords)
+//        randomWord = String(randomWords.wordData[0].fourLetterWords)
         generatedrandomWord = true
     }
 }

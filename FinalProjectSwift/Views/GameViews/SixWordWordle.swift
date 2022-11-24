@@ -632,12 +632,14 @@ struct SixWordWordle: View
             oneLetterThree = String(seperatedInputs[2].uppercased())
             oneLetterFour = String(seperatedInputs[3].uppercased())
             oneLetterFive = String(seperatedInputs[4].uppercased())
+            oneLetterSix = String(seperatedInputs[5].uppercased())
+            
             
             if (oneLetterOne == randomLetterOne)
             {
                 oneLetterOneColor = Color.green
             }
-            else if (oneLetterOne  == randomLetterTwo || oneLetterOne == randomLetterThree || oneLetterOne == randomLetterFour || oneLetterOne == randomLetterFive)
+            else if (oneLetterOne  == randomLetterTwo || oneLetterOne == randomLetterThree || oneLetterOne == randomLetterFour || oneLetterOne == randomLetterFive || oneLetterOne == randomLetterSix)
             {
                 oneLetterOneColor = Color.yellow.opacity(0.9)
             }
@@ -650,7 +652,7 @@ struct SixWordWordle: View
             {
                 oneLetterTwoColor = Color.green
             }
-            else if (oneLetterTwo  == randomLetterOne || oneLetterTwo == randomLetterThree || oneLetterTwo == randomLetterFour || oneLetterTwo == randomLetterFive)
+            else if (oneLetterTwo  == randomLetterOne || oneLetterTwo == randomLetterThree || oneLetterTwo == randomLetterFour || oneLetterTwo == randomLetterFive || oneLetterTwo == randomLetterSix)
             {
                 oneLetterTwoColor = Color.yellow.opacity(0.9)
             }
@@ -663,7 +665,7 @@ struct SixWordWordle: View
             {
                 oneLetterThreeColor = Color.green
             }
-            else if (oneLetterThree  == randomLetterTwo || oneLetterThree == randomLetterOne || oneLetterThree == randomLetterFour || oneLetterThree == randomLetterFive)
+            else if (oneLetterThree  == randomLetterTwo || oneLetterThree == randomLetterOne || oneLetterThree == randomLetterFour || oneLetterThree == randomLetterFive || oneLetterThree == randomLetterSix)
             {
                 oneLetterThreeColor = Color.yellow.opacity(0.9)
             }
@@ -676,7 +678,7 @@ struct SixWordWordle: View
             {
                 oneLetterFourColor = Color.green
             }
-            else if (oneLetterFour  == randomLetterTwo || oneLetterFour == randomLetterThree || oneLetterFour == randomLetterOne || oneLetterFour == randomLetterFive)
+            else if (oneLetterFour  == randomLetterTwo || oneLetterFour == randomLetterThree || oneLetterFour == randomLetterOne || oneLetterFour == randomLetterFive || oneLetterFour == randomLetterSix)
             {
                 oneLetterFourColor = Color.yellow.opacity(0.9)
             }
@@ -689,13 +691,26 @@ struct SixWordWordle: View
             {
                 oneLetterFiveColor = Color.green
             }
-            else if (oneLetterFive  == randomLetterTwo || oneLetterFive == randomLetterThree || oneLetterFive == randomLetterOne || oneLetterFive == randomLetterFour)
+            else if (oneLetterFive  == randomLetterTwo || oneLetterFive == randomLetterThree || oneLetterFive == randomLetterOne || oneLetterFive == randomLetterFour || oneLetterFive == randomLetterSix)
             {
                 oneLetterFiveColor = Color.yellow.opacity(0.9)
             }
             else
             {
                 oneLetterFiveColor = Color.white.opacity(0.64)
+            }
+            
+            if (oneLetterSix == randomLetterSix)
+            {
+                oneLetterSixColor = Color.green
+            }
+            else if (oneLetterSix  == randomLetterTwo || oneLetterSix == randomLetterThree || oneLetterSix == randomLetterOne || oneLetterSix == randomLetterFour || oneLetterSix == randomLetterFive)
+            {
+                oneLetterSixColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                oneLetterSixColor = Color.white.opacity(0.64)
             }
             
             index += 1
@@ -719,12 +734,13 @@ struct SixWordWordle: View
             twoLetterThree = String(seperatedInputs[2].uppercased())
             twoLetterFour = String(seperatedInputs[3].uppercased())
             twoLetterFive = String(seperatedInputs[4].uppercased())
+            twoLetterSix = String(seperatedInputs[5].uppercased())
             
             if (twoLetterOne == randomLetterOne)
             {
                 twoLetterOneColor = Color.green
             }
-            else if (twoLetterOne  == randomLetterTwo || twoLetterOne == randomLetterThree || twoLetterOne == randomLetterFour || twoLetterOne == randomLetterFive)
+            else if (twoLetterOne  == randomLetterTwo || twoLetterOne == randomLetterThree || twoLetterOne == randomLetterFour || twoLetterOne == randomLetterFive || twoLetterOne == randomLetterSix)
             {
                 twoLetterOneColor = Color.yellow.opacity(0.9)
             }
@@ -737,7 +753,7 @@ struct SixWordWordle: View
             {
                 twoLetterTwoColor = Color.green
             }
-            else if (twoLetterTwo  == randomLetterOne || twoLetterTwo == randomLetterThree || twoLetterTwo == randomLetterFour || twoLetterTwo == randomLetterFive)
+            else if (twoLetterTwo  == randomLetterOne || twoLetterTwo == randomLetterThree || twoLetterTwo == randomLetterFour || twoLetterTwo == randomLetterFive || twoLetterTwo == randomLetterSix)
             {
                 twoLetterTwoColor = Color.yellow.opacity(0.9)
             }
@@ -750,7 +766,7 @@ struct SixWordWordle: View
             {
                 twoLetterThreeColor = Color.green
             }
-            else if (twoLetterThree  == randomLetterTwo || twoLetterThree == randomLetterOne || twoLetterThree == randomLetterFour || twoLetterThree == randomLetterFive)
+            else if (twoLetterThree  == randomLetterTwo || twoLetterThree == randomLetterOne || twoLetterThree == randomLetterFour || twoLetterThree == randomLetterFive || twoLetterThree == randomLetterSix)
             {
                 twoLetterThreeColor = Color.yellow.opacity(0.9)
             }
@@ -763,7 +779,7 @@ struct SixWordWordle: View
             {
                 twoLetterFourColor = Color.green
             }
-            else if (twoLetterFour  == randomLetterTwo || twoLetterFour == randomLetterThree || twoLetterFour == randomLetterOne || twoLetterFour == randomLetterFive)
+            else if (twoLetterFour  == randomLetterTwo || twoLetterFour == randomLetterThree || twoLetterFour == randomLetterOne || twoLetterFour == randomLetterFive || twoLetterFour == randomLetterSix)
             {
                 twoLetterFourColor = Color.yellow.opacity(0.9)
             }
@@ -776,13 +792,26 @@ struct SixWordWordle: View
             {
                 twoLetterFiveColor = Color.green
             }
-            else if (twoLetterFive  == randomLetterTwo || twoLetterFive == randomLetterThree || twoLetterFive == randomLetterOne || twoLetterFive == randomLetterFour)
+            else if (twoLetterFive  == randomLetterTwo || twoLetterFive == randomLetterThree || twoLetterFive == randomLetterOne || twoLetterFive == randomLetterFour || twoLetterFive == randomLetterSix)
             {
                 twoLetterFiveColor = Color.yellow.opacity(0.9)
             }
             else
             {
                 twoLetterFiveColor = Color.white.opacity(0.64)
+            }
+            
+            if (twoLetterSix == randomLetterSix)
+            {
+                twoLetterSixColor = Color.green
+            }
+            else if (twoLetterSix  == randomLetterTwo || twoLetterSix == randomLetterThree || twoLetterSix == randomLetterOne || twoLetterSix == randomLetterFour || twoLetterSix == randomLetterFive)
+            {
+                twoLetterSixColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                twoLetterSixColor = Color.white.opacity(0.64)
             }
             
             index += 1
@@ -806,12 +835,13 @@ struct SixWordWordle: View
             threeLetterThree = String(seperatedInputs[2].uppercased())
             threeLetterFour = String(seperatedInputs[3].uppercased())
             threeLetterFive = String(seperatedInputs[4].uppercased())
+            threeLetterSix = String(seperatedInputs[5].uppercased())
             
             if (threeLetterOne == randomLetterOne)
             {
                 threeLetterOneColor = Color.green
             }
-            else if (threeLetterOne  == randomLetterTwo || threeLetterOne == randomLetterThree || threeLetterOne == randomLetterFour || threeLetterOne == randomLetterFive)
+            else if (threeLetterOne  == randomLetterTwo || threeLetterOne == randomLetterThree || threeLetterOne == randomLetterFour || threeLetterOne == randomLetterFive || threeLetterOne == randomLetterSix)
             {
                 threeLetterOneColor = Color.yellow.opacity(0.9)
             }
@@ -824,7 +854,7 @@ struct SixWordWordle: View
             {
                 threeLetterTwoColor = Color.green
             }
-            else if (threeLetterTwo  == randomLetterOne || threeLetterTwo == randomLetterThree || threeLetterTwo == randomLetterFour || threeLetterTwo == randomLetterFive)
+            else if (threeLetterTwo  == randomLetterOne || threeLetterTwo == randomLetterThree || threeLetterTwo == randomLetterFour || threeLetterTwo == randomLetterFive || threeLetterTwo == randomLetterSix)
             {
                 threeLetterTwoColor = Color.yellow.opacity(0.9)
             }
@@ -837,7 +867,7 @@ struct SixWordWordle: View
             {
                 threeLetterThreeColor = Color.green
             }
-            else if (threeLetterThree  == randomLetterTwo || threeLetterThree == randomLetterOne || threeLetterThree == randomLetterFour || threeLetterThree == randomLetterFive)
+            else if (threeLetterThree  == randomLetterTwo || threeLetterThree == randomLetterOne || threeLetterThree == randomLetterFour || threeLetterThree == randomLetterFive || threeLetterThree == randomLetterSix)
             {
                 threeLetterThreeColor = Color.yellow.opacity(0.9)
             }
@@ -850,7 +880,7 @@ struct SixWordWordle: View
             {
                 threeLetterFourColor = Color.green
             }
-            else if (threeLetterFour  == randomLetterTwo || threeLetterFour == randomLetterThree || threeLetterFour == randomLetterOne || threeLetterFour == randomLetterFive)
+            else if (threeLetterFour  == randomLetterTwo || threeLetterFour == randomLetterThree || threeLetterFour == randomLetterOne || threeLetterFour == randomLetterFive || threeLetterFour == randomLetterSix)
             {
                 threeLetterFourColor = Color.yellow.opacity(0.9)
             }
@@ -863,13 +893,26 @@ struct SixWordWordle: View
             {
                 threeLetterFiveColor = Color.green
             }
-            else if (threeLetterFive  == randomLetterTwo || threeLetterFive == randomLetterThree || threeLetterFive == randomLetterOne || threeLetterFive == randomLetterFour)
+            else if (threeLetterFive  == randomLetterTwo || threeLetterFive == randomLetterThree || threeLetterFive == randomLetterOne || threeLetterFive == randomLetterFour || threeLetterFive == randomLetterSix)
             {
                 threeLetterFiveColor = Color.yellow.opacity(0.9)
             }
             else
             {
                 threeLetterFiveColor = Color.white.opacity(0.64)
+            }
+            
+            if (threeLetterSix == randomLetterSix)
+            {
+                threeLetterSixColor = Color.green
+            }
+            else if (threeLetterSix  == randomLetterTwo || threeLetterSix == randomLetterThree || threeLetterSix == randomLetterOne || threeLetterSix == randomLetterFour || threeLetterSix == randomLetterFive)
+            {
+                threeLetterSixColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                threeLetterSixColor = Color.white.opacity(0.64)
             }
             
             index += 1
@@ -893,12 +936,13 @@ struct SixWordWordle: View
             fourLetterThree = String(seperatedInputs[2].uppercased())
             fourLetterFour = String(seperatedInputs[3].uppercased())
             fourLetterFive = String(seperatedInputs[4].uppercased())
+            fourLetterSix = String(seperatedInputs[5].uppercased())
             
             if (fourLetterOne == randomLetterOne)
             {
                 fourLetterOneColor = Color.green
             }
-            else if (fourLetterOne  == randomLetterTwo || fourLetterOne == randomLetterThree || fourLetterOne == randomLetterFour || fourLetterOne == randomLetterFive)
+            else if (fourLetterOne  == randomLetterTwo || fourLetterOne == randomLetterThree || fourLetterOne == randomLetterFour || fourLetterOne == randomLetterFive || fourLetterOne == randomLetterSix)
             {
                 fourLetterOneColor = Color.yellow.opacity(0.9)
             }
@@ -911,7 +955,7 @@ struct SixWordWordle: View
             {
                 fourLetterTwoColor = Color.green
             }
-            else if (fourLetterTwo  == randomLetterOne || fourLetterTwo == randomLetterThree || fourLetterTwo == randomLetterFour || fourLetterTwo == randomLetterFive)
+            else if (fourLetterTwo  == randomLetterOne || fourLetterTwo == randomLetterThree || fourLetterTwo == randomLetterFour || fourLetterTwo == randomLetterFive || fourLetterTwo == randomLetterSix)
             {
                 fourLetterTwoColor = Color.yellow.opacity(0.9)
             }
@@ -924,7 +968,7 @@ struct SixWordWordle: View
             {
                 fourLetterThreeColor = Color.green
             }
-            else if (fourLetterThree  == randomLetterTwo || fourLetterThree == randomLetterOne || fourLetterThree == randomLetterFour || fourLetterThree == randomLetterFive)
+            else if (fourLetterThree  == randomLetterTwo || fourLetterThree == randomLetterOne || fourLetterThree == randomLetterFour || fourLetterThree == randomLetterFive || fourLetterThree == randomLetterSix)
             {
                 fourLetterThreeColor = Color.yellow.opacity(0.9)
             }
@@ -937,7 +981,7 @@ struct SixWordWordle: View
             {
                 fourLetterFourColor = Color.green
             }
-            else if (fourLetterFour  == randomLetterTwo || fourLetterFour == randomLetterThree || fourLetterFour == randomLetterOne || fourLetterFour == randomLetterFive)
+            else if (fourLetterFour  == randomLetterTwo || fourLetterFour == randomLetterThree || fourLetterFour == randomLetterOne || fourLetterFour == randomLetterFive || fourLetterFour == randomLetterSix)
             {
                 fourLetterFourColor = Color.yellow.opacity(0.9)
             }
@@ -950,13 +994,26 @@ struct SixWordWordle: View
             {
                 fourLetterFiveColor = Color.green
             }
-            else if (fourLetterFive  == randomLetterTwo || fourLetterFive == randomLetterThree || fourLetterFive == randomLetterOne || fourLetterFive == randomLetterFour)
+            else if (fourLetterFive  == randomLetterTwo || fourLetterFive == randomLetterThree || fourLetterFive == randomLetterOne || fourLetterFive == randomLetterFour || fourLetterFive == randomLetterSix)
             {
                 fourLetterFiveColor = Color.yellow.opacity(0.9)
             }
             else
             {
                 fourLetterFiveColor = Color.white.opacity(0.64)
+            }
+            
+            if (fourLetterSix == randomLetterSix)
+            {
+                fourLetterSixColor = Color.green
+            }
+            else if (fourLetterSix  == randomLetterTwo || fourLetterSix == randomLetterThree || fourLetterSix == randomLetterOne || fourLetterSix == randomLetterFour || fourLetterSix == randomLetterFive)
+            {
+                fourLetterSixColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fourLetterSixColor = Color.white.opacity(0.64)
             }
             
             index += 1
@@ -981,12 +1038,13 @@ struct SixWordWordle: View
             fiveLetterThree = String(seperatedInputs[2].uppercased())
             fiveLetterFour = String(seperatedInputs[3].uppercased())
             fiveLetterFive = String(seperatedInputs[4].uppercased())
+            fiveLetterSix = String(seperatedInputs[5].uppercased())
             
             if (fiveLetterOne == randomLetterOne)
             {
                 fiveLetterOneColor = Color.green
             }
-            else if (fiveLetterOne  == randomLetterTwo || fiveLetterOne == randomLetterThree || fiveLetterOne == randomLetterFour || fiveLetterOne == randomLetterFive)
+            else if (fiveLetterOne  == randomLetterTwo || fiveLetterOne == randomLetterThree || fiveLetterOne == randomLetterFour || fiveLetterOne == randomLetterFive || fiveLetterOne == randomLetterSix)
             {
                 fiveLetterOneColor = Color.yellow.opacity(0.9)
             }
@@ -999,7 +1057,7 @@ struct SixWordWordle: View
             {
                 fiveLetterTwoColor = Color.green
             }
-            else if (fiveLetterTwo  == randomLetterOne || fiveLetterTwo == randomLetterThree || fiveLetterTwo == randomLetterFour || fiveLetterTwo == randomLetterFive)
+            else if (fiveLetterTwo  == randomLetterOne || fiveLetterTwo == randomLetterThree || fiveLetterTwo == randomLetterFour || fiveLetterTwo == randomLetterFive || fiveLetterTwo == randomLetterSix)
             {
                 fiveLetterTwoColor = Color.yellow.opacity(0.9)
             }
@@ -1012,7 +1070,7 @@ struct SixWordWordle: View
             {
                 fiveLetterThreeColor = Color.green
             }
-            else if (fiveLetterThree  == randomLetterTwo || fiveLetterThree == randomLetterOne || fiveLetterThree == randomLetterFour || fiveLetterThree == randomLetterFive)
+            else if (fiveLetterThree  == randomLetterTwo || fiveLetterThree == randomLetterOne || fiveLetterThree == randomLetterFour || fiveLetterThree == randomLetterFive || fiveLetterThree == randomLetterSix)
             {
                 fiveLetterThreeColor = Color.yellow.opacity(0.9)
             }
@@ -1025,7 +1083,7 @@ struct SixWordWordle: View
             {
                 fiveLetterFourColor = Color.green
             }
-            else if (fiveLetterFour  == randomLetterTwo || fiveLetterFour == randomLetterThree || fiveLetterFour == randomLetterOne || fiveLetterFour == randomLetterFive)
+            else if (fiveLetterFour  == randomLetterTwo || fiveLetterFour == randomLetterThree || fiveLetterFour == randomLetterOne || fiveLetterFour == randomLetterFive || fiveLetterFour == randomLetterSix)
             {
                 fiveLetterFourColor = Color.yellow.opacity(0.9)
             }
@@ -1038,13 +1096,26 @@ struct SixWordWordle: View
             {
                 fiveLetterFiveColor = Color.green
             }
-            else if (fiveLetterFive  == randomLetterTwo || fiveLetterFive == randomLetterThree || fiveLetterFive == randomLetterOne || fiveLetterFive == randomLetterFour)
+            else if (fiveLetterFive  == randomLetterTwo || fiveLetterFive == randomLetterThree || fiveLetterFive == randomLetterOne || fiveLetterFive == randomLetterFour || fiveLetterFive == randomLetterSix)
             {
                 fiveLetterFiveColor = Color.yellow.opacity(0.9)
             }
             else
             {
                 fiveLetterFiveColor = Color.white.opacity(0.64)
+            }
+            
+            if (fiveLetterSix == randomLetterSix)
+            {
+                fiveLetterSixColor = Color.green
+            }
+            else if (fiveLetterSix  == randomLetterTwo || fiveLetterSix == randomLetterThree || fiveLetterSix == randomLetterOne || fiveLetterSix == randomLetterFour || fiveLetterSix == randomLetterFive)
+            {
+                fiveLetterSixColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fiveLetterSixColor = Color.white.opacity(0.64)
             }
             
             index += 1
@@ -1084,7 +1155,7 @@ struct SixWordWordle: View
     {
         let maxIndex = 462
         let randomIndex = Int.random(in: 0...maxIndex)
-//        randomWord = String(randomWords.wordData[randomIndex].fourLetterWords)
+//        randomWord = String(randomWords.wordData[randomIndex].sixLetterWord)
         randomWord = String(randomWords.wordData[0].sixLetterWords)
         generatedrandomWord = true
     }
