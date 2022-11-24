@@ -416,52 +416,6 @@ struct SixWordWordle: View
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
                         }
-                            
-                        HStack
-                        {
-                            TextField("", text: $sixLetterOne)
-                                .padding()
-                                .frame(width: 50, height: 50)
-                                .background(sixLetterOneColor)
-                                .cornerRadius(10)
-                                .disabled(true)
-                                .font(Font.custom("Courier New Bold", size: 35))
-                            TextField("", text: $sixLetterTwo)
-                                .padding()
-                                .frame(width: 50, height: 50)
-                                .background(sixLetterTwoColor)
-                                .cornerRadius(10)
-                                .disabled(true)
-                                .font(Font.custom("Courier New Bold", size: 35))
-                            TextField("", text: $sixLetterThree)
-                                .padding()
-                                .frame(width: 50, height: 50)
-                                .background(sixLetterThreeColor)
-                                .cornerRadius(10)
-                                .disabled(true)
-                                .font(Font.custom("Courier New Bold", size: 35))
-                            TextField("", text: $sixLetterFour)
-                                .padding()
-                                .frame(width: 50, height: 50)
-                                .background(sixLetterFourColor)
-                                .cornerRadius(10)
-                                .disabled(true)
-                                .font(Font.custom("Courier New Bold", size: 35))
-                            TextField("", text: $sixLetterFive)
-                                .padding()
-                                .frame(width: 50, height: 50)
-                                .background(sixLetterFiveColor)
-                                .cornerRadius(10)
-                                .disabled(true)
-                                .font(Font.custom("Courier New Bold", size: 35))
-                            TextField("", text: $sixLetterSix)
-                                .padding()
-                                .frame(width: 50, height: 50)
-                                .background(sixLetterSixColor)
-                                .cornerRadius(10)
-                                .disabled(true)
-                                .font(Font.custom("Courier New Bold", size: 35))
-                        }
                            
                         
                         VStack
@@ -624,7 +578,18 @@ struct SixWordWordle: View
             {
                 letterSixColor = Color.white.opacity(0.64)
             }
-        }
+            index += 1
+            if guess.lowercased() == randomWord.lowercased()
+            {
+                guess = ""
+                guessesVisual = "The word was \(randomWord.uppercased())"
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+            }        }
         else if index == 1
         {
             oneLetterOne = String(seperatedInputs[0].uppercased())
