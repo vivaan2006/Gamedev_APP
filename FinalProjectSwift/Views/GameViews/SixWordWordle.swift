@@ -462,31 +462,35 @@ struct SixWordWordle: View
                                 .disabled(true)
                                 .font(Font.custom("Courier New Bold", size: 35))
                         }
-                            
-                            
-                        if error == true
-                        {
-                            Text("Your Guess must be 6 characters long!")
-                                .font(Font.custom("Courier New Bold", size: 15))
-                                .foregroundColor(.orange)
-                        }
-                        TextField(guessesVisual, text: $guess)
-                            .padding()
-                            .frame(width: 300, height: 70)
-                            .background(Color.white.opacity(0.34))
-                            .cornerRadius(10)
-                            .disabled(lockInput)
+                           
                         
-                        Button(buttonText)
+                        VStack
                         {
-                            checkWordLength()
+                            
+                            if error == true
+                            {
+                                Text("Your Guess must be 6 characters long!")
+                                    .font(Font.custom("Courier New Bold", size: 15))
+                                    .foregroundColor(.orange)
+                            }
+                            TextField(guessesVisual, text: $guess)
+                                .padding()
+                                .frame(width: 300, height: 70)
+                                .background(Color.white.opacity(0.34))
+                                .cornerRadius(10)
+                                .disabled(lockInput)
+                            
+                            Button("tester")
+                            {
+                                checkWordLength()
+                            }
+                            .padding(20)
+                            .foregroundColor(.white)
+                            .frame(width: 300, height: 50)
+                            .background(Color.gray)
+                            .cornerRadius(10)
+                            .italic()
                         }
-                        .padding(20)
-                        .foregroundColor(.white)
-                        .frame(width: 300, height: 50)
-                        .background(Color.gray)
-                        .cornerRadius(10)
-                        .italic()
                     }
                 }
             }
@@ -560,7 +564,7 @@ struct SixWordWordle: View
             {
                 letterTwoColor = Color.green
             }
-            else if (letterTwo == randomLetterTwo || letterTwo == randomLetterThree || letterTwo == randomLetterFour || letterTwo == randomLetterFive || letterTwo == randomLetterSix)
+            else if (letterTwo == randomLetterOne || letterTwo == randomLetterThree || letterTwo == randomLetterFour || letterTwo == randomLetterFive || letterTwo == randomLetterSix)
             {
                 letterTwoColor = Color.yellow.opacity(0.9)
             }
@@ -573,7 +577,7 @@ struct SixWordWordle: View
             {
                 letterThreeColor = Color.green
             }
-            else if (letterThree  == randomLetterTwo || letterThree == randomLetterOne || letterThree == randomLetterFour || letterThree == randomLetterFive)
+            else if (letterThree  == randomLetterTwo || letterThree == randomLetterOne || letterThree == randomLetterFour || letterThree == randomLetterFive || letterThree == randomLetterSix)
             {
                 letterThreeColor = Color.yellow.opacity(0.9)
             }
@@ -586,7 +590,7 @@ struct SixWordWordle: View
             {
                 letterFourColor = Color.green
             }
-            else if (letterFour  == randomLetterTwo || letterFour == randomLetterThree || letterFour == randomLetterOne || letterFour == randomLetterFive)
+            else if (letterFour  == randomLetterTwo || letterFour == randomLetterThree || letterFour == randomLetterOne || letterFour == randomLetterFive || letterFour == randomLetterSix)
             {
                 letterFourColor = Color.yellow.opacity(0.9)
             }
@@ -599,7 +603,7 @@ struct SixWordWordle: View
             {
                 letterFiveColor = Color.green
             }
-            else if (letterFive  == randomLetterTwo || letterFive == randomLetterThree || letterFive == randomLetterOne || letterFive == randomLetterFour)
+            else if (letterFive  == randomLetterTwo || letterFive == randomLetterThree || letterFive == randomLetterOne || letterFive == randomLetterFour || letterFive == randomLetterSix)
             {
                 letterFiveColor = Color.yellow.opacity(0.9)
             }
@@ -612,7 +616,7 @@ struct SixWordWordle: View
             {
                 letterSixColor = Color.green
             }
-            else if (letterSix  == randomLetterTwo || letterSix == randomLetterThree || letterSix == randomLetterOne || letterSix == randomLetterFour)
+            else if (letterSix  == randomLetterTwo || letterSix == randomLetterThree || letterSix == randomLetterOne || letterSix == randomLetterFour || letterSix == randomLetterFive)
             {
                 letterFiveColor = Color.yellow.opacity(0.9)
             }
