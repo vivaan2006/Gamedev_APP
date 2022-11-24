@@ -16,11 +16,11 @@ struct FourLetterEndScreenFail: View
     {
         if toHomeScreen
         {
-            
+            HomeScreenView()
         }
         else if playAgain
         {
-            
+            FourWordWordle()
         }
         else
         {
