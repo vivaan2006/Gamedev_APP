@@ -10,6 +10,7 @@ import SwiftUI
 struct FourWordWordle: View
 {
     @ObservedObject var randomWords = WordsDataStore(wordData: loadJSON(from: "wordData") as! [Words])
+    @ObservedObject var allWords = AllWordsDataStore(allWordData: loadJSON(from: "AllWords") as! [AllWords])
     @State private var index = 0
     @State private var generatedrandomWord = false
     
@@ -80,6 +81,8 @@ struct FourWordWordle: View
     
     @State private var guessesLeft = 6
     @State private var guessesVisual = "You have 6 guesses left"
+    
+    @State private var isAWord = 0
     
 
     var body: some View
@@ -838,6 +841,18 @@ struct FourWordWordle: View
             toEndScreenFail = true
         }
     }
+//    func checkIfWord() -> Void
+//    {
+//        ForEach(allWords.allWordData.indices, id: \.self)
+//        {
+//            index in
+//            
+//            if guess.lowercased() == allWords.allWordData[index].fourLetterWords
+//            {
+//                isAWord += 1
+//            }
+//        }
+//    }
     
     func generateRandomWord() -> Void
     {

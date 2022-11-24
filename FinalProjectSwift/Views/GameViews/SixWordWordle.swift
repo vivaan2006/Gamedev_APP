@@ -511,11 +511,11 @@ struct SixWordWordle: View
             checkIfDone()
         }
         
-        if (guess.count > 5)
+        if (guess.count > 6)
         {
             error = true
         }
-        else if (guess.count < 5)
+        else if (guess.count < 6)
         {
             error = true
         }
@@ -618,15 +618,455 @@ struct SixWordWordle: View
             }
             else if (letterSix  == randomLetterTwo || letterSix == randomLetterThree || letterSix == randomLetterOne || letterSix == randomLetterFour || letterSix == randomLetterFive)
             {
-                letterFiveColor = Color.yellow.opacity(0.9)
+                letterSixColor = Color.yellow.opacity(0.9)
             }
             else
             {
-                letterFiveColor = Color.white.opacity(0.64)
+                letterSixColor = Color.white.opacity(0.64)
+            }
+        }
+        else if index == 1
+        {
+            oneLetterOne = String(seperatedInputs[0].uppercased())
+            oneLetterTwo = String(seperatedInputs[1].uppercased())
+            oneLetterThree = String(seperatedInputs[2].uppercased())
+            oneLetterFour = String(seperatedInputs[3].uppercased())
+            oneLetterFive = String(seperatedInputs[4].uppercased())
+            
+            if (oneLetterOne == randomLetterOne)
+            {
+                oneLetterOneColor = Color.green
+            }
+            else if (oneLetterOne  == randomLetterTwo || oneLetterOne == randomLetterThree || oneLetterOne == randomLetterFour || oneLetterOne == randomLetterFive)
+            {
+                oneLetterOneColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                oneLetterOneColor = Color.white.opacity(0.64)
+            }
+            
+            if (oneLetterTwo == randomLetterTwo)
+            {
+                oneLetterTwoColor = Color.green
+            }
+            else if (oneLetterTwo  == randomLetterOne || oneLetterTwo == randomLetterThree || oneLetterTwo == randomLetterFour || oneLetterTwo == randomLetterFive)
+            {
+                oneLetterTwoColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                oneLetterTwoColor = Color.white.opacity(0.64)
+            }
+            
+            if (oneLetterThree == randomLetterThree)
+            {
+                oneLetterThreeColor = Color.green
+            }
+            else if (oneLetterThree  == randomLetterTwo || oneLetterThree == randomLetterOne || oneLetterThree == randomLetterFour || oneLetterThree == randomLetterFive)
+            {
+                oneLetterThreeColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                oneLetterThreeColor = Color.white.opacity(0.64)
+            }
+            
+            if (oneLetterFour == randomLetterFour)
+            {
+                oneLetterFourColor = Color.green
+            }
+            else if (oneLetterFour  == randomLetterTwo || oneLetterFour == randomLetterThree || oneLetterFour == randomLetterOne || oneLetterFour == randomLetterFive)
+            {
+                oneLetterFourColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                oneLetterFourColor = Color.white.opacity(0.64)
+            }
+            
+            if (oneLetterFive == randomLetterFive)
+            {
+                oneLetterFiveColor = Color.green
+            }
+            else if (oneLetterFive  == randomLetterTwo || oneLetterFive == randomLetterThree || oneLetterFive == randomLetterOne || oneLetterFive == randomLetterFour)
+            {
+                oneLetterFiveColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                oneLetterFiveColor = Color.white.opacity(0.64)
+            }
+            
+            index += 1
+            if guess.lowercased() == randomWord.lowercased()
+            {
+                guess = ""
+                guessesVisual = "The word was \(randomWord.uppercased())"
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+            }
+            
+        }
+        else if index == 2
+        {
+            twoLetterOne = String(seperatedInputs[0].uppercased())
+            twoLetterTwo = String(seperatedInputs[1].uppercased())
+            twoLetterThree = String(seperatedInputs[2].uppercased())
+            twoLetterFour = String(seperatedInputs[3].uppercased())
+            twoLetterFive = String(seperatedInputs[4].uppercased())
+            
+            if (twoLetterOne == randomLetterOne)
+            {
+                twoLetterOneColor = Color.green
+            }
+            else if (twoLetterOne  == randomLetterTwo || twoLetterOne == randomLetterThree || twoLetterOne == randomLetterFour || twoLetterOne == randomLetterFive)
+            {
+                twoLetterOneColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                twoLetterOneColor = Color.white.opacity(0.64)
+            }
+            
+            if (twoLetterTwo == randomLetterTwo)
+            {
+                twoLetterTwoColor = Color.green
+            }
+            else if (twoLetterTwo  == randomLetterOne || twoLetterTwo == randomLetterThree || twoLetterTwo == randomLetterFour || twoLetterTwo == randomLetterFive)
+            {
+                twoLetterTwoColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                twoLetterTwoColor = Color.white.opacity(0.64)
+            }
+            
+            if (twoLetterThree == randomLetterThree)
+            {
+                twoLetterThreeColor = Color.green
+            }
+            else if (twoLetterThree  == randomLetterTwo || twoLetterThree == randomLetterOne || twoLetterThree == randomLetterFour || twoLetterThree == randomLetterFive)
+            {
+                twoLetterThreeColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                twoLetterThreeColor = Color.white.opacity(0.64)
+            }
+            
+            if (twoLetterFour == randomLetterFour)
+            {
+                twoLetterFourColor = Color.green
+            }
+            else if (twoLetterFour  == randomLetterTwo || twoLetterFour == randomLetterThree || twoLetterFour == randomLetterOne || twoLetterFour == randomLetterFive)
+            {
+                twoLetterFourColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                twoLetterFourColor = Color.white.opacity(0.64)
+            }
+            
+            if (twoLetterFive == randomLetterFive)
+            {
+                twoLetterFiveColor = Color.green
+            }
+            else if (twoLetterFive  == randomLetterTwo || twoLetterFive == randomLetterThree || twoLetterFive == randomLetterOne || twoLetterFive == randomLetterFour)
+            {
+                twoLetterFiveColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                twoLetterFiveColor = Color.white.opacity(0.64)
+            }
+            
+            index += 1
+            if guess.lowercased() == randomWord.lowercased()
+            {
+                guess = ""
+                guessesVisual = "The word was \(randomWord.uppercased())"
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+            }
+            
+        }
+        else if index == 3
+        {
+            threeLetterOne = String(seperatedInputs[0].uppercased())
+            threeLetterTwo = String(seperatedInputs[1].uppercased())
+            threeLetterThree = String(seperatedInputs[2].uppercased())
+            threeLetterFour = String(seperatedInputs[3].uppercased())
+            threeLetterFive = String(seperatedInputs[4].uppercased())
+            
+            if (threeLetterOne == randomLetterOne)
+            {
+                threeLetterOneColor = Color.green
+            }
+            else if (threeLetterOne  == randomLetterTwo || threeLetterOne == randomLetterThree || threeLetterOne == randomLetterFour || threeLetterOne == randomLetterFive)
+            {
+                threeLetterOneColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                threeLetterOneColor = Color.white.opacity(0.64)
+            }
+            
+            if (threeLetterTwo == randomLetterTwo)
+            {
+                threeLetterTwoColor = Color.green
+            }
+            else if (threeLetterTwo  == randomLetterOne || threeLetterTwo == randomLetterThree || threeLetterTwo == randomLetterFour || threeLetterTwo == randomLetterFive)
+            {
+                threeLetterTwoColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                threeLetterTwoColor = Color.white.opacity(0.64)
+            }
+            
+            if (threeLetterThree == randomLetterThree)
+            {
+                threeLetterThreeColor = Color.green
+            }
+            else if (threeLetterThree  == randomLetterTwo || threeLetterThree == randomLetterOne || threeLetterThree == randomLetterFour || threeLetterThree == randomLetterFive)
+            {
+                threeLetterThreeColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                threeLetterThreeColor = Color.white.opacity(0.64)
+            }
+            
+            if (threeLetterFour == randomLetterFour)
+            {
+                threeLetterFourColor = Color.green
+            }
+            else if (threeLetterFour  == randomLetterTwo || threeLetterFour == randomLetterThree || threeLetterFour == randomLetterOne || threeLetterFour == randomLetterFive)
+            {
+                threeLetterFourColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                threeLetterFourColor = Color.white.opacity(0.64)
+            }
+            
+            if (threeLetterFive == randomLetterFive)
+            {
+                threeLetterFiveColor = Color.green
+            }
+            else if (threeLetterFive  == randomLetterTwo || threeLetterFive == randomLetterThree || threeLetterFive == randomLetterOne || threeLetterFive == randomLetterFour)
+            {
+                threeLetterFiveColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                threeLetterFiveColor = Color.white.opacity(0.64)
+            }
+            
+            index += 1
+            if guess.lowercased() == randomWord.lowercased()
+            {
+                guess = ""
+                guessesVisual = "The word was \(randomWord.uppercased())"
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+            }
+            
+        }
+        else if index == 4
+        {
+            fourLetterOne = String(seperatedInputs[0].uppercased())
+            fourLetterTwo = String(seperatedInputs[1].uppercased())
+            fourLetterThree = String(seperatedInputs[2].uppercased())
+            fourLetterFour = String(seperatedInputs[3].uppercased())
+            fourLetterFive = String(seperatedInputs[4].uppercased())
+            
+            if (fourLetterOne == randomLetterOne)
+            {
+                fourLetterOneColor = Color.green
+            }
+            else if (fourLetterOne  == randomLetterTwo || fourLetterOne == randomLetterThree || fourLetterOne == randomLetterFour || fourLetterOne == randomLetterFive)
+            {
+                fourLetterOneColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fourLetterOneColor = Color.white.opacity(0.64)
+            }
+            
+            if (fourLetterTwo == randomLetterTwo)
+            {
+                fourLetterTwoColor = Color.green
+            }
+            else if (fourLetterTwo  == randomLetterOne || fourLetterTwo == randomLetterThree || fourLetterTwo == randomLetterFour || fourLetterTwo == randomLetterFive)
+            {
+                fourLetterTwoColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fourLetterTwoColor = Color.white.opacity(0.64)
+            }
+            
+            if (fourLetterThree == randomLetterThree)
+            {
+                fourLetterThreeColor = Color.green
+            }
+            else if (fourLetterThree  == randomLetterTwo || fourLetterThree == randomLetterOne || fourLetterThree == randomLetterFour || fourLetterThree == randomLetterFive)
+            {
+                fourLetterThreeColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fourLetterThreeColor = Color.white.opacity(0.64)
+            }
+            
+            if (fourLetterFour == randomLetterFour)
+            {
+                fourLetterFourColor = Color.green
+            }
+            else if (fourLetterFour  == randomLetterTwo || fourLetterFour == randomLetterThree || fourLetterFour == randomLetterOne || fourLetterFour == randomLetterFive)
+            {
+                fourLetterFourColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fourLetterFourColor = Color.white.opacity(0.64)
+            }
+            
+            if (fourLetterFive == randomLetterFive)
+            {
+                fourLetterFiveColor = Color.green
+            }
+            else if (fourLetterFive  == randomLetterTwo || fourLetterFive == randomLetterThree || fourLetterFive == randomLetterOne || fourLetterFive == randomLetterFour)
+            {
+                fourLetterFiveColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fourLetterFiveColor = Color.white.opacity(0.64)
+            }
+            
+            index += 1
+            if guess.lowercased() == randomWord.lowercased()
+            {
+                guess = ""
+                guessesVisual = "The word was \(randomWord.uppercased())"
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }else
+            {
+                guess = ""
+                
+            }
+            
+        }
+        else if index == 5
+        {
+            fiveLetterOne = String(seperatedInputs[0].uppercased())
+            fiveLetterTwo = String(seperatedInputs[1].uppercased())
+            fiveLetterThree = String(seperatedInputs[2].uppercased())
+            fiveLetterFour = String(seperatedInputs[3].uppercased())
+            fiveLetterFive = String(seperatedInputs[4].uppercased())
+            
+            if (fiveLetterOne == randomLetterOne)
+            {
+                fiveLetterOneColor = Color.green
+            }
+            else if (fiveLetterOne  == randomLetterTwo || fiveLetterOne == randomLetterThree || fiveLetterOne == randomLetterFour || fiveLetterOne == randomLetterFive)
+            {
+                fiveLetterOneColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fiveLetterOneColor = Color.white.opacity(0.64)
+            }
+            
+            if (fiveLetterTwo == randomLetterTwo)
+            {
+                fiveLetterTwoColor = Color.green
+            }
+            else if (fiveLetterTwo  == randomLetterOne || fiveLetterTwo == randomLetterThree || fiveLetterTwo == randomLetterFour || fiveLetterTwo == randomLetterFive)
+            {
+                fiveLetterTwoColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fiveLetterTwoColor = Color.white.opacity(0.64)
+            }
+            
+            if (fiveLetterThree == randomLetterThree)
+            {
+                fiveLetterThreeColor = Color.green
+            }
+            else if (fiveLetterThree  == randomLetterTwo || fiveLetterThree == randomLetterOne || fiveLetterThree == randomLetterFour || fiveLetterThree == randomLetterFive)
+            {
+                fiveLetterThreeColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fiveLetterThreeColor = Color.white.opacity(0.64)
+            }
+            
+            if (fiveLetterFour == randomLetterFour)
+            {
+                fiveLetterFourColor = Color.green
+            }
+            else if (fiveLetterFour  == randomLetterTwo || fiveLetterFour == randomLetterThree || fiveLetterFour == randomLetterOne || fiveLetterFour == randomLetterFive)
+            {
+                fiveLetterFourColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fiveLetterFourColor = Color.white.opacity(0.64)
+            }
+            
+            if (fiveLetterFive == randomLetterFive)
+            {
+                fiveLetterFiveColor = Color.green
+            }
+            else if (fiveLetterFive  == randomLetterTwo || fiveLetterFive == randomLetterThree || fiveLetterFive == randomLetterOne || fiveLetterFive == randomLetterFour)
+            {
+                fiveLetterFiveColor = Color.yellow.opacity(0.9)
+            }
+            else
+            {
+                fiveLetterFiveColor = Color.white.opacity(0.64)
+            }
+            
+            index += 1
+            
+            if guess.lowercased() == randomWord.lowercased()
+            {
+                guess = ""
+                guessesVisual = "The word was \(randomWord.uppercased())"
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 1
+            }
+            else
+            {
+                guess = ""
+                guessesVisual = "The word was \(randomWord.uppercased())"
+                buttonText = "End Game"
+                lockInput = true;
+                winCount = 2;
             }
         }
     }
-    
     
     func checkIfDone() -> Void
     {
@@ -639,13 +1079,13 @@ struct SixWordWordle: View
             toEndScreenFail = true
         }
     }
-        
+    
     func generateRandomWord() -> Void
     {
         let maxIndex = 462
         let randomIndex = Int.random(in: 0...maxIndex)
 //        randomWord = String(randomWords.wordData[randomIndex].fourLetterWords)
-        randomWord = String(randomWords.wordData[0].fiveLetterWords)
+        randomWord = String(randomWords.wordData[0].sixLetterWords)
         generatedrandomWord = true
     }
 }
