@@ -48,6 +48,8 @@ struct HomeScreenView: View
                     Text("Wordle Doodle")
                         .padding()
                         .font(Font.custom("Courier New Bold", size: 35))
+                    Text("Win Count: \(winCount)")
+                        .font(Font.custom("Courier New Bold", size: 20))
                     
                     Text("Wordle Doodle is a game craeted by Erin Zhang and Wallace McCarthy. It is based on the very popular New York Times game Wordle.")
                         .padding()

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29F22D77292D438100242DA4 /* EndScreenWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F22D76292D438100242DA4 /* EndScreenWin.swift */; };
-		29F22D79292D439E00242DA4 /* EndScreenFail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F22D78292D439E00242DA4 /* EndScreenFail.swift */; };
+		29F22D77292D438100242DA4 /* FourLetterEndScreenWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F22D76292D438100242DA4 /* FourLetterEndScreenWin.swift */; };
+		29F22D79292D439E00242DA4 /* FourLetterEndScreenFail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F22D78292D439E00242DA4 /* FourLetterEndScreenFail.swift */; };
 		29F22D83292D538F00242DA4 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F22D82292D538F00242DA4 /* Words.swift */; };
 		29F22D85292D53AD00242DA4 /* WordsDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F22D84292D53AD00242DA4 /* WordsDataStore.swift */; };
 		29F22D87292D53E100242DA4 /* wordData.json in Resources */ = {isa = PBXBuildFile; fileRef = 29F22D86292D53E100242DA4 /* wordData.json */; };
@@ -18,6 +18,10 @@
 		29F22D92292EF36700242DA4 /* AllWords.json in Resources */ = {isa = PBXBuildFile; fileRef = 29F22D91292EF36700242DA4 /* AllWords.json */; };
 		29F22D94292EF39A00242DA4 /* AllWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F22D93292EF39A00242DA4 /* AllWords.swift */; };
 		29F22D96292EF3A600242DA4 /* AllWordsDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F22D95292EF3A600242DA4 /* AllWordsDataStore.swift */; };
+		29F22D9B292FB86700242DA4 /* FiveLetterEndGameScreenWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F22D9A292FB86700242DA4 /* FiveLetterEndGameScreenWin.swift */; };
+		29F22D9D292FB87100242DA4 /* FiveLetterEndGameScreenFail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F22D9C292FB87100242DA4 /* FiveLetterEndGameScreenFail.swift */; };
+		29F22D9F292FB87E00242DA4 /* SixLetterEndGameScreenWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F22D9E292FB87E00242DA4 /* SixLetterEndGameScreenWin.swift */; };
+		29F22DA1292FB88700242DA4 /* SixLetterEndGameScreenFail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F22DA0292FB88700242DA4 /* SixLetterEndGameScreenFail.swift */; };
 		945F2ECA292D216A00C4B7E1 /* AniminationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F2EC9292D216A00C4B7E1 /* AniminationView.swift */; };
 		945F2ECF292D224E00C4B7E1 /* FourWordWordle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F2ECE292D224E00C4B7E1 /* FourWordWordle.swift */; };
 		945F2ED1292D225800C4B7E1 /* FiveWordWordle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F2ED0292D225800C4B7E1 /* FiveWordWordle.swift */; };
@@ -49,8 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29F22D76292D438100242DA4 /* EndScreenWin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreenWin.swift; sourceTree = "<group>"; };
-		29F22D78292D439E00242DA4 /* EndScreenFail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreenFail.swift; sourceTree = "<group>"; };
+		29F22D76292D438100242DA4 /* FourLetterEndScreenWin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourLetterEndScreenWin.swift; sourceTree = "<group>"; };
+		29F22D78292D439E00242DA4 /* FourLetterEndScreenFail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourLetterEndScreenFail.swift; sourceTree = "<group>"; };
 		29F22D82292D538F00242DA4 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
 		29F22D84292D53AD00242DA4 /* WordsDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsDataStore.swift; sourceTree = "<group>"; };
 		29F22D86292D53E100242DA4 /* wordData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordData.json; sourceTree = "<group>"; };
@@ -60,6 +64,10 @@
 		29F22D91292EF36700242DA4 /* AllWords.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AllWords.json; sourceTree = "<group>"; };
 		29F22D93292EF39A00242DA4 /* AllWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWords.swift; sourceTree = "<group>"; };
 		29F22D95292EF3A600242DA4 /* AllWordsDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWordsDataStore.swift; sourceTree = "<group>"; };
+		29F22D9A292FB86700242DA4 /* FiveLetterEndGameScreenWin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveLetterEndGameScreenWin.swift; sourceTree = "<group>"; };
+		29F22D9C292FB87100242DA4 /* FiveLetterEndGameScreenFail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveLetterEndGameScreenFail.swift; sourceTree = "<group>"; };
+		29F22D9E292FB87E00242DA4 /* SixLetterEndGameScreenWin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixLetterEndGameScreenWin.swift; sourceTree = "<group>"; };
+		29F22DA0292FB88700242DA4 /* SixLetterEndGameScreenFail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixLetterEndGameScreenFail.swift; sourceTree = "<group>"; };
 		945F2EC9292D216A00C4B7E1 /* AniminationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniminationView.swift; sourceTree = "<group>"; };
 		945F2ECE292D224E00C4B7E1 /* FourWordWordle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourWordWordle.swift; sourceTree = "<group>"; };
 		945F2ED0292D225800C4B7E1 /* FiveWordWordle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveWordWordle.swift; sourceTree = "<group>"; };
@@ -104,8 +112,9 @@
 		29F22D75292D436400242DA4 /* EndGameScene */ = {
 			isa = PBXGroup;
 			children = (
-				29F22D76292D438100242DA4 /* EndScreenWin.swift */,
-				29F22D78292D439E00242DA4 /* EndScreenFail.swift */,
+				29F22D99292FB5E800242DA4 /* FiveLetterWordle */,
+				29F22D98292FB5E500242DA4 /* SixLetterWordle */,
+				29F22D97292FB5CE00242DA4 /* FourLetterWorle */,
 			);
 			path = EndGameScene;
 			sourceTree = "<group>";
@@ -131,6 +140,33 @@
 				29F22D8D292E68C900242DA4 /* WordData.swift */,
 			);
 			path = WordData;
+			sourceTree = "<group>";
+		};
+		29F22D97292FB5CE00242DA4 /* FourLetterWorle */ = {
+			isa = PBXGroup;
+			children = (
+				29F22D76292D438100242DA4 /* FourLetterEndScreenWin.swift */,
+				29F22D78292D439E00242DA4 /* FourLetterEndScreenFail.swift */,
+			);
+			path = FourLetterWorle;
+			sourceTree = "<group>";
+		};
+		29F22D98292FB5E500242DA4 /* SixLetterWordle */ = {
+			isa = PBXGroup;
+			children = (
+				29F22D9E292FB87E00242DA4 /* SixLetterEndGameScreenWin.swift */,
+				29F22DA0292FB88700242DA4 /* SixLetterEndGameScreenFail.swift */,
+			);
+			path = SixLetterWordle;
+			sourceTree = "<group>";
+		};
+		29F22D99292FB5E800242DA4 /* FiveLetterWordle */ = {
+			isa = PBXGroup;
+			children = (
+				29F22D9A292FB86700242DA4 /* FiveLetterEndGameScreenWin.swift */,
+				29F22D9C292FB87100242DA4 /* FiveLetterEndGameScreenFail.swift */,
+			);
+			path = FiveLetterWordle;
 			sourceTree = "<group>";
 		};
 		945F2ECB292D21CD00C4B7E1 /* Views */ = {
@@ -355,11 +391,15 @@
 				29F22D83292D538F00242DA4 /* Words.swift in Sources */,
 				29F22D8E292E68C900242DA4 /* WordData.swift in Sources */,
 				945F2ECF292D224E00C4B7E1 /* FourWordWordle.swift in Sources */,
+				29F22DA1292FB88700242DA4 /* SixLetterEndGameScreenFail.swift in Sources */,
 				29F22D94292EF39A00242DA4 /* AllWords.swift in Sources */,
-				29F22D79292D439E00242DA4 /* EndScreenFail.swift in Sources */,
+				29F22D79292D439E00242DA4 /* FourLetterEndScreenFail.swift in Sources */,
 				29F22D90292E6BEE00242DA4 /* Utilities.swift in Sources */,
 				29F22D85292D53AD00242DA4 /* WordsDataStore.swift in Sources */,
-				29F22D77292D438100242DA4 /* EndScreenWin.swift in Sources */,
+				29F22D9F292FB87E00242DA4 /* SixLetterEndGameScreenWin.swift in Sources */,
+				29F22D77292D438100242DA4 /* FourLetterEndScreenWin.swift in Sources */,
+				29F22D9D292FB87100242DA4 /* FiveLetterEndGameScreenFail.swift in Sources */,
+				29F22D9B292FB86700242DA4 /* FiveLetterEndGameScreenWin.swift in Sources */,
 				945F2ED1292D225800C4B7E1 /* FiveWordWordle.swift in Sources */,
 				29F22D96292EF3A600242DA4 /* AllWordsDataStore.swift in Sources */,
 				946FD6C5292D1A2700BE1229 /* HomeScreenView.swift in Sources */,

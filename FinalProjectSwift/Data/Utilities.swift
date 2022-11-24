@@ -8,6 +8,10 @@
 import Foundation
 
 let demoWords : Words = Words(fourLetterWords: "help", fiveLetterWords: "hello", sixLetterWords: "monkey")
+var winCount = 0
+var fourLetterRandomWord  = ""
+var fiveLetterRandomWord  = ""
+var sixLetterRandomWord  = ""
 
 func loadJSON (from file: String) -> [Any]
 {

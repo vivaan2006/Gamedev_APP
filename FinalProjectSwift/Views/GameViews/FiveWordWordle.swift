@@ -98,11 +98,11 @@ struct FiveWordWordle: View
     {
         if toEndScreenWin
         {
-            EndScreenWin()
+            FiveLetterEndGameScreenWin()
         }
         else if toEndScreenFail
         {
-            EndScreenFail()
+            FiveLetterEndGameScreenFail()
         }
         else
         {
@@ -985,9 +985,9 @@ struct FiveWordWordle: View
     {
         let maxIndex = 462
         let randomIndex = Int.random(in: 0...maxIndex)
-//        randomWord = String(randomWords.wordData[randomIndex].fiveLetterWords)
-        randomWord = String(randomWords.wordData[0].fiveLetterWords)
+        randomWord = String(randomWords.wordData[randomIndex].fiveLetterWords)
         generatedrandomWord = true
+        fiveLetterRandomWord = randomWord
     }
 }
 

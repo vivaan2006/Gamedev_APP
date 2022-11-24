@@ -123,11 +123,11 @@ struct SixWordWordle: View
     {
         if toEndScreenWin
         {
-           EndScreenWin()
+           SixLetterEndGameScreenWin()
         }
         else if toEndScreenFail
         {
-            EndScreenFail()
+            SixLetterEndGameScreenFail()
         }
         else
         {
@@ -434,7 +434,7 @@ struct SixWordWordle: View
                                 .cornerRadius(10)
                                 .disabled(lockInput)
                             
-                            Button("tester")
+                            Button(buttonText)
                             {
                                 checkWordLength()
                             }
@@ -1120,9 +1120,9 @@ struct SixWordWordle: View
     {
         let maxIndex = 462
         let randomIndex = Int.random(in: 0...maxIndex)
-//        randomWord = String(randomWords.wordData[randomIndex].sixLetterWord)
-        randomWord = String(randomWords.wordData[0].sixLetterWords)
+        randomWord = String(randomWords.wordData[randomIndex].sixLetterWords)
         generatedrandomWord = true
+        sixLetterRandomWord = randomWord
     }
 }
         
