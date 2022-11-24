@@ -32,7 +32,7 @@ class AllWordsDataStore : ObservableObject
             let decoder = JSONDecoder()
             if let savedWords = try? decoder.decode([AllWords].self, from: storedOnDevice)
             {
-                if (savedWords.count != 80)
+                if (savedWords.count != 2500)
                 {
                     self.allWordData = savedWords
                     return

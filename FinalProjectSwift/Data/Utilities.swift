@@ -34,5 +34,5 @@ func loadJSON (from file: String) -> [Any]
         }
     }
     
-    return [Any]() // major data load falure!!!!!!!!!!!!
+    return [Any]() 
 }

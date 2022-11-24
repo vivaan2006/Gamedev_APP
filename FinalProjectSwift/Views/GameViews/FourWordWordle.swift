@@ -13,6 +13,7 @@ struct FourWordWordle: View
     @ObservedObject var allWords = AllWordsDataStore(allWordData: loadJSON(from: "AllWords") as! [AllWords])
     @State private var index = 0
     @State private var generatedrandomWord = false
+    @State private var wordError = false
     
     @State private var randomWord = "Test"
     @State private var winCount = 0;
@@ -315,29 +316,38 @@ struct FourWordWordle: View
                         }
                         
                         
-                        if error == true
+                        VStack
                         {
-                            Text("Your Guess must be 4 characters long!")
-                                .font(Font.custom("Courier New Bold", size: 15))
-                                .foregroundColor(.orange)
-                        }
-                        TextField(guessesVisual, text: $guess)
-                            .padding()
-                            .frame(width: 300, height: 70)
-                            .background(Color.white.opacity(0.34))
+                            if error == true
+                            {
+                                Text("Your Guess must be 4 characters long!")
+                                    .font(Font.custom("Courier New Bold", size: 15))
+                                    .foregroundColor(.orange)
+                            }
+                            if wordError == true
+                            {
+                                Text("\(guess) is not a word!")
+                                    .font(Font.custom("Courier New Bold", size: 15))
+                                    .foregroundColor(.orange)
+                            }
+                            TextField(guessesVisual, text: $guess)
+                                .padding()
+                                .frame(width: 300, height: 70)
+                                .background(Color.white.opacity(0.34))
+                                .cornerRadius(10)
+                                .disabled(lockInput)
+                            
+                            Button(buttonText)
+                            {
+                                checkWordLength()
+                            }
+                            .padding(20)
+                            .foregroundColor(.white)
+                            .frame(width: 300, height: 50)
+                            .background(Color.gray)
                             .cornerRadius(10)
-                            .disabled(lockInput)
-                        
-                        Button(buttonText)
-                        {
-                            checkWordLength()
+                            .italic()
                         }
-                        .padding(20)
-                        .foregroundColor(.white)
-                        .frame(width: 300, height: 50)
-                        .background(Color.gray)
-                        .cornerRadius(10)
-                        .italic()
                     }
                 }
             }
@@ -370,6 +380,17 @@ struct FourWordWordle: View
         else
         {
             error = false
+            // checkIfWord is not wokrking
+//            checkIfWord()
+//            if  isAWord == 0
+//            {
+//                wordError = true
+//            }
+//            else
+//            {
+//                checkWord()
+//                isAWord = 0
+//            }
             checkWord()
         }
         
@@ -841,18 +862,21 @@ struct FourWordWordle: View
             toEndScreenFail = true
         }
     }
-//    func checkIfWord() -> Void
-//    {
-//        ForEach(allWords.allWordData.indices, id: \.self)
-//        {
-//            index in
-//            
-//            if guess.lowercased() == allWords.allWordData[index].fourLetterWords
-//            {
-//                isAWord += 1
-//            }
-//        }
-//    }
+    
+    func checkIfWord() -> Void
+    {
+        var newIndex = 0
+        let maxValue = 10
+        while (newIndex < maxValue)
+        {
+            let testValue = allWords.allWordData[newIndex].fourLetterWords
+            if(guess.lowercased() == testValue.lowercased())
+            {
+                isAWord += 1
+            }
+            newIndex += 1
+        }
+    }
     
     func generateRandomWord() -> Void
     {
