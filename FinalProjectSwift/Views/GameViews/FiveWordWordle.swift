@@ -974,6 +974,7 @@ struct FiveWordWordle: View
         if winCount == 1
         {
             toEndScreenWin = true
+            winCountAddition()
         }
         else if winCount == 2
         {
@@ -988,6 +989,10 @@ struct FiveWordWordle: View
         randomWord = String(randomWords.wordData[randomIndex].fiveLetterWords)
         generatedrandomWord = true
         fiveLetterRandomWord = randomWord
+    }
+    func winCountAddition()
+    {
+        winCount += 1
     }
 }
 

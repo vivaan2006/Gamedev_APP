@@ -145,16 +145,16 @@ struct HomeScreenView: View
                         .cornerRadius(10)
                         .italic()
                     }
-                        Button("Cutsom Game")
-                        {
-                            toCustomGame = true
-                        }
-                        .padding(20)
-                        .foregroundColor(.white)
-                        .frame(width: 300, height: 50)
-                        .background(Color.gray)
-                        .cornerRadius(10)
-                        .italic()
+//                        Button("Cutsom Game")
+//                        {
+//                            toCustomGame = true
+//                        }
+//                        .padding(20)
+//                        .foregroundColor(.white)
+//                        .frame(width: 300, height: 50)
+//                        .background(Color.gray)
+//                        .cornerRadius(10)
+//                        .italic()
                 }
             }
         }

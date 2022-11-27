@@ -856,6 +856,7 @@ struct FourWordWordle: View
         if winCount == 1
         {
             toEndScreenWin = true
+            winCountAddition()
         }
         else if winCount == 2
         {
@@ -885,6 +886,10 @@ struct FourWordWordle: View
         randomWord = String(randomWords.wordData[randomIndex].fourLetterWords)
         generatedrandomWord = true
         fourLetterRandomWord = randomWord
+    }
+    func winCountAddition()
+    {
+        winCount += 1
     }
 }
 

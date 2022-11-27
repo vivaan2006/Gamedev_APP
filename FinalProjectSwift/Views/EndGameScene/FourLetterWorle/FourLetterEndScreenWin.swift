@@ -26,6 +26,7 @@ struct FourLetterEndScreenWin: View
         {
             ZStack
             {
+                
                 Color.brown
                     .ignoresSafeArea(.all)
                 VStack
@@ -42,7 +43,7 @@ struct FourLetterEndScreenWin: View
                     
                     Button("Play Again")
                     {
-                        winCountAddition()
+                        
                         playAgain = true
                     }
                     .padding(20)
@@ -54,7 +55,6 @@ struct FourLetterEndScreenWin: View
                     
                     Button("Home")
                     {
-                        winCountAddition()
                         toHomeScreen = true
                     }
                     .padding(20)
@@ -70,10 +70,7 @@ struct FourLetterEndScreenWin: View
         }
     }
     
-    func winCountAddition()
-    {
-        winCount += 1
-    }
+    
 }
 
 struct EndScreenWin_Previews: PreviewProvider {

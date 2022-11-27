@@ -42,7 +42,6 @@ struct FiveLetterEndGameScreenWin: View
                     
                     Button("Play Again")
                     {
-                        winCountAddition()
                         playAgain = true
                     }
                     .padding(20)
@@ -54,7 +53,6 @@ struct FiveLetterEndGameScreenWin: View
                     
                     Button("Home")
                     {
-                        winCountAddition()
                         toHomeScreen = true
                     }
                     .padding(20)
@@ -68,11 +66,6 @@ struct FiveLetterEndGameScreenWin: View
                 
             }
         }
-    }
-    
-    func winCountAddition()
-    {
-        winCount += 1
     }
 }
 

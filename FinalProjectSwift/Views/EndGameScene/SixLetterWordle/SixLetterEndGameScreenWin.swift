@@ -42,7 +42,6 @@ struct SixLetterEndGameScreenWin: View
                     
                     Button("Play Again")
                     {
-                        winCountAddition()
                         playAgain = true
                     }
                     .padding(20)
@@ -54,7 +53,6 @@ struct SixLetterEndGameScreenWin: View
                     
                     Button("Home")
                     {
-                        winCountAddition()
                         toHomeScreen = true
                     }
                     .padding(20)
@@ -70,10 +68,6 @@ struct SixLetterEndGameScreenWin: View
         }
     }
     
-    func winCountAddition()
-    {
-        winCount += 1
-    }
 }
 
 struct SixLetterEndGameScreenWin_Previews: PreviewProvider {

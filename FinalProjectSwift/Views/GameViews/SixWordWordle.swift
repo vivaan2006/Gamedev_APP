@@ -1109,6 +1109,7 @@ struct SixWordWordle: View
         if winCount == 1
         {
             toEndScreenWin = true
+            winCountAddition()
         }
         else if winCount == 2
         {
@@ -1123,6 +1124,10 @@ struct SixWordWordle: View
         randomWord = String(randomWords.wordData[randomIndex].sixLetterWords)
         generatedrandomWord = true
         sixLetterRandomWord = randomWord
+    }
+    func winCountAddition()
+    {
+        winCount += 1
     }
 }
         
