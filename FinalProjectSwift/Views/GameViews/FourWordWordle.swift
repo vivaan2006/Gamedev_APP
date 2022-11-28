@@ -855,8 +855,8 @@ struct FourWordWordle: View
     {
         if winCount == 1
         {
-            toEndScreenWin = true
             winCountAddition()
+            toEndScreenWin = true
         }
         else if winCount == 2
         {
