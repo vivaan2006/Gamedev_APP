@@ -36,12 +36,13 @@ struct FiveLetterEndGameScreenWin: View
                     Text("The word was \(fiveLetterRandomWord)")
                         .padding()
                         .font(Font.custom("Courier New Bold", size: 25))
-                    Text("You have won \(winCount) games")
+                    Text("You have won \(winCount + 1) games")
                         .padding()
                         .font(Font.custom("Courier New Bold", size: 25))
                     
                     Button("Play Again")
                     {
+                        winCountAddition()
                         playAgain = true
                     }
                     .padding(20)
@@ -53,6 +54,7 @@ struct FiveLetterEndGameScreenWin: View
                     
                     Button("Home")
                     {
+                        winCountAddition()
                         toHomeScreen = true
                     }
                     .padding(20)
@@ -66,6 +68,10 @@ struct FiveLetterEndGameScreenWin: View
                 
             }
         }
+    }
+    func winCountAddition()
+    {
+        winCount += 1
     }
 }
 

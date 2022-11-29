@@ -1108,7 +1108,7 @@ struct SixWordWordle: View
     {
         if winCount == 1
         {
-            winCountAddition()
+//            winCountAddition()
             toEndScreenWin = true
         }
         else if winCount == 2
