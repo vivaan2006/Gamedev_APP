@@ -96,9 +96,13 @@ struct HomeScreenView: View
                             .font(Font.custom("Courier New Bold", size: 35))
                         
                     }
-                    Text("The correct word is COMP, so here the O is in the correct spot, highlighting it green, the M is in the word but not in the correct spot so it is highlighted yellow, and both N and K are not in the word so they are unhighlighted.                  Click one of the options below to begin! ")
-                        .padding()
+                    Text("The correct word is COMP, so here the O is in the correct spot, highlighting it green, the M is in the word but not in the correct spot so it is highlighted yellow, and both N and K are not in the word so they are unhighlighted.")
                     .font(Font.custom("Courier New Bold", size: 14))
+                    .padding()
+                    Text("Click one of the options below to begin!")
+                        .font(Font.custom("Courier New Bold", size: 14))
+                        .foregroundColor(Color.orange.opacity(0.8))
+
 //                    Button("Rules")
 //                    {
 //
