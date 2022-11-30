@@ -22,6 +22,7 @@
 		29F22D9D292FB87100242DA4 /* FiveLetterEndGameScreenFail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F22D9C292FB87100242DA4 /* FiveLetterEndGameScreenFail.swift */; };
 		29F22D9F292FB87E00242DA4 /* SixLetterEndGameScreenWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F22D9E292FB87E00242DA4 /* SixLetterEndGameScreenWin.swift */; };
 		29F22DA1292FB88700242DA4 /* SixLetterEndGameScreenFail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F22DA0292FB88700242DA4 /* SixLetterEndGameScreenFail.swift */; };
+		29F22DA32937FF9F00242DA4 /* ALLWORDSS.json in Resources */ = {isa = PBXBuildFile; fileRef = 29F22DA22937FF9F00242DA4 /* ALLWORDSS.json */; };
 		945F2ECA292D216A00C4B7E1 /* AniminationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F2EC9292D216A00C4B7E1 /* AniminationView.swift */; };
 		945F2ECF292D224E00C4B7E1 /* FourWordWordle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F2ECE292D224E00C4B7E1 /* FourWordWordle.swift */; };
 		945F2ED1292D225800C4B7E1 /* FiveWordWordle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F2ED0292D225800C4B7E1 /* FiveWordWordle.swift */; };
@@ -68,6 +69,7 @@
 		29F22D9C292FB87100242DA4 /* FiveLetterEndGameScreenFail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveLetterEndGameScreenFail.swift; sourceTree = "<group>"; };
 		29F22D9E292FB87E00242DA4 /* SixLetterEndGameScreenWin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixLetterEndGameScreenWin.swift; sourceTree = "<group>"; };
 		29F22DA0292FB88700242DA4 /* SixLetterEndGameScreenFail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixLetterEndGameScreenFail.swift; sourceTree = "<group>"; };
+		29F22DA22937FF9F00242DA4 /* ALLWORDSS.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ALLWORDSS.json; sourceTree = "<group>"; };
 		945F2EC9292D216A00C4B7E1 /* AniminationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniminationView.swift; sourceTree = "<group>"; };
 		945F2ECE292D224E00C4B7E1 /* FourWordWordle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourWordWordle.swift; sourceTree = "<group>"; };
 		945F2ED0292D225800C4B7E1 /* FiveWordWordle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveWordWordle.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				29F22D91292EF36700242DA4 /* AllWords.json */,
 				29F22D93292EF39A00242DA4 /* AllWords.swift */,
 				29F22D95292EF3A600242DA4 /* AllWordsDataStore.swift */,
+				29F22DA22937FF9F00242DA4 /* ALLWORDSS.json */,
 				29F22D86292D53E100242DA4 /* wordData.json */,
 				29F22D82292D538F00242DA4 /* Words.swift */,
 				29F22D84292D53AD00242DA4 /* WordsDataStore.swift */,
@@ -360,6 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29F22DA32937FF9F00242DA4 /* ALLWORDSS.json in Resources */,
 				9480D73028F066C100A6C0F1 /* Preview Assets.xcassets in Resources */,
 				29F22D92292EF36700242DA4 /* AllWords.json in Resources */,
 				9480D72D28F066C100A6C0F1 /* Assets.xcassets in Resources */,
