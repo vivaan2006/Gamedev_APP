@@ -31,6 +31,11 @@ func loadJSON (from file: String) -> [Any]
                 let results = try decoder.decode([AllWords].self, from: data)
                 return results
             }
+            else if (file == "EveryWord")
+            {
+                let results = try decoder.decode([EveryWord].self, from: data)
+                return results
+            }
         }
         catch
         {

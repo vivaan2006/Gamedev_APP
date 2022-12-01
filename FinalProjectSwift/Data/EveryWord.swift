@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct EveryWord: Codable
+struct EveryWord: Codable, Identifiable
 {
+    var id: UUID
     var words: String
 }

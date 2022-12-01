@@ -11,11 +11,13 @@ struct FourWordWordle: View
 {
     @ObservedObject var randomWords = WordsDataStore(wordData: loadJSON(from: "wordData") as! [Words])
     @ObservedObject var allWords = AllWordsDataStore(allWordData: loadJSON(from: "AllWords") as! [AllWords])
+    @ObservedObject var everyWord = EveryWordsDataStore(everyWordData: loadJSON(from: "EveryWord") as! [EveryWord])
     @State private var index = 0
     @State private var generatedrandomWord = false
     @State private var wordError = false
     
     @State private var randomWord = "Test"
+    @State private var comparitorWord = "Test"
     @State private var winCount = 0;
     
     @State private var letterOne = ""
@@ -890,6 +892,25 @@ struct FourWordWordle: View
     func winCountAddition()
     {
         winCount += 1
+    }
+    
+//    func realWordChecker() -> Void
+//    {
+//        
+//        let chosenWord = guess.lowercased()
+//        ForEach(everyWord.everyWordData.indices)
+//        {
+//            index in
+//            comparitorWord = String(everyWord.everyWordData[index])
+//            if (chosenWord.count == comparitorWord.count)
+//            {
+//                wordsError()
+//            }
+//        }
+//    }
+    func wordsError() -> Void
+    {
+        wordError = true
     }
 }
 
